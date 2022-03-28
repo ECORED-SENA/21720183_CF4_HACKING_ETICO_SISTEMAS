@@ -284,140 +284,121 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Borges, E. (2019a). Servidor FTP. Infranetworking.',
+      link: 'https://blog.infranetworking.com/servidor-ftp/',
+    },
+    {
+      referencia: 'Borges, S. (2019b). Servidor web. Infranetworking.',
+      link: 'https://blog.infranetworking.com/servidor-web/',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Caballero, A. (2015). Introducción a OSSTMM (Open Source Security Testing Methodology Manual). REYDES. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Castillo, J. (2018). Active Directory qué es y para qué sirve. Profesional Review. ',
+      link: 'https://www.profesionalreview.com/2018/12/15/active-directory/',
+    },
+    {
+      referencia:
+        'Echeverry, J. (2009). Metodología para el diagnóstico continuo de la seguridad informática de la red de datos de la Universidad Militar Nueva Granada. Semantic Scholar.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://pdfs.semanticscholar.org/60c7/dbe2abab31a25422c92ead74085fd7093715.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Gaviria, R. (2015). Guía práctica para pruebas de pentest basada en la metodología OSSTMM V2.1 y la guía OWASP V3.0. Universidad Libre Seccional Pereira. ',
+      link: 'https://hdl.handle.net/10901/17296',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Instituto Nacional de Ciberseguridad [INCIBE]. (2017). Amenaza vs vulnerabilidad, ¿sabes en qué se diferencian?.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.incibe.es/protege-tu-empresa/blog/amenaza-vs-vulnerabilidad-sabes-se-diferencian',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Jimenez, J. (2021), Tipos de ataques de ingeniería social y cómo evitarlos. Redes Zone.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.redeszone.net/tutoriales/seguridad/tipos-ataques-ingenieria-social-consejos/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'LISA Institute. (2020). Guía práctica contra la ingeniería social. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.lisainstitute.com/blogs/blog/guia-practica-ingenieria-social',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Martinez, E. (2018). Las diferentes amenazas de seguridad informática. Las amenazas la informática.',
+      link: 'https://sites.google.com/site/lasamenazaslainformatica/',
+    },
+    {
+      referencia:
+        'Zuluaga, A. (2017). Hacking ético basado en la metodología abierta de testeo de seguridad – OSSTMM, aplicado a la rama judicial, seccional Armenia. Universidad Nacional Abierta y a Distancia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://stadium.unad.edu.co/preview/UNAD.php?url=/bitstream/10596/17410/1/94288061.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Activo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Componente o funcionalidad de un sistema, el cual puede ser atacado por parte de un ciberdelincuente, ya sea a nivel de software o de hardware.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Análisis de tráfico',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Observación del comportamiento de los datos en una red por un canal de transmisión de información.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Antispam',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Herramienta por la cual se infiere en las contramedidas en la contención de correos electrónicos.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Basura',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Obtención de datos a partir de la basura de las personas o empresas, los cuales pueden brindar información relevante para un posible ataque.',
     },
     {
-      termino: 'Moda',
+      termino: 'Ciberespionaje',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Actividad que tienen los hackers en el mundo digital para poder obtener información y datos sensibles, los cuales pueden obtenerse de manera pasiva o activa.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Falso positivo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son bugs o errores que se producen cuando un sistema puede diagnosticar como actividad normal un ataque de un ciberdelincuente.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Ingeniería social',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Técnica que se basa en engañar la conducta de una persona para que nos pueda brindar información relevante, con el fin de realizarle un ataque.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'LISA Institute. (2020). Guía práctica contra la ingeniería social.',
+      tipo: 'Artículo',
+      link:
+        'https://www.lisainstitute.com/blogs/blog/guia-practica-ingenieria-social  ',
+    },
+    {
+      texto: 'Wild IT Academy. (2020). Ataques de Denegación de Servicio.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=c4JnYZYokJ8 ',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Jimenez, J. (2021), Tipos de ataques de ingeniería social y cómo evitarlos. Redes Zone.',
+      tipo: 'Página Web',
+      link:
+        'https://www.redeszone.net/tutoriales/seguridad/tipos-ataques-ingenieria-social-consejos/ ',
     },
   ],
   creditos: {
