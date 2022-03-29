@@ -3,27 +3,48 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
+    //- 'background-size': '100% 130%'
+    .fondo-introduccion.pt-4.mb-4
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-1
+          .col-lg-7.py-0
+            figure.m-0
+              img(src="@/assets/curso/introduccion/img03.svg") 
+          .col-lg-4
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-8
+            p.mb-0 En el mundo digital de hoy, usted encuentra gran cantidad de información al alcance de su mano, la cual se ha convertido en uno de los activos más importantes para una persona u organización. Con el uso de las tecnologías de la información y la comunicación y su avance vertiginoso, aparecen agentes tanto internos como externos que pueden poner en riesgo los sistemas de información y los datos que se almacenan, al igual que la infraestructura tecnológica donde se encuentran. Es por ello que el hacking ético se ha convertido en una herramienta de gestión para poder salvaguardar los datos. Revise el siguiente recurso para contextualizar.
+          .col-lg-2
+            figure.mb-0
+              img(src="@/assets/curso/introduccion/img02.svg") 
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-4        
+          .col-lg-7.py-0
+            figure.m-0
+              img(src="@/assets/curso/introduccion/img04.svg") 
+          .col-lg-1
 
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-10        
+            figure
+              .video
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          
+        
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p.mb-0.px-3 Para la elaboración de este componente, se abordaron varios autores conocidos en ingeniería social y detección de intrusos en hacking ético, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de hacking ético en sistemas y redes.
+       
+  
+      
 
 </template>
 
@@ -36,4 +57,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.titulo-principal
+  margin-bottom: 0px !important
+</style>

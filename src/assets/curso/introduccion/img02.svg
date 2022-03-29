@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="141" viewBox="0 0 190 141">
+  <g id="Grupo_111989" data-name="Grupo 111989" transform="translate(-1125 -402)">
+    <rect id="Rectángulo_37399" data-name="Rectángulo 37399" width="190" height="141" transform="translate(1125 402)" fill="none"/>
+    <g id="Grupo_111988" data-name="Grupo 111988" transform="translate(12.5 4)">
+      <rect id="Rectángulo_37398" data-name="Rectángulo 37398" width="126" height="114" rx="12" transform="translate(1151 422)" fill="#d6d2d2"/>
+      <g id="Page-1" transform="translate(1137.5 400)">
+        <g id="_080---Login" data-name="080---Login">
+          <path id="Shape" d="M127.64,14v88.027a8.8,8.8,0,0,1-8.8,8.8H8.8a8.8,8.8,0,0,1-8.8-8.8V14Z" transform="translate(0 16.81)" fill="#fff"/>
+          <path id="Shape-2" data-name="Shape" d="M127.64,17.2v8.8H0V4H55.017a4.415,4.415,0,0,1,4.4,4.4v4.4a4.415,4.415,0,0,0,4.4,4.4Z" transform="translate(0 4.803)" fill="#8f52f5"/>
+          <path id="Shape-3" data-name="Shape" d="M127.64,8.8v13.2H63.82a4.415,4.415,0,0,1-4.4-4.4V13.2a4.415,4.415,0,0,0-4.4-4.4H0A8.8,8.8,0,0,1,8.8,0H118.837A8.8,8.8,0,0,1,127.64,8.8Z" fill="#500c75"/>
+          <path id="Shape-4" data-name="Shape" d="M30.408,12.4H6.2A2.2,2.2,0,0,1,6.2,8H30.408a2.2,2.2,0,0,1,0,4.4Z" transform="translate(4.803 9.605)" fill="#ecf0f1"/>
+          <path id="Shape-5" data-name="Shape" d="M27.528,11.387l.645-.645A2.2,2.2,0,0,0,25.061,7.63l-.645.645-.645-.645a2.2,2.2,0,0,0-3.112,3.112l.645.645-.645.645a2.2,2.2,0,1,0,3.112,3.112l.645-.645.645.645a2.2,2.2,0,0,0,3.112-3.112Z" transform="translate(23.999 8.42)" fill="#285680"/>
+          <ellipse id="Oval" cx="2.5" cy="2" rx="2.5" ry="2" transform="translate(112 9)" fill="#e64c3c"/>
+          <ellipse id="Oval-2" data-name="Oval" cx="2.5" cy="2" rx="2.5" ry="2" transform="translate(103 9)" fill="#f0c419"/>
+          <circle id="Oval-3" data-name="Oval" cx="2" cy="2" r="2" transform="translate(95 9)" fill="#24ae5f"/>
+          <rect id="Rectangle-path" width="106" height="31" rx="5" transform="translate(11 88)" fill="#e01650"/>
+          <g id="Grupo_111987" data-name="Grupo 111987" transform="translate(22.874 94.629)">
+            <path id="Shape-6" data-name="Shape" d="M25.953,47.4a2.2,2.2,0,0,0-3.006-.805l-2.421,1.4V45.2a2.2,2.2,0,0,0-4.4,0v2.79L13.7,46.6a2.2,2.2,0,0,0-2.2,3.812l2.425,1.4-2.421,1.4a2.2,2.2,0,1,0,2.2,3.812l2.421-1.4V58.4a2.2,2.2,0,0,0,4.4,0v-2.79l2.421,1.4a2.2,2.2,0,1,0,2.2-3.812l-2.421-1.4,2.421-1.4a2.2,2.2,0,0,0,.8-3.006Z" transform="translate(-10.394 -43)" fill="#ecf0f1"/>
+            <path id="Shape-7" data-name="Shape" d="M35.953,47.4a2.2,2.2,0,0,0-3.006-.805l-2.421,1.4V45.2a2.2,2.2,0,0,0-4.4,0v2.79L23.7,46.6a2.2,2.2,0,0,0-2.2,3.812l2.425,1.4-2.421,1.4a2.2,2.2,0,1,0,2.2,3.812l2.421-1.4V58.4a2.2,2.2,0,1,0,4.4,0v-2.79l2.421,1.4a2.2,2.2,0,1,0,2.2-3.812l-2.421-1.4,2.421-1.4a2.2,2.2,0,0,0,.8-3.006Z" transform="translate(1.613 -43)" fill="#ecf0f1"/>
+            <path id="Shape-8" data-name="Shape" d="M45.953,47.4a2.2,2.2,0,0,0-3.006-.805l-2.421,1.4V45.2a2.2,2.2,0,0,0-4.4,0v2.79L33.7,46.6a2.2,2.2,0,0,0-2.2,3.812l2.425,1.4-2.421,1.4a2.2,2.2,0,1,0,2.2,3.812l2.421-1.4V58.4a2.2,2.2,0,0,0,4.4,0v-2.79l2.421,1.4a2.2,2.2,0,1,0,2.2-3.812l-2.421-1.4,2.421-1.4a2.2,2.2,0,0,0,.8-3.006Z" transform="translate(13.619 -43)" fill="#ecf0f1"/>
+            <path id="Shape-9" data-name="Shape" d="M55.151,53.2l-2.421-1.4,2.421-1.4a2.2,2.2,0,0,0-2.2-3.812l-2.421,1.4V45.2a2.2,2.2,0,1,0-4.4,0v2.79l-2.421-1.4a2.2,2.2,0,0,0-2.2,3.812l2.421,1.4-2.421,1.4a2.2,2.2,0,1,0,2.2,3.812l2.421-1.4V58.4a2.2,2.2,0,0,0,4.4,0v-2.79l2.421,1.4a2.2,2.2,0,1,0,2.2-3.812Z" transform="translate(25.626 -43)" fill="#ecf0f1"/>
+          </g>
+          <path id="Shape-10" data-name="Shape" d="M46.007,36.6v3.257a19.771,19.771,0,0,1-22.007,0V36.6A6.6,6.6,0,0,1,30.6,30h8.8A6.6,6.6,0,0,1,46.007,36.6Z" transform="translate(28.816 36.021)" fill="#3b97d3"/>
+          <path id="Shape-11" data-name="Shape" d="M59.613,37.811a19.769,19.769,0,0,1-8.8,16.461V51.015a6.6,6.6,0,0,0-6.6-6.6h-8.8a6.6,6.6,0,0,0-6.6,6.6v3.257a19.806,19.806,0,1,1,30.81-16.461Z" transform="translate(24.013 21.607)" fill="#afafaf"/>
+          <circle id="Oval-4" data-name="Oval" cx="9" cy="9" r="9" transform="translate(55 48)" fill="#fdd7ad"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
