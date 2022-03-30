@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="1448.969" viewBox="0 0 1328 1448.969">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e9ff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_146832" data-name="Grupo 146832" transform="translate(-136 -4720.815)">
+    <g id="Grupo_112189" data-name="Grupo 112189" transform="translate(0 -260.395)">
+      <rect id="Rectángulo_37605" data-name="Rectángulo 37605" width="1328" height="992" transform="translate(136 4996)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_174915" data-name="Trazado 174915" d="M-7355-6670.794h74.841l40.371-40.371h581.937l20.186,20.186h329.854l26.812-26.812h253.988" transform="translate(7491 11700)" fill="none" stroke="#8f52f5" stroke-width="2" opacity="0.49"/>
+      <path id="Trazado_174916" data-name="Trazado 174916" d="M-7311-6694.292h600.659" transform="translate(7505.656 11706)" fill="none" stroke="#500c75" stroke-width="2" opacity="0.5"/>
+      <g id="Elipse_4084" data-name="Elipse 4084" transform="translate(794 5004)" fill="none" stroke="#500c75" stroke-width="2" opacity="0.5">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7" fill="none"/>
+      </g>
+      <g id="Elipse_4085" data-name="Elipse 4085" transform="translate(180 5004)" fill="none" stroke="#500c75" stroke-width="2" opacity="0.5">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_40336" data-name="Rectángulo 40336" width="1328" height="1447.974" transform="translate(136 4721.81)" fill="none"/>
+  </g>
+</svg>
