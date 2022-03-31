@@ -1,3 +1,4 @@
 - las tarjetas Slide del tema 1: Inicialmente uso las tarjetas por defecto. Al finalizar la maquetacion me pongo a personalizar el componente
-
+- Falta el Slider especial
+- El diseñador no hizo el diseño de uno de los componentes del tema 1
 ●

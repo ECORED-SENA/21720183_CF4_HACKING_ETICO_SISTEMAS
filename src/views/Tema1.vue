@@ -379,7 +379,7 @@
       h2 1.3  Riesgos de suplantación (redes sociales)
 
     p.mb-4 No importa cuán seguro sea un sistema, siempre hay una forma de entrar; los piratas informáticos e ingenieros sociales malintencionados se dirigen a la parte más débil de la infraestructura, la gente, que suele ser la más fácil de manipular y engañar. 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como popups; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página web de un atacante, pidiéndoles que den su información personal o que descarguen software que podría tener virus adjuntos en el backend; revíselos a continuación.
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
@@ -387,15 +387,226 @@
           span El ingeniero social.
         figure.mb-0
           img(src="@/assets/curso/tema1/img40.svg")
+
+    .fondo8-tema1.p-0.mb-4
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          .cajon.color-acento-contenido.p-4
+            p.mb-0.px-3 La suplantación de identidad requiere mucha preparación, por lo que ocurre con menos frecuencia que otras formas de ingeniería social. Los ingenieros sociales prefieren el enfoque más anónimo del teléfono o el correo electrónico a aparecer en persona; sin embargo, si se hace bien, nadie sabe nunca que el imitador estuvo allí; para la gente con la que hablaban, eran solo otro individuo en un flujo continuo, aunque quizás un poco más agradable que el gruñón común y corriente.
+
+      .row.justify-content-start.align-items-center.mb-4
+        .col-lg-1
+        .col-lg-4
+          img(src="@/assets/curso/tema1/img42.svg")
+      
+      p.mb-4.text-center Algunos de los papeles comunes que se pueden desempeñar en los ataques de suplantación de identidad son: 
+
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-10
+          figure.mb-5
+            img(src="@/assets/curso/tema1/img43.svg")
+          
+          p.mb-5 Estos trucos funcionan porque todos interactúan regularmente con personas que no conocen. Es la naturaleza humana confiar en las credenciales - una placa o un uniforme - pero pueden ser falsificadas. Se confía en los uniformes, aunque se sabe que cualquiera puede usarlos y cuando se visita un sitio web, por ejemplo, se usa la apariencia profesional de la página para juzgar si es realmente legítima o no, sin importar que cualquiera pueda cortar y pegar gráficos de la misma manera. Tenemos la tendencia a confiar automáticamente en alguien con autoridad.
+
+          p.mb-5.text-center <b>Algunas funciones comunes de ingeniería social son:</b>
+
+          div.p-0.mb-5
+            h3.mb-0 SLIDER ESPECIAL
+
+          p.mb-0 <b>Los imitadores hacen sus deberes:</b> La suplantación funciona mejor cuando el ingeniero social da una actuación convincente, completa con la jerga técnica adecuada u otra información privilegiada. Los imitadores hacen sus deberes, vienen armados con:
+
+    .row.justify-content-center.mb-4
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/img44.png")
+      .col-lg-6
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            p.mb-0 Un uniforme.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            p.mb-0 Una placa de identificación.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 Una tarjeta de negocios falsa o falsificada.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            p.mb-0 Información privilegiada.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            p.mb-0 Nombres y detalles sobre los empleados.
+          
+    p.mb-5.text-center En el siguiente gráfico, podrá observar el riesgo de las redes sociales en las redes corporativas:
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-10        
+        .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+          h5 Figura 8.
+          span Riesgo de las redes sociales en las redes corporativas.
+        figure.mb-0
+          img(src="@/assets/curso/tema1/img45.svg")
+    
     Separador
 
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4  Ataques y riesgos (vulnerabilidades)
 
+    p.mb-4 Una amenaza interna es un riesgo para la seguridad que se origina dentro de la organización objetivo. Suele consistir en que un empleado o socio comercial actual o anterior tenga acceso a información confidencial o a cuentas privilegiadas dentro de la red de una organización, y que haga un uso indebido de ese acceso.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10                
+        figure.mb-4
+          img(src="@/assets/curso/tema1/img46.svg")
+
+        p.mb-4 Las medidas de seguridad tradicionales tienden a centrarse en las amenazas externas y no siempre son capaces de identificar una amenaza que emana del interior de la organización.
+        p.mb-0 Los tipos de amenazas internas incluyen:
+
+    .row.fondo7-tema1.justify-content-start.align-items-center.mb-5
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema1/img48.png')   
+      .col-lg-7.py-4
+        p.mb-4 ●  Información privilegiada maliciosa: también conocida como Turncloak, alguien que maliciosa e intencionalmente abusa de las credenciales legítimas, típicamente para robar información para obtener incentivos financieros o personales. Por ejemplo, un individuo que guarda rencor a un antiguo empleador, o un empleado oportunista que vende información secreta a un competidor. Los turncloaks tienen una ventaja sobre otros atacantes, porque están familiarizados con las políticas y procedimientos de seguridad de una organización, así como con sus vulnerabilidades.
+        p.mb-4 ●  Descuidado desde dentro: un peón inocente que, sin saberlo, expone el sistema a amenazas externas. Este es el tipo más común de amenaza interna, resultante de errores, como dejar un dispositivo expuesto o ser víctima de una estafa. Por ejemplo, un empleado que no tiene intención de hacer daño puede hacer clic en un enlace inseguro, infectando el sistema con malware.
+        p.mb-0 ● Un topo: un impostor, que es técnicamente un extraño, pero que ha logrado obtener acceso interno a una red privilegiada. Se trata de alguien de fuera de la organización que se hace pasar por empleado o socio.
+       
+    .row.justify-content-start.align-items-center.mb-4      
+      .col-lg-4
+        img(src="@/assets/curso/tema1/img49.svg")
+
+    p.mb-4 Puede tomar las siguientes medidas para ayudar a reducir el riesgo de amenazas internas:
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10  
+        .tiempo1.mb-5
+          LineaTiempoD.color-secundario
+            div.px-2(numero="1" titulo="Proteger los activos críticos")             
+            div.px-2(numero="2" titulo="Cumplir las políticas")
+            div.px-2(numero="3" titulo="Aumentar la visibilidad")
+              p.mb-4.pe-5 Despliegue soluciones para hacer un seguimiento de las acciones de los empleados y correlacionar la información de múltiples fuentes de datos              
+              figure.mb-4
+                img(src='@/assets/curso/tema1/img50.png')   
+              p.mb-0.pe-5 Por ejemplo, puede utilizar la tecnología de engaño para atraer a un infiltrado o impostor malintencionado y obtener visibilidad de sus acciones.
+            div.px-2(numero="4" titulo="Promover cambios culturales")
+
+    .fondo9-tema1.pt-5.pb-0.px-0.mb-4          
+      p.mt-3.mb-5 Las amenazas internas pueden ser más difíciles de identificar o prevenir que los ataques externos, y son invisibles para las soluciones de seguridad tradicionales, como los cortafuegos y los sistemas de detección de intrusos, que se centran en las amenazas externas. Si un atacante explota un inicio de sesión autorizado, los mecanismos de seguridad establecidos pueden no identificar el comportamiento anormal, además, los iniciados maliciosos pueden evitar más fácilmente la detección si están familiarizados con las medidas de seguridad de una organización. Se recomienda realizar lo siguiente:        
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-10
+          figure.mb-4
+            img(src='@/assets/curso/tema1/img52.svg') 
+      p.mb-5 Existen herramientas como las aplicaciones de aprendizaje automático (ML) que ayudan a analizar el flujo de datos y a priorizar las alertas más relevantes. Se pueden utilizar herramientas digitales forenses y analíticas, como User and Event Behavior Analytics (UEBA), para detectar, analizar y alertar al equipo de seguridad sobre cualquier posible amenaza interna; el análisis del comportamiento de los usuarios puede establecer una línea de base para la actividad normal de acceso a los datos, mientras que la supervisión de la actividad de la base de datos puede ayudar a identificar las violaciones de las políticas. A continuación, se pueden revisar en la tabla las tácticas y estrategias según el área de riesgo.
+    
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+            h5 Tabla 1.
+            span Áreas de riesgo, tácticas y estrategias.
+
+          .tabla-b.color-acento-contenido                   
+            table              
+              tr.tabla-b__header
+                th(style="border: 0px solid white") ÁREA DE RIESGO
+                th(style="border: 0px solid white") TÁCTICA DE ATAQUE
+                th(style="border: 0px solid white") ESTRATEGIA DE COMBATE
+              tr
+                td Teléfono (punto de ayuda)
+                td Suplantación y persuasión.
+                td Capacitar a los empleados los ayuda a no revelar contraseñas u otra información por teléfono.
+              tr
+                td Entrada del edificio
+                td Acceso físico no autorizado.
+                td Implementar fuertes medidas de seguridad y formación de los empleados y funcionarios de seguridad.
+              tr
+                td Oficina
+                td Shoulder surfing.
+                td No escribir las contraseñas con nadie más presente (o si tiene que hacerlo, hágalo rápidamente).
+              tr
+                td Teléfono (punto de ayuda)
+                td La suplantación de llamadas al servicio técnico.
+                td Asignar un PIN a todos los empleados de servicios de asistencia.
+              tr
+                td Oficina
+                td Paseando por los pasillos en busca de la oficina abierta.
+                td Escoltar a todos los visitantes.
+              tr
+                td Sala de correo
+                td Inserción de notas falsificadas.
+                td Bloquear y supervisar la sala de correo.
+              tr
+                td Sala de máquinas/ Armario telefónico
+                td Intentar acceder, retirar los equipos y o adjuntar un analizador de protocolos para tomar los datos confidenciales.
+                td Mantener closets telefónicos, salas de servidores, etc., bloqueados en todo momento y mantener el inventario actualizado de equipos.
+              tr
+                td Teléfono y PBX
+                td Robar punto de acceso telefónico.
+                td Controlar las llamadas internacionales y de larga distancia, llamadas de seguimiento, o denegar transferencias.
+
+    p.mb-4 La mayoría de casos de abuso de información privilegiada se pueden atribuir a los individuos que son introvertidos, incapaces de lidiar con el estrés o conflicto y frustrados con su trabajo, las políticas de la oficina y la falta de respeto entre otros; los empleados disgustados pueden pasar secretos de la empresa y la propiedad intelectual a los competidores por beneficios propios.
+
+    figure.mb-5 
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+          h5 Figura 9.
+          span Secretos corporativos.
+        figure
+          img(src='@/assets/curso/tema1/img53.svg') 
+        
     Separador
 
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5  Pentesting
+
+    p.mb-5 Las pruebas de penetración de la ingeniería social se centran en las personas y los procesos y las vulnerabilidades asociadas a ellos, estas pruebas de penetración consisten típicamente en que un hacker ético lleva a cabo diferentes ataques de ingeniería social, como el phishing, las caídas de USB, o la suplantación de identidad que una persona podría enfrentar en el curso de su trabajo, el objetivo de esta prueba es identificar las debilidades de una persona, grupo de personas o proceso, e identificar las vulnerabilidades con un camino claro para remediarlas.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.fondo10-tema1.p-0.pt-5        
+        br
+        br
+        p.mb-0.mt-5.px-5.mb-4 Hay cuatro pasos principales para realizar una prueba de penetración de ingeniería social que incluyen la planificación y el alcance de la prueba, la identificación del vector de ataque, los intentos de penetración y la presentación de informes.        
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10  
+        .tiempo1.mb-5
+          LineaTiempoD.color-secundario
+            .row.px-2.py-4(numero="1" titulo="Paso 1: <font style='font-weight: normal;'>Planificación y alcance de la prueba</font>")             
+              .col-lg-4
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/img55.png')
+              .col-lg-8
+                p.mb-0 Este paso es el más importante durante la prueba de penetración. Durante este paso, identificará lo que está en el alcance y cómo se realizará la prueba; esto normalmente requiere una reunión entre la dirección y el personal que realiza la prueba. Una cosa que hay que tener en cuenta es que se quiere mantener el número de personas involucradas en esta reunión al mínimo, para evitar el número de personas que saben de la prueba.
+            
+            .row.px-2.py-4(numero="2" titulo="Paso 2: <font style='font-weight: normal;'>Identificación del vector de ataque</font>")
+              .col-lg-4
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/img56.png')
+              .col-lg-8
+                p.mb-0 Después de que haya hecho la prueba del bolígrafo, debe tener un contrato claramente definido sobre qué y a quién se puede hacer la prueba; este paso de la prueba del bolígrafo implicará que el probador identifique todos los métodos que utilizará durante la prueba.
+
+            div.px-2(numero="3" titulo="Paso 3: <font style='font-weight: normal;'>Intentos de penetración</font>")
+              p.mb-4 Durante este paso de la prueba del bolígrafo, el probador tomará todos los vectores de ataque listados en el paso anterior y ejecutará esas pruebas; la documentación es clave en este paso, ya que estas pruebas se convertirán más tarde en pruebas de apoyo para el informe.
+              p.mb-3 El tipo de pruebas que debe recoger es:
+              div.px-5.py-4(style="background-color: white")
+                p.mb-2 ●  <b>Llamadas telefónicas grabadas:</b> Estas llamadas telefónicas son importantes, ya que no hay otro método para documentar que este ataque ocurrió, así como para mostrar su resultado.
+                p.mb-2 ●  <b>Correos electrónicos de los ataques de phishing:</b> Estos correos electrónicos son importantes porque pueden mostrar hasta dónde un usuario permitió el ataque antes de atraparlo. En algunos casos, los usuarios no se dan cuenta hasta después de haber entregado información sensible.
+                p.mb-0 ●  <b>Documentación encontrada durante el dumpster diving:</b> Este tipo de documentación debe incluir escaneos de los documentos encontrados e incluso imágenes del lugar donde se encontraron los documentos, si es apropiado. Junto con las pruebas, el examinador debe incluir la hora de inicio y final de cada prueba, el nombre de la persona que realiza la prueba y el nombre del empleado o empleados que están siendo examinados.
+            
+            .row.px-2.py-4(numero="4" titulo="Paso 4: <font style='font-weight: normal;'>Presentación de informes</font>")
+              .col-lg-4
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/img57.png')
+              .col-lg-8
+                p.mb-0 El paso de informe de una prueba de bolígrafo es donde se juntan todos los resultados. Mientras escribe el informe, recuerde quién es su público, en la mayoría de los casos, la audiencia es la alta dirección y su informe debe hablar con ellos. Asegúrese de abordar todas las preocupaciones discutidas al inicio de la prueba, así como todas las vulnerabilidades que encontró durante la prueba, en el informe, no solo debe mencionar las vulnerabilidades encontradas, sino que también debe proporcionar recomendaciones sobre cómo mitigar las vulnerabilidades.
     
     
 
