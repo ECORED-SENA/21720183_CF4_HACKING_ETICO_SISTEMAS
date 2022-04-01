@@ -249,6 +249,45 @@ caption
   background-size: 100% 100%
   background-repeat: no-repeat 
 
+.fondo1-tema3
+  position: relative
+  padding-bottom: 1rem
+  .row, p, .titulo-sexto, div, figure , img
+    position: relative
+  &::before    
+    content: ""
+    position: absolute
+    top: 0
+    left: 2.5%
+    width: 108%
+    height: 100%
+    margin: 0 -5rem      
+    background-image: url("../assets/curso/tema3/img01.svg")    
+    // background-size: contain
+    background-repeat: no-repeat      
+
+.fondo2-tema3
+  position: relative
+  padding-bottom: 1rem
+  .row, p, .titulo-sexto, div, figure , img
+    position: relative
+  &::before    
+    content: ""
+    position: absolute
+    top: 0
+    left: 2.5%
+    width: 108%
+    height: 100%
+    margin: 0 -5rem      
+    background-image: url("../assets/curso/tema3/img03.svg")    
+    // background-size: contain
+    background-repeat: no-repeat       
+
+.fondo3-tema3
+  background-image: url("../assets/curso/tema3/img05.svg")    
+  background-size: 100% 100%
+  background-repeat: no-repeat 
+
 .tarjetas1
   .tarjeta-slide
     background: rgba(233,220,253,1);
@@ -295,6 +334,11 @@ caption
       .tarjeta--gris 
         background-color: #91EDE8 !important
   
+.fa-link:before 
+  color: white
+  background-color: black
+  padding: 2px
+
   // .linea-tiempo-d__item__col-number
     // .tarjeta--gris 
       // background-color: #E9DCFD;
