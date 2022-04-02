@@ -174,21 +174,31 @@
         .col-lg-10
           .row
             .col-lg-6
-              .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-                .indicador--hover(v-if="indicadorTarjetaSlide")
-                .tarjeta-slide__contenedor
-                  .tarjeta-slide__contenido.p-4
-                    p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
-                    p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
+              .TFcontainer
+                img.TFimage(src='@/assets/curso/tema1/img17.png')
+                .TFoverlay.p-5
+                  p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
+                  p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
+              //- .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+              //-   .indicador--hover(v-if="indicadorTarjetaSlide")
+              //-   .tarjeta-slide__contenedor
+              //-     .tarjeta-slide__contenido.p-4
+              //-       p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
+              //-       p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
 
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}")
+              //-     .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}")
             .col-6
-              .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-                .tarjeta-slide__contenedor
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img18.png')})`}")
-                  .tarjeta-slide__contenido.p-4
-                    p.mb-3 ● Ponga sus filtros de spam en alto. Todos los programas de correo electrónico tienen filtros de spam, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de spam periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de spam, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de spam'.
-                    p.mb-0 ● Asegure sus dispositivos informáticos, instale software antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador web o por un tercero para alertarle de los riesgos.
+              .TFcontainer
+                img.TFimage(src='@/assets/curso/tema1/img18.png')
+                .TFoverlay.p-5
+                  p.mb-3 ● Ponga sus filtros de spam en alto. Todos los programas de correo electrónico tienen filtros de spam, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de spam periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de spam, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de spam'.
+                  p.mb-0 ● Asegure sus dispositivos informáticos, instale software antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador web o por un tercero para alertarle de los riesgos.
+              //- .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+              //-   .tarjeta-slide__contenedor
+              //-     .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img18.png')})`}")
+              //-     .tarjeta-slide__contenido.p-4
+              //-       p.mb-3 ● Ponga sus filtros de spam en alto. Todos los programas de correo electrónico tienen filtros de spam, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de spam periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de spam, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de spam'.
+              //-       p.mb-0 ● Asegure sus dispositivos informáticos, instale software antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador web o por un tercero para alertarle de los riesgos.
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido

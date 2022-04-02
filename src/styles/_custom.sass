@@ -391,3 +391,37 @@ caption
       transform: scale(1.1);
     &:active
         filter: brightness(50%);
+
+
+.TFcontainer
+  position: relative
+  width: 100%
+  border-radius: 26px
+
+.TFimage
+  display: block
+  width: 100%
+  height: 518px
+  object-fit: cover !important
+  border-radius: 6px 6px 0 0
+  border-radius: 26px
+
+.TFoverlay
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  border-radius: 26px
+  overflow: hidden
+  width: 100%
+  height: 125px
+  transition: .5s ease
+  background-color: #DED7F5
+
+.TFcontainer:hover .TFoverlay
+  height: 100%
+
+@media screen and (max-width: 991px)
+  .TFimage
+    height: 200px
+   
