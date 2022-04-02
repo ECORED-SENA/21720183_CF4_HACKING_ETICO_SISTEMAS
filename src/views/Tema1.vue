@@ -410,8 +410,22 @@
 
           p.mb-5.text-center <b>Algunas funciones comunes de ingeniería social son:</b>
 
-          div.p-0.mb-5
-            h3.mb-0 SLIDER ESPECIAL
+          div.slider-espcial.d-flex.justify-content-center.align-items-center.px-3.mb-5
+            .row.d-flex.justify-content-center.align-items-center.w-100
+              .col-lg-1.indicador__container
+                img(src="@/assets/curso/tema1/img58.svg", v-on:click="anterior" @mouseover="mostrarIndicador = false")
+                .indicador--click(v-if="mostrarIndicador")
+              .col-lg-10
+                p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") Posar como un compañero de trabajo.
+                p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") Un empleado de un proveedor o una empresa asociada, o un auditor.
+                p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") Como nuevo empleado que solicita ayuda.
+                p.mb-0.text-center(v-if="espacial1==4", data-aos="slide-left") Fingir ser de una oficina remota y pedir acceso al correo electrónico localmente.
+                p.mb-0.text-center(v-if="espacial1==5", data-aos="slide-left") Como alguien con autoridad.
+                p.mb-0.text-center(v-if="espacial1==6", data-aos="slide-left") Un fabricante de sistemas que ofrece una actualización o un parche del sistema.
+              .col-lg-1
+                img(src="@/assets/curso/tema1/img59.svg" v-on:click="siguiente" )
+                
+            
 
           p.mb-0 <b>Los imitadores hacen sus deberes:</b> La suplantación funciona mejor cuando el ingeniero social da una actuación convincente, completa con la jerga técnica adecuada u otra información privilegiada. Los imitadores hacen sus deberes, vienen armados con:
 
@@ -616,7 +630,8 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    espacial1: 1,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -625,6 +640,20 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    siguiente: function() {
+      this.espacial1++
+      if (this.espacial1 > 6) {
+        this.espacial1 = 1
+      }
+    },
+    anterior: function() {
+      this.espacial1--
+      if (this.espacial1 < 1) {
+        this.espacial1 = 6
+      }
+    },
   },
 }
 </script>

@@ -204,7 +204,7 @@
     figure.mb-5
       img(src="@/assets/curso/tema3/img23.svg")
 
-    .fondo4-tema3.py-5.mb-4
+    .fondo4-tema3.py-5.mb-0
       .row.justify-content-center.align-items-center
         .col-lg-10
           div.mb-4
@@ -243,8 +243,19 @@
 
       .row.justify-content-center.align-items-center
         .col-lg-8
-          div.p-0
-            h3.mb-0 SLIDER ESPECIAL
+          div.slider-espcial.d-flex.justify-content-center.align-items-center.px-3
+            .row.d-flex.justify-content-center.align-items-center.w-100
+              .col-lg-1.indicador__container
+                img(src="@/assets/curso/tema1/img58.svg", v-on:click="anterior" @mouseover="mostrarIndicador = false")
+                .indicador--click(v-if="mostrarIndicador")
+              .col-lg-10
+                p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") Evaluar<br>De dónde vienen los ciberdelincuentes.
+                p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") Evaluar<br>El nivel de amenaza.                
+                p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") Evaluar<br>Qué modus operandi están usando.
+                p.mb-0.text-center(v-if="espacial1==4", data-aos="slide-left") Evaluar<br>Qué datos o aplicaciones les interesan.
+                p.mb-0.text-center(v-if="espacial1==5", data-aos="slide-left") Evaluar<br>Lo bien que funcionan sus medidas de seguridad para detener los ciberataques.
+              .col-lg-1
+                img(src="@/assets/curso/tema1/img59.svg"  v-on:click="siguiente" @mouseover="mostrarIndicador = false")
 
     p.mb-5.text-center Revise, a continuación, otra definición de "honeypot": 
 
@@ -337,7 +348,8 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    espacial1: 1,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -346,6 +358,20 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    siguiente: function() {
+      this.espacial1++
+      if (this.espacial1 > 5) {
+        this.espacial1 = 1
+      }
+    },
+    anterior: function() {
+      this.espacial1--
+      if (this.espacial1 < 1) {
+        this.espacial1 = 5
+      }
+    },
   },
 }
 </script>

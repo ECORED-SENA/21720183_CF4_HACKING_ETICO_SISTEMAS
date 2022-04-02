@@ -369,7 +369,25 @@ caption
 .fa-chevron-left:before 
   color: #79F5ED !important
 
-  // .linea-tiempo-d__item__col-number
-    // .tarjeta--gris 
-      // background-color: #E9DCFD;
+.slider-espcial    
   
+ 
+  border-radius: 41px
+  height: 81px
+  background: rgba(239,255,255,1);
+  background: -moz-linear-gradient(top, rgba(239,255,255,1) 0%, rgba(219,246,245,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(239,255,255,1)), color-stop(100%, rgba(219,246,245,1)));
+  background: -webkit-linear-gradient(top, rgba(239,255,255,1) 0%, rgba(219,246,245,1) 100%);
+  background: -o-linear-gradient(top, rgba(239,255,255,1) 0%, rgba(219,246,245,1) 100%);
+  background: -ms-linear-gradient(top, rgba(239,255,255,1) 0%, rgba(219,246,245,1) 100%);
+  background: linear-gradient(to bottom, rgba(239,255,255,1) 0%, rgba(219,246,245,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffff', endColorstr='#dbf6f5', GradientType=0 );
+  img
+    transition: transform .2s
+    width: 53px
+    &:hover    
+      cursor: pointer;
+      filter: brightness(120%);
+      transform: scale(1.1);
+    &:active
+        filter: brightness(50%);

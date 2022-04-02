@@ -41,10 +41,19 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        div.p-0
-          h3.mb-0 SLIDER ESPECIAL
+        div.slider-espcial.d-flex.justify-content-center.align-items-center.px-3
+            .row.d-flex.justify-content-center.align-items-center.w-100
+              .col-lg-1.indicador__container
+                img(src="@/assets/curso/tema1/img58.svg", v-on:click="anterior" @mouseover="mostrarIndicador = false")
+                .indicador--click(v-if="mostrarIndicador")
+              .col-lg-10
+                p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") La ubicación del ataque es difícil de detectar debido a la distribución aleatoria de los sistemas de ataque (a menudo en todo el mundo).
+                p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") Es más difícil apagar varias máquinas que una sola.
+                p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") El verdadero grupo atacante es muy difícil de identificar, ya que están disfrazados detrás de muchos sistemas (en su mayoría comprometidos).
+              .col-lg-1
+                img(src="@/assets/curso/tema1/img59.svg" v-on:click="siguiente" @mouseover="mostrarIndicador = false")
 
-    p.mb-5 Hay dos métodos generales de ataques de DoS: servicios de inundación o servicios de choque. 
+    p.mb-4 Hay dos métodos generales de ataques de DoS: servicios de inundación o servicios de choque. 
     p.mb-5 Los ataques por inundación se producen cuando el sistema recibe demasiado tráfico para que el servidor almacene en el búfer, lo que hace que se ralentice y finalmente se detenga. Los ataques por inundación más comunes incluyen:
 
     .row.fondo1-tema2.justify-content-center.align-items-center.mb-5
@@ -305,10 +314,20 @@
           p.mb-4 Al aprovechar las tecnologías de Big Data para almacenar los eventos de la red a medida que suceden y al acceder a este repositorio de datos en la nube, los clientes pueden evitar los dispositivos de detección de DDoS que no logran escalar a medida que sus redes in situ crecen y/o se vuelven a desplegar en la nube, o evitar los costosos proyectos internos que requieren inversiones continuas u obsoletas a medida que cambian los marcos de software abierto.
           p.mb-3.text-center Las contramedidas para los ataques DoS y DDoS son:
 
-          .row.justify-content-center.align-items-center.mb-5
-            .col-lg-10
-              div.p-0
-                h3.mb-0 SLIDER ESPECIAL
+        .row.justify-content-center.align-items-center
+          .col-lg-10
+            div.slider-espcial.d-flex.justify-content-center.align-items-center.px-3
+              .row.d-flex.justify-content-center.align-items-center.w-100
+                .col-lg-1.indicador__container
+                  img(src="@/assets/curso/tema1/img58.svg", v-on:click="anterior2"  @mouseover="mostrarIndicador2 = false")
+                  .indicador--click(v-if="mostrarIndicador2")
+                .col-lg-10
+                  p.mb-0.text-center(v-if="espacial2==1", data-aos="slide-left") Sistemas de Detección de Intrusos (IDS) y un Sistema de Protección de Intrusos (IPS).
+                  p.mb-0.text-center(v-if="espacial2==2", data-aos="slide-left") Fuertes programas antivirus y anti-spyware en todos los sistemas con conectividad a Internet.
+                  p.mb-0.text-center(v-if="espacial2==3", data-aos="slide-left") Hashes de archivos y carpetas en los archivos y carpetas del sistema, para identificar si han sido comprometidos.
+                .col-lg-1
+                  img(src="@/assets/curso/tema1/img59.svg" v-on:click="siguiente2" @mouseover="mostrarIndicador2 = false")
+
 
 </template>
 
@@ -316,7 +335,10 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    espacial1: 1,
+    espacial2: 1,
+    mostrarIndicador: true,
+    mostrarIndicador2: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -325,6 +347,33 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    siguiente: function() {
+      this.espacial1++
+      if (this.espacial1 > 3) {
+        this.espacial1 = 1
+      }
+    },
+    anterior: function() {
+      this.espacial1--
+      if (this.espacial1 < 1) {
+        this.espacial1 = 3
+      }
+    },
+
+    siguiente2: function() {
+      this.espacial2++
+      if (this.espacial2 > 3) {
+        this.espacial2 = 1
+      }
+    },
+    anterior2: function() {
+      this.espacial2--
+      if (this.espacial2 < 1) {
+        this.espacial2 = 3
+      }
+    },
   },
 }
 </script>
