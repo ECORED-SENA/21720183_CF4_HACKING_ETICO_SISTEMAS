@@ -1,0 +1,987 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="839" viewBox="0 0 1240 839">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_39553" data-name="Rectángulo 39553" width="1240" height="839" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_39552" data-name="Rectángulo 39552" width="85.127" height="22.529" transform="translate(578 14.891)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <rect id="Rectángulo_39602" data-name="Rectángulo 39602" width="74.242" height="19.151" transform="translate(583 97.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <rect id="Rectángulo_39605" data-name="Rectángulo 39605" width="270.348" height="42.151" transform="translate(12.826 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect id="Rectángulo_39603" data-name="Rectángulo 39603" width="237.61" height="19.151" transform="translate(29.195 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-14">
+      <rect id="Rectángulo_39604" data-name="Rectángulo 39604" width="270.348" height="19.151" transform="translate(12.826 344.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-15">
+      <rect id="Rectángulo_39607" data-name="Rectángulo 39607" width="118.427" height="19.151" transform="translate(138.682 486.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-17">
+      <rect id="Rectángulo_39609" data-name="Rectángulo 39609" width="52.104" height="19.151" transform="translate(801.844 486.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-19">
+      <rect id="Rectángulo_39611" data-name="Rectángulo 39611" width="142.715" height="19.151" transform="translate(758.642 554.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-21">
+      <rect id="Rectángulo_39613" data-name="Rectángulo 39613" width="115.315" height="19.151" transform="translate(772.343 622.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-23">
+      <rect id="Rectángulo_39616" data-name="Rectángulo 39616" width="95.16" height="42.151" transform="translate(351.42 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-24">
+      <rect id="Rectángulo_39614" data-name="Rectángulo 39614" width="95.16" height="19.151" transform="translate(351.42 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-25">
+      <rect id="Rectángulo_39615" data-name="Rectángulo 39615" width="88.652" height="19.151" transform="translate(354.674 344.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-26">
+      <rect id="Rectángulo_39618" data-name="Rectángulo 39618" width="121.806" height="19.151" transform="translate(748.097 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-28">
+      <rect id="Rectángulo_39621" data-name="Rectángulo 39621" width="122.91" height="42.151" transform="translate(1104.54 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-29">
+      <rect id="Rectángulo_39619" data-name="Rectángulo 39619" width="122.91" height="19.151" transform="translate(1104.54 321.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-30">
+      <rect id="Rectángulo_39620" data-name="Rectángulo 39620" width="100.13" height="19.151" transform="translate(1116.24 344.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-31">
+      <rect id="Rectángulo_39624" data-name="Rectángulo 39624" width="145.13" height="42.151" transform="translate(912.33 316.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-32">
+      <rect id="Rectángulo_39622" data-name="Rectángulo 39622" width="65.324" height="19.151" transform="translate(954.336 316.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-33">
+      <rect id="Rectángulo_39623" data-name="Rectángulo 39623" width="145.13" height="19.151" transform="translate(912.33 339.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-34">
+      <rect id="Rectángulo_39627" data-name="Rectángulo 39627" width="175.188" height="42.151" transform="translate(522.406 320.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-35">
+      <rect id="Rectángulo_39625" data-name="Rectángulo 39625" width="175.188" height="19.151" transform="translate(522.406 320.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-36">
+      <rect id="Rectángulo_39626" data-name="Rectángulo 39626" width="141.669" height="19.151" transform="translate(539.165 343.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-37">
+      <rect id="Rectángulo_39630" data-name="Rectángulo 39630" width="153.706" height="42.151" transform="translate(533.147 488.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-38">
+      <rect id="Rectángulo_39628" data-name="Rectángulo 39628" width="153.706" height="19.151" transform="translate(533.147 488.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-39">
+      <rect id="Rectángulo_39629" data-name="Rectángulo 39629" width="129.094" height="19.151" transform="translate(543.349 511.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-40">
+      <rect id="Rectángulo_39633" data-name="Rectángulo 39633" width="118.124" height="42.151" transform="translate(549.84 638.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-41">
+      <rect id="Rectángulo_39631" data-name="Rectángulo 39631" width="115.928" height="19.151" transform="translate(552.036 638.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-42">
+      <rect id="Rectángulo_39632" data-name="Rectángulo 39632" width="116.111" height="19.151" transform="translate(549.84 661.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-43">
+      <rect id="Rectángulo_39636" data-name="Rectángulo 39636" width="127.409" height="42.15" transform="translate(427.191 787.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-44">
+      <rect id="Rectángulo_39634" data-name="Rectángulo 39634" width="104.905" height="19.15" transform="translate(440.547 787.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-45">
+      <rect id="Rectángulo_39635" data-name="Rectángulo 39635" width="127.409" height="19.15" transform="translate(427.191 810.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-46">
+      <rect id="Rectángulo_39639" data-name="Rectángulo 39639" width="180.874" height="42.15" transform="translate(637.563 787.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-47">
+      <rect id="Rectángulo_39637" data-name="Rectángulo 39637" width="174.773" height="19.15" transform="translate(640.614 787.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-48">
+      <rect id="Rectángulo_39638" data-name="Rectángulo 39638" width="180.874" height="19.15" transform="translate(637.563 810.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-49">
+      <rect id="Rectángulo_39641" data-name="Rectángulo 39641" width="99.659" height="19.151" transform="translate(150.17 686.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-51">
+      <rect id="Rectángulo_39644" data-name="Rectángulo 39644" width="162.662" height="42.151" transform="translate(118.669 545.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-52">
+      <rect id="Rectángulo_39642" data-name="Rectángulo 39642" width="154.004" height="19.151" transform="translate(122.998 545.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-53">
+      <rect id="Rectángulo_39643" data-name="Rectángulo 39643" width="162.662" height="19.151" transform="translate(118.669 568.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-54">
+      <rect id="Rectángulo_39646" data-name="Rectángulo 39646" width="144.874" height="19.151" transform="translate(127.563 627.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-56">
+      <rect id="Rectángulo_39648" data-name="Rectángulo 39648" width="157.839" height="19.151" transform="translate(67 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-58">
+      <rect id="Rectángulo_39650" data-name="Rectángulo 39650" width="80.891" height="19.151" transform="translate(105 414.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-60">
+      <rect id="Rectángulo_39652" data-name="Rectángulo 39652" width="42.6" height="19.151" transform="translate(19 583.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-62">
+      <rect id="Rectángulo_39654" data-name="Rectángulo 39654" width="27.841" height="19.151" transform="translate(392 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-64">
+      <rect id="Rectángulo_39656" data-name="Rectángulo 39656" width="68.457" height="19.151" transform="translate(365 411.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-66">
+      <rect id="Rectángulo_39658" data-name="Rectángulo 39658" width="56.146" height="19.151" transform="translate(582 410.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-68">
+      <rect id="Rectángulo_39660" data-name="Rectángulo 39660" width="102.955" height="19.151" transform="translate(559 576.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-70">
+      <rect id="Rectángulo_39662" data-name="Rectángulo 39662" width="33.452" height="19.151" transform="translate(594 726.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-72">
+      <rect id="Rectángulo_39664" data-name="Rectángulo 39664" width="172.648" height="19.151" transform="translate(522 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-74">
+      <rect id="Rectángulo_39666" data-name="Rectángulo 39666" width="8.043" height="19.151" transform="translate(983 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-76">
+      <rect id="Rectángulo_39668" data-name="Rectángulo 39668" width="27.84" height="19.151" transform="translate(1155 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-78">
+      <rect id="Rectángulo_39670" data-name="Rectángulo 39670" width="135.75" height="19.151" transform="translate(1097 420.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-80">
+      <rect id="Rectángulo_39672" data-name="Rectángulo 39672" width="54.354" height="19.151" transform="translate(786 242.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-82">
+      <rect id="Rectángulo_39674" data-name="Rectángulo 39674" width="42.6" height="19.151" transform="translate(970 420.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-85">
+      <rect id="Rectángulo_39677" data-name="Rectángulo 39677" width="141.113" height="19.151" transform="translate(328 163.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-87">
+      <rect id="Rectángulo_39679" data-name="Rectángulo 39679" width="144.849" height="19.151" transform="translate(768 163.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-89">
+      <rect id="Rectángulo_39684" data-name="Rectángulo 39684" width="137.072" height="88.151" transform="translate(330.464 488.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-90">
+      <rect id="Rectángulo_39680" data-name="Rectángulo 39680" width="116.526" height="19.151" transform="translate(340.737 488.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-91">
+      <rect id="Rectángulo_39681" data-name="Rectángulo 39681" width="137.072" height="19.151" transform="translate(330.464 511.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-92">
+      <rect id="Rectángulo_39682" data-name="Rectángulo 39682" width="97.334" height="19.151" transform="translate(350.333 534.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-93">
+      <rect id="Rectángulo_39683" data-name="Rectángulo 39683" width="100.846" height="19.151" transform="translate(346.473 557.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-94">
+      <rect id="Rectángulo_39690" data-name="Rectángulo 39690" width="85.3" height="111.151" transform="translate(1019.85 484.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-95">
+      <rect id="Rectángulo_39685" data-name="Rectángulo 39685" width="64.33" height="19.151" transform="translate(1032.44 484.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-96">
+      <rect id="Rectángulo_39686" data-name="Rectángulo 39686" width="85.3" height="19.151" transform="translate(1019.85 507.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-97">
+      <rect id="Rectángulo_39687" data-name="Rectángulo 39687" width="68.68" height="19.151" transform="translate(1030.26 530.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-98">
+      <rect id="Rectángulo_39688" data-name="Rectángulo 39688" width="63.25" height="19.151" transform="translate(1032.98 553.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-99">
+      <rect id="Rectángulo_39689" data-name="Rectángulo 39689" width="78.58" height="19.151" transform="translate(1023.21 576.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-100">
+      <rect id="Rectángulo_39693" data-name="Rectángulo 39693" width="71.72" height="42.151" transform="translate(1155.14 489.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-101">
+      <rect id="Rectángulo_39691" data-name="Rectángulo 39691" width="71.72" height="19.151" transform="translate(1155.14 489.457)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-102">
+      <rect id="Rectángulo_39692" data-name="Rectángulo 39692" width="46.99" height="19.151" transform="translate(1165.4 512.457)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_145840" data-name="Grupo 145840" transform="translate(-180 -8653)">
+    <g id="Grupo_145781" data-name="Grupo 145781" transform="translate(180 8653)">
+      <path id="Trazado_192717" data-name="Trazado 192717" d="M525,0V36.281l9.091,13.733H715V13.9L706.1,0Z" fill="#500c75"/>
+      <g id="Grupo_145490" data-name="Grupo 145490">
+        <g id="Grupo_145489" data-name="Grupo 145489" clip-path="url(#clip-path)">
+          <g id="Grupo_145488" data-name="Grupo 145488" style="isolation: isolate">
+            <g id="Grupo_145487" data-name="Grupo 145487">
+              <g id="Grupo_145486" data-name="Grupo 145486" clip-path="url(#clip-path-2)">
+                <g id="Grupo_145485" data-name="Grupo 145485" style="isolation: isolate">
+                  <g id="Grupo_145484" data-name="Grupo 145484">
+                    <g id="Grupo_145483" data-name="Grupo 145483" clip-path="url(#clip-path-2)">
+                      <text id="Honeypot" transform="translate(578 32)" fill="#fff" font-size="20" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">Hon</tspan><tspan y="0" letter-spacing="-0.005em">e</tspan><tspan y="0">ypot</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectángulo_39554" data-name="Rectángulo 39554" width="110" height="39" transform="translate(565 86)" fill="#fff"/>
+      <rect id="Rectángulo_39555" data-name="Rectángulo 39555" width="109" height="38" transform="translate(565.5 86.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39556" data-name="Rectángulo 39556" width="295" height="65" transform="translate(0 309)" fill="#fff"/>
+      <g id="Grupo_145492" data-name="Grupo 145492">
+        <g id="Grupo_145491" data-name="Grupo 145491" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_39557" data-name="Rectángulo 39557" width="294" height="64" transform="translate(0.5 309.5)" fill="#e9dcfd" stroke="#500c75" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_39559" data-name="Rectángulo 39559" width="190" height="38" transform="translate(105 476)" fill="#fff"/>
+      <rect id="Rectángulo_39560" data-name="Rectángulo 39560" width="189" height="37" transform="translate(105.5 476.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39561" data-name="Rectángulo 39561" width="190" height="38" transform="translate(735 476)" fill="#fff"/>
+      <rect id="Rectángulo_39562" data-name="Rectángulo 39562" width="189" height="37" transform="translate(735.5 476.5)" fill="none" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39563" data-name="Rectángulo 39563" width="127" height="132" transform="translate(999 477)" fill="#fff"/>
+      <rect id="Rectángulo_39564" data-name="Rectángulo 39564" width="126" height="131" transform="translate(999.5 477.5)" fill="none" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39565" data-name="Rectángulo 39565" width="98" height="67.999" transform="translate(1142 477.001)" fill="#fff"/>
+      <g id="Grupo_145494" data-name="Grupo 145494">
+        <g id="Grupo_145493" data-name="Grupo 145493" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_39566" data-name="Rectángulo 39566" width="97" height="67" transform="translate(1142.5 477.5)" fill="none" stroke="#e01650" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_39568" data-name="Rectángulo 39568" width="190" height="38" transform="translate(735 544)" fill="#fff"/>
+      <rect id="Rectángulo_39569" data-name="Rectángulo 39569" width="189" height="37" transform="translate(735.5 544.5)" fill="none" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39570" data-name="Rectángulo 39570" width="190" height="38" transform="translate(735 612)" fill="#fff"/>
+      <rect id="Rectángulo_39571" data-name="Rectángulo 39571" width="189" height="37" transform="translate(735.5 612.5)" fill="none" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39572" data-name="Rectángulo 39572" width="168" height="63" transform="translate(315 310)" fill="#fff"/>
+      <rect id="Rectángulo_39573" data-name="Rectángulo 39573" width="167" height="62" transform="translate(315.5 310.5)" fill="#e9dcfd" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39574" data-name="Rectángulo 39574" width="148" height="41" transform="translate(735 310)" fill="#fff"/>
+      <rect id="Rectángulo_39575" data-name="Rectángulo 39575" width="147" height="40" transform="translate(735.5 310.5)" fill="#ffecf2" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39576" data-name="Rectángulo 39576" width="148" height="62" transform="translate(1092 310)" fill="#fff"/>
+      <g id="Grupo_145496" data-name="Grupo 145496">
+        <g id="Grupo_145495" data-name="Grupo 145495" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_39577" data-name="Rectángulo 39577" width="147" height="61" transform="translate(1092.5 310.5)" fill="#ffecf2" stroke="#e01650" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_39579" data-name="Rectángulo 39579" width="168" height="62" transform="translate(903 310)" fill="#fff"/>
+      <rect id="Rectángulo_39580" data-name="Rectángulo 39580" width="167" height="61" transform="translate(903.5 310.5)" fill="#ffecf2" stroke="#e01650" stroke-width="1"/>
+      <rect id="Rectángulo_39581" data-name="Rectángulo 39581" width="210" height="63" transform="translate(505 309)" fill="#e9dcfd"/>
+      <rect id="Rectángulo_39582" data-name="Rectángulo 39582" width="209" height="62" transform="translate(505.5 309.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39583" data-name="Rectángulo 39583" width="210" height="63" transform="translate(505 477)" fill="#fff"/>
+      <rect id="Rectángulo_39584" data-name="Rectángulo 39584" width="209" height="62" transform="translate(505.5 477.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39585" data-name="Rectángulo 39585" width="210" height="63" transform="translate(505 627)" fill="#fff"/>
+      <rect id="Rectángulo_39586" data-name="Rectángulo 39586" width="209" height="62" transform="translate(505.5 627.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39587" data-name="Rectángulo 39587" width="205" height="63" transform="translate(390 776)" fill="#fff"/>
+      <g id="Grupo_145498" data-name="Grupo 145498">
+        <g id="Grupo_145497" data-name="Grupo 145497" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_39588" data-name="Rectángulo 39588" width="204" height="62" transform="translate(390.5 776.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_39590" data-name="Rectángulo 39590" width="205" height="63" transform="translate(625 776)" fill="#fff"/>
+      <g id="Grupo_145500" data-name="Grupo 145500">
+        <g id="Grupo_145499" data-name="Grupo 145499" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_39591" data-name="Rectángulo 39591" width="204" height="62" transform="translate(625.5 776.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_39593" data-name="Rectángulo 39593" width="168" height="113" transform="translate(315 476)" fill="#fff"/>
+      <rect id="Rectángulo_39594" data-name="Rectángulo 39594" width="167" height="112" transform="translate(315.5 476.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39595" data-name="Rectángulo 39595" width="190" height="38" transform="translate(105 676)" fill="#fff"/>
+      <rect id="Rectángulo_39596" data-name="Rectángulo 39596" width="189" height="37" transform="translate(105.5 676.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39597" data-name="Rectángulo 39597" width="190" height="64" transform="translate(105 535)" fill="#fff"/>
+      <rect id="Rectángulo_39598" data-name="Rectángulo 39598" width="189" height="63" transform="translate(105.5 535.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <rect id="Rectángulo_39599" data-name="Rectángulo 39599" width="190" height="41" transform="translate(105 617)" fill="#fff"/>
+      <rect id="Rectángulo_39600" data-name="Rectángulo 39600" width="189" height="40" transform="translate(105.5 617.5)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <g id="Grupo_145724" data-name="Grupo 145724">
+        <g id="Grupo_145723" data-name="Grupo 145723" clip-path="url(#clip-path)">
+          <g id="Grupo_145506" data-name="Grupo 145506" style="isolation: isolate">
+            <g id="Grupo_145505" data-name="Grupo 145505">
+              <g id="Grupo_145504" data-name="Grupo 145504" clip-path="url(#clip-path-10)">
+                <g id="Grupo_145503" data-name="Grupo 145503" style="isolation: isolate">
+                  <g id="Grupo_145502" data-name="Grupo 145502">
+                    <g id="Grupo_145501" data-name="Grupo 145501" clip-path="url(#clip-path-10)">
+                      <text id="puede_ser" data-name="puede ser" transform="translate(583 112)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">puede ser</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145515" data-name="Grupo 145515" style="isolation: isolate">
+            <g id="Grupo_145514" data-name="Grupo 145514">
+              <g id="Grupo_145513" data-name="Grupo 145513" clip-path="url(#clip-path-12)">
+                <g id="Grupo_145509" data-name="Grupo 145509" style="isolation: isolate">
+                  <g id="Grupo_145508" data-name="Grupo 145508">
+                    <g id="Grupo_145507" data-name="Grupo 145507" clip-path="url(#clip-path-13)">
+                      <text id="que_los_hackers_pasen_el_mayor" data-name="que los hackers pasen el mayor" transform="translate(29.195 336)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">que los hac</tspan><tspan y="0" letter-spacing="-0.01em">k</tspan><tspan y="0">ers pasen el m</tspan><tspan y="0" letter-spacing="-0.009em">a</tspan><tspan y="0" letter-spacing="-0.007em">y</tspan><tspan y="0">or</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145512" data-name="Grupo 145512" style="isolation: isolate">
+                  <g id="Grupo_145511" data-name="Grupo 145511">
+                    <g id="Grupo_145510" data-name="Grupo 145510" clip-path="url(#clip-path-14)">
+                      <text id="_tiempo_posible_dentro_del_honeypot" data-name=" tiempo posible dentro del honeypot" transform="translate(12.826 359)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> tiempo posible dent</tspan><tspan y="0" letter-spacing="-0.012em">r</tspan><tspan y="0">o del hon</tspan><tspan y="0" letter-spacing="-0.007em">e</tspan><tspan y="0">ypot</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145521" data-name="Grupo 145521" style="isolation: isolate">
+            <g id="Grupo_145520" data-name="Grupo 145520">
+              <g id="Grupo_145519" data-name="Grupo 145519" clip-path="url(#clip-path-15)">
+                <g id="Grupo_145518" data-name="Grupo 145518" style="isolation: isolate">
+                  <g id="Grupo_145517" data-name="Grupo 145517">
+                    <g id="Grupo_145516" data-name="Grupo 145516" clip-path="url(#clip-path-15)">
+                      <text id="sus_intenciones" data-name="sus intenciones" transform="translate(138.682 501)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sus intenciones</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145527" data-name="Grupo 145527" style="isolation: isolate">
+            <g id="Grupo_145526" data-name="Grupo 145526">
+              <g id="Grupo_145525" data-name="Grupo 145525" clip-path="url(#clip-path-17)">
+                <g id="Grupo_145524" data-name="Grupo 145524" style="isolation: isolate">
+                  <g id="Grupo_145523" data-name="Grupo 145523">
+                    <g id="Grupo_145522" data-name="Grupo 145522" clip-path="url(#clip-path-17)">
+                      <text id="el_nivel" data-name="el nivel" transform="translate(801.844 501)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">el ni</tspan><tspan y="0" letter-spacing="-0.007em">v</tspan><tspan y="0">el</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145533" data-name="Grupo 145533" style="isolation: isolate">
+            <g id="Grupo_145532" data-name="Grupo 145532">
+              <g id="Grupo_145531" data-name="Grupo 145531" clip-path="url(#clip-path-19)">
+                <g id="Grupo_145530" data-name="Grupo 145530" style="isolation: isolate">
+                  <g id="Grupo_145529" data-name="Grupo 145529">
+                    <g id="Grupo_145528" data-name="Grupo 145528" clip-path="url(#clip-path-19)">
+                      <text id="el_tipo_de_amenaza" data-name="el tipo de amenaza" transform="translate(758.642 569)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">el tipo de amenaza</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145539" data-name="Grupo 145539" style="isolation: isolate">
+            <g id="Grupo_145538" data-name="Grupo 145538">
+              <g id="Grupo_145537" data-name="Grupo 145537" clip-path="url(#clip-path-21)">
+                <g id="Grupo_145536" data-name="Grupo 145536" style="isolation: isolate">
+                  <g id="Grupo_145535" data-name="Grupo 145535">
+                    <g id="Grupo_145534" data-name="Grupo 145534" clip-path="url(#clip-path-21)">
+                      <text id="su_procedencia" data-name="su procedencia" transform="translate(772.343 637)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">su p</tspan><tspan y="0" letter-spacing="-0.01em">r</tspan><tspan y="0">ocedencia</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145548" data-name="Grupo 145548" style="isolation: isolate">
+            <g id="Grupo_145547" data-name="Grupo 145547">
+              <g id="Grupo_145546" data-name="Grupo 145546" clip-path="url(#clip-path-23)">
+                <g id="Grupo_145542" data-name="Grupo 145542" style="isolation: isolate">
+                  <g id="Grupo_145541" data-name="Grupo 145541">
+                    <g id="Grupo_145540" data-name="Grupo 145540" clip-path="url(#clip-path-24)">
+                      <text id="hambrientos" transform="translate(351.42 336)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">hambrien</tspan><tspan y="0" letter-spacing="-0.009em">t</tspan><tspan y="0">os</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145545" data-name="Grupo 145545" style="isolation: isolate">
+                  <g id="Grupo_145544" data-name="Grupo 145544">
+                    <g id="Grupo_145543" data-name="Grupo 145543" clip-path="url(#clip-path-25)">
+                      <text id="de_recursos" data-name="de recursos" transform="translate(354.674 359)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">de </tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ecursos</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145554" data-name="Grupo 145554" style="isolation: isolate">
+            <g id="Grupo_145553" data-name="Grupo 145553">
+              <g id="Grupo_145552" data-name="Grupo 145552" clip-path="url(#clip-path-26)">
+                <g id="Grupo_145551" data-name="Grupo 145551" style="isolation: isolate">
+                  <g id="Grupo_145550" data-name="Grupo 145550">
+                    <g id="Grupo_145549" data-name="Grupo 145549" clip-path="url(#clip-path-26)">
+                      <text id="menos_recursos" data-name="menos recursos" transform="translate(748.097 336)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">menos </tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ecursos</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145563" data-name="Grupo 145563" style="isolation: isolate">
+            <g id="Grupo_145562" data-name="Grupo 145562">
+              <g id="Grupo_145561" data-name="Grupo 145561" clip-path="url(#clip-path-28)">
+                <g id="Grupo_145557" data-name="Grupo 145557" style="isolation: isolate">
+                  <g id="Grupo_145556" data-name="Grupo 145556">
+                    <g id="Grupo_145555" data-name="Grupo 145555" clip-path="url(#clip-path-29)">
+                      <text id="fáciles_y_rápidos" data-name="fáciles y rápidos" transform="translate(1104.545 336)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">fáciles y </tspan><tspan y="0" letter-spacing="-0.02em">r</tspan><tspan y="0">ápidos</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145560" data-name="Grupo 145560" style="isolation: isolate">
+                  <g id="Grupo_145559" data-name="Grupo 145559">
+                    <g id="Grupo_145558" data-name="Grupo 145558" clip-path="url(#clip-path-30)">
+                      <text id="de_configurar" data-name="de configurar" transform="translate(1116.241 359)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">de configu</tspan><tspan y="0" letter-spacing="-0.019em">r</tspan><tspan y="0">ar</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145572" data-name="Grupo 145572" style="isolation: isolate">
+            <g id="Grupo_145571" data-name="Grupo 145571">
+              <g id="Grupo_145570" data-name="Grupo 145570" clip-path="url(#clip-path-31)">
+                <g id="Grupo_145566" data-name="Grupo 145566" style="isolation: isolate">
+                  <g id="Grupo_145565" data-name="Grupo 145565">
+                    <g id="Grupo_145564" data-name="Grupo 145564" clip-path="url(#clip-path-32)">
+                      <text id="recogen_" data-name="recogen " transform="translate(954.336 331)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ecogen </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145569" data-name="Grupo 145569" style="isolation: isolate">
+                  <g id="Grupo_145568" data-name="Grupo 145568">
+                    <g id="Grupo_145567" data-name="Grupo 145567" clip-path="url(#clip-path-33)">
+                      <text id="información_básica" data-name="información básica" transform="translate(912.33 354)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">información básica</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145581" data-name="Grupo 145581" style="isolation: isolate">
+            <g id="Grupo_145580" data-name="Grupo 145580">
+              <g id="Grupo_145579" data-name="Grupo 145579" clip-path="url(#clip-path-34)">
+                <g id="Grupo_145575" data-name="Grupo 145575" style="isolation: isolate">
+                  <g id="Grupo_145574" data-name="Grupo 145574">
+                    <g id="Grupo_145573" data-name="Grupo 145573" clip-path="url(#clip-path-35)">
+                      <text id="si_no_están_asegurados" data-name="si no están asegurados" transform="translate(522.406 335)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">si no están asegu</tspan><tspan y="0" letter-spacing="-0.023em">r</tspan><tspan y="0">ados</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145578" data-name="Grupo 145578" style="isolation: isolate">
+                  <g id="Grupo_145577" data-name="Grupo 145577">
+                    <g id="Grupo_145576" data-name="Grupo 145576" clip-path="url(#clip-path-36)">
+                      <text id="con_un_honeywall_" data-name="con un &quot;honeywall&quot;" transform="translate(539.165 358)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">con un &quot;hon</tspan><tspan y="0" letter-spacing="-0.006em">e</tspan><tspan y="0">ywall&quot;</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145590" data-name="Grupo 145590" style="isolation: isolate">
+            <g id="Grupo_145589" data-name="Grupo 145589">
+              <g id="Grupo_145588" data-name="Grupo 145588" clip-path="url(#clip-path-37)">
+                <g id="Grupo_145584" data-name="Grupo 145584" style="isolation: isolate">
+                  <g id="Grupo_145583" data-name="Grupo 145583">
+                    <g id="Grupo_145582" data-name="Grupo 145582" clip-path="url(#clip-path-38)">
+                      <text id="un_hacker_realmente" data-name="un hacker realmente" transform="translate(533.147 503)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">un hac</tspan><tspan y="0" letter-spacing="-0.01em">k</tspan><tspan y="0">er </tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ealmente</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145587" data-name="Grupo 145587" style="isolation: isolate">
+                  <g id="Grupo_145586" data-name="Grupo 145586">
+                    <g id="Grupo_145585" data-name="Grupo 145585" clip-path="url(#clip-path-39)">
+                      <text id="decidido_y_astuto" data-name="decidido y astuto" transform="translate(543.349 526)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">decidido y astu</tspan><tspan y="0" letter-spacing="-0.011em">t</tspan><tspan y="0">o</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145599" data-name="Grupo 145599" style="isolation: isolate">
+            <g id="Grupo_145598" data-name="Grupo 145598">
+              <g id="Grupo_145597" data-name="Grupo 145597" clip-path="url(#clip-path-40)">
+                <g id="Grupo_145593" data-name="Grupo 145593" style="isolation: isolate">
+                  <g id="Grupo_145592" data-name="Grupo 145592">
+                    <g id="Grupo_145591" data-name="Grupo 145591" clip-path="url(#clip-path-41)">
+                      <text id="un_honeypot_de" data-name="un honeypot de" transform="translate(552.036 653)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">un hon</tspan><tspan y="0" letter-spacing="-0.006em">e</tspan><tspan y="0">ypot de</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145596" data-name="Grupo 145596" style="isolation: isolate">
+                  <g id="Grupo_145595" data-name="Grupo 145595">
+                    <g id="Grupo_145594" data-name="Grupo 145594" clip-path="url(#clip-path-42)">
+                      <text id="alta_interacción" data-name="alta interacción" transform="translate(549.84 676)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">alta inte</tspan><tspan y="0" letter-spacing="-0.021em">r</tspan><tspan y="0">acción</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145608" data-name="Grupo 145608" style="isolation: isolate">
+            <g id="Grupo_145607" data-name="Grupo 145607">
+              <g id="Grupo_145606" data-name="Grupo 145606" clip-path="url(#clip-path-43)">
+                <g id="Grupo_145602" data-name="Grupo 145602" style="isolation: isolate">
+                  <g id="Grupo_145601" data-name="Grupo 145601">
+                    <g id="Grupo_145600" data-name="Grupo 145600" clip-path="url(#clip-path-44)">
+                      <text id="atacar_a_otros" data-name="atacar a otros" transform="translate(440.547 802)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">atacar a ot</tspan><tspan y="0" letter-spacing="-0.01em">r</tspan><tspan y="0">os</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145605" data-name="Grupo 145605" style="isolation: isolate">
+                  <g id="Grupo_145604" data-name="Grupo 145604">
+                    <g id="Grupo_145603" data-name="Grupo 145603" clip-path="url(#clip-path-45)">
+                      <text id="hosts_de_Internet" data-name="hosts de Internet" transform="translate(427.191 825)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">hosts de Internet</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145617" data-name="Grupo 145617" style="isolation: isolate">
+            <g id="Grupo_145616" data-name="Grupo 145616">
+              <g id="Grupo_145615" data-name="Grupo 145615" clip-path="url(#clip-path-46)">
+                <g id="Grupo_145611" data-name="Grupo 145611" style="isolation: isolate">
+                  <g id="Grupo_145610" data-name="Grupo 145610">
+                    <g id="Grupo_145609" data-name="Grupo 145609" clip-path="url(#clip-path-47)">
+                      <text id="enviar_spam_desde_una" data-name="enviar spam desde una" transform="translate(640.614 802)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">enviar spam desde una</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145614" data-name="Grupo 145614" style="isolation: isolate">
+                  <g id="Grupo_145613" data-name="Grupo 145613">
+                    <g id="Grupo_145612" data-name="Grupo 145612" clip-path="url(#clip-path-48)">
+                      <text id="máquina_comprometida" data-name="máquina comprometida" transform="translate(637.563 825)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">máquina comp</tspan><tspan y="0" letter-spacing="-0.008em">r</tspan><tspan y="0">ometida</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145623" data-name="Grupo 145623" style="isolation: isolate">
+            <g id="Grupo_145622" data-name="Grupo 145622">
+              <g id="Grupo_145621" data-name="Grupo 145621" clip-path="url(#clip-path-49)">
+                <g id="Grupo_145620" data-name="Grupo 145620" style="isolation: isolate">
+                  <g id="Grupo_145619" data-name="Grupo 145619">
+                    <g id="Grupo_145618" data-name="Grupo 145618" clip-path="url(#clip-path-49)">
+                      <text id="sus_objetivos" data-name="sus objetivos" transform="translate(150.17 701)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sus objeti</tspan><tspan y="0" letter-spacing="-0.008em">v</tspan><tspan y="0">os</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145632" data-name="Grupo 145632" style="isolation: isolate">
+            <g id="Grupo_145631" data-name="Grupo 145631">
+              <g id="Grupo_145630" data-name="Grupo 145630" clip-path="url(#clip-path-51)">
+                <g id="Grupo_145626" data-name="Grupo 145626" style="isolation: isolate">
+                  <g id="Grupo_145625" data-name="Grupo 145625">
+                    <g id="Grupo_145624" data-name="Grupo 145624" clip-path="url(#clip-path-52)">
+                      <text id="sus_vulnerabilidades" data-name="sus vulnerabilidades" transform="translate(122.998 560)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sus vulne</tspan><tspan y="0" letter-spacing="-0.02em">r</tspan><tspan y="0">abilidades</tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145629" data-name="Grupo 145629" style="isolation: isolate">
+                  <g id="Grupo_145628" data-name="Grupo 145628">
+                    <g id="Grupo_145627" data-name="Grupo 145627" clip-path="url(#clip-path-53)">
+                      <text id="que_están_explotando" data-name="que están explotando" transform="translate(118.669 583)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">que están explotando</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145638" data-name="Grupo 145638" style="isolation: isolate">
+            <g id="Grupo_145637" data-name="Grupo 145637">
+              <g id="Grupo_145636" data-name="Grupo 145636" clip-path="url(#clip-path-54)">
+                <g id="Grupo_145635" data-name="Grupo 145635" style="isolation: isolate">
+                  <g id="Grupo_145634" data-name="Grupo 145634">
+                    <g id="Grupo_145633" data-name="Grupo 145633" clip-path="url(#clip-path-54)">
+                      <text id="su_modus_operandi" data-name="su modus operandi" transform="translate(127.563 642)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">su modus ope</tspan><tspan y="0" letter-spacing="-0.019em">r</tspan><tspan y="0">andi</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145644" data-name="Grupo 145644" style="isolation: isolate">
+            <g id="Grupo_145643" data-name="Grupo 145643">
+              <g id="Grupo_145642" data-name="Grupo 145642" clip-path="url(#clip-path-56)">
+                <g id="Grupo_145641" data-name="Grupo 145641" style="isolation: isolate">
+                  <g id="Grupo_145640" data-name="Grupo 145640">
+                    <g id="Grupo_145639" data-name="Grupo 145639" clip-path="url(#clip-path-56)">
+                      <text id="tienen_como_objetivo" data-name="tienen como objetivo" transform="translate(67 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">tienen como objeti</tspan><tspan y="0" letter-spacing="-0.008em">v</tspan><tspan y="0">o</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145650" data-name="Grupo 145650" style="isolation: isolate">
+            <g id="Grupo_145649" data-name="Grupo 145649">
+              <g id="Grupo_145648" data-name="Grupo 145648" clip-path="url(#clip-path-58)">
+                <g id="Grupo_145647" data-name="Grupo 145647" style="isolation: isolate">
+                  <g id="Grupo_145646" data-name="Grupo 145646">
+                    <g id="Grupo_145645" data-name="Grupo 145645" clip-path="url(#clip-path-58)">
+                      <text id="ofreciendo" transform="translate(105 429)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">of</tspan><tspan y="0" letter-spacing="-0.008em">r</tspan><tspan y="0">eciendo</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145656" data-name="Grupo 145656" style="isolation: isolate">
+            <g id="Grupo_145655" data-name="Grupo 145655">
+              <g id="Grupo_145654" data-name="Grupo 145654" clip-path="url(#clip-path-60)">
+                <g id="Grupo_145653" data-name="Grupo 145653" style="isolation: isolate">
+                  <g id="Grupo_145652" data-name="Grupo 145652">
+                    <g id="Grupo_145651" data-name="Grupo 145651" clip-path="url(#clip-path-60)">
+                      <text id="sobre" transform="translate(19 598)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sob</tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">e</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145662" data-name="Grupo 145662" style="isolation: isolate">
+            <g id="Grupo_145661" data-name="Grupo 145661">
+              <g id="Grupo_145660" data-name="Grupo 145660" clip-path="url(#clip-path-62)">
+                <g id="Grupo_145659" data-name="Grupo 145659" style="isolation: isolate">
+                  <g id="Grupo_145658" data-name="Grupo 145658">
+                    <g id="Grupo_145657" data-name="Grupo 145657" clip-path="url(#clip-path-62)">
+                      <text id="son" transform="translate(392 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">son</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145668" data-name="Grupo 145668" style="isolation: isolate">
+            <g id="Grupo_145667" data-name="Grupo 145667">
+              <g id="Grupo_145666" data-name="Grupo 145666" clip-path="url(#clip-path-64)">
+                <g id="Grupo_145665" data-name="Grupo 145665" style="isolation: isolate">
+                  <g id="Grupo_145664" data-name="Grupo 145664">
+                    <g id="Grupo_145663" data-name="Grupo 145663" clip-path="url(#clip-path-64)">
+                      <text id="por_tanto" data-name="por tanto" transform="translate(365 426)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">por tan</tspan><tspan y="0" letter-spacing="-0.01em">t</tspan><tspan y="0">o</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145674" data-name="Grupo 145674" style="isolation: isolate">
+            <g id="Grupo_145673" data-name="Grupo 145673">
+              <g id="Grupo_145672" data-name="Grupo 145672" clip-path="url(#clip-path-66)">
+                <g id="Grupo_145671" data-name="Grupo 145671" style="isolation: isolate">
+                  <g id="Grupo_145670" data-name="Grupo 145670">
+                    <g id="Grupo_145669" data-name="Grupo 145669" clip-path="url(#clip-path-66)">
+                      <text id="por_ello" data-name="por ello" transform="translate(582 425)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">por ello</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145680" data-name="Grupo 145680" style="isolation: isolate">
+            <g id="Grupo_145679" data-name="Grupo 145679">
+              <g id="Grupo_145678" data-name="Grupo 145678" clip-path="url(#clip-path-68)">
+                <g id="Grupo_145677" data-name="Grupo 145677" style="isolation: isolate">
+                  <g id="Grupo_145676" data-name="Grupo 145676">
+                    <g id="Grupo_145675" data-name="Grupo 145675" clip-path="url(#clip-path-68)">
+                      <text id="podría_utilizar" data-name="podría utilizar" transform="translate(559 591)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">podría utilizar</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145686" data-name="Grupo 145686" style="isolation: isolate">
+            <g id="Grupo_145685" data-name="Grupo 145685">
+              <g id="Grupo_145684" data-name="Grupo 145684" clip-path="url(#clip-path-70)">
+                <g id="Grupo_145683" data-name="Grupo 145683" style="isolation: isolate">
+                  <g id="Grupo_145682" data-name="Grupo 145682">
+                    <g id="Grupo_145681" data-name="Grupo 145681" clip-path="url(#clip-path-70)">
+                      <text id="para" transform="translate(594 741)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pa</tspan><tspan y="0" letter-spacing="-0.019em">r</tspan><tspan y="0">a</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145692" data-name="Grupo 145692" style="isolation: isolate">
+            <g id="Grupo_145691" data-name="Grupo 145691">
+              <g id="Grupo_145690" data-name="Grupo 145690" clip-path="url(#clip-path-72)">
+                <g id="Grupo_145689" data-name="Grupo 145689" style="isolation: isolate">
+                  <g id="Grupo_145688" data-name="Grupo 145688">
+                    <g id="Grupo_145687" data-name="Grupo 145687" clip-path="url(#clip-path-72)">
+                      <text id="pueden_crear_un_riesgo" data-name="pueden crear un riesgo" transform="translate(522 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">pueden c</tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ear un riesgo</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145698" data-name="Grupo 145698" style="isolation: isolate">
+            <g id="Grupo_145697" data-name="Grupo 145697">
+              <g id="Grupo_145696" data-name="Grupo 145696" clip-path="url(#clip-path-74)">
+                <g id="Grupo_145695" data-name="Grupo 145695" style="isolation: isolate">
+                  <g id="Grupo_145694" data-name="Grupo 145694">
+                    <g id="Grupo_145693" data-name="Grupo 145693" clip-path="url(#clip-path-74)">
+                      <text id="y" transform="translate(983 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">y</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145704" data-name="Grupo 145704" style="isolation: isolate">
+            <g id="Grupo_145703" data-name="Grupo 145703">
+              <g id="Grupo_145702" data-name="Grupo 145702" clip-path="url(#clip-path-76)">
+                <g id="Grupo_145701" data-name="Grupo 145701" style="isolation: isolate">
+                  <g id="Grupo_145700" data-name="Grupo 145700">
+                    <g id="Grupo_145699" data-name="Grupo 145699" clip-path="url(#clip-path-76)">
+                      <text id="son-2" data-name="son" transform="translate(1155 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">son</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145710" data-name="Grupo 145710" style="isolation: isolate">
+            <g id="Grupo_145709" data-name="Grupo 145709">
+              <g id="Grupo_145708" data-name="Grupo 145708" clip-path="url(#clip-path-78)">
+                <g id="Grupo_145707" data-name="Grupo 145707" style="isolation: isolate">
+                  <g id="Grupo_145706" data-name="Grupo 145706">
+                    <g id="Grupo_145705" data-name="Grupo 145705" clip-path="url(#clip-path-78)">
+                      <text id="generalmente_con" data-name="generalmente con" transform="translate(1097 435)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">gene</tspan><tspan y="0" letter-spacing="-0.02em">r</tspan><tspan y="0">almente con</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145716" data-name="Grupo 145716" style="isolation: isolate">
+            <g id="Grupo_145715" data-name="Grupo 145715">
+              <g id="Grupo_145714" data-name="Grupo 145714" clip-path="url(#clip-path-80)">
+                <g id="Grupo_145713" data-name="Grupo 145713" style="isolation: isolate">
+                  <g id="Grupo_145712" data-name="Grupo 145712">
+                    <g id="Grupo_145711" data-name="Grupo 145711" clip-path="url(#clip-path-80)">
+                      <text id="utilizan" transform="translate(786 257)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">utilizan</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145722" data-name="Grupo 145722" style="isolation: isolate">
+            <g id="Grupo_145721" data-name="Grupo 145721">
+              <g id="Grupo_145720" data-name="Grupo 145720" clip-path="url(#clip-path-82)">
+                <g id="Grupo_145719" data-name="Grupo 145719" style="isolation: isolate">
+                  <g id="Grupo_145718" data-name="Grupo 145718">
+                    <g id="Grupo_145717" data-name="Grupo 145717" clip-path="url(#clip-path-82)">
+                      <text id="sobre-2" data-name="sobre" transform="translate(970 435)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sob</tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">e</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Trazado_192718" data-name="Trazado 192718" d="M295,150H495.164L505,161.968v31.086H305.048L295,181.233Z" fill="#8024b3"/>
+      <path id="Trazado_192719" data-name="Trazado 192719" d="M735,150H935.164L945,161.968v31.086H745.048L735,181.233Z" fill="#8024b3"/>
+      <g id="Grupo_145780" data-name="Grupo 145780">
+        <g id="Grupo_145779" data-name="Grupo 145779" clip-path="url(#clip-path)">
+          <g id="Grupo_145730" data-name="Grupo 145730" style="isolation: isolate">
+            <g id="Grupo_145729" data-name="Grupo 145729">
+              <g id="Grupo_145728" data-name="Grupo 145728" clip-path="url(#clip-path-85)">
+                <g id="Grupo_145727" data-name="Grupo 145727" style="isolation: isolate">
+                  <g id="Grupo_145726" data-name="Grupo 145726">
+                    <g id="Grupo_145725" data-name="Grupo 145725" clip-path="url(#clip-path-85)">
+                      <text id="de_alta_interacción" data-name="de alta interacción" transform="translate(328 178)" fill="#fff" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">de alta inte</tspan><tspan y="0" letter-spacing="-0.014em">r</tspan><tspan y="0">acción</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145736" data-name="Grupo 145736" style="isolation: isolate">
+            <g id="Grupo_145735" data-name="Grupo 145735">
+              <g id="Grupo_145734" data-name="Grupo 145734" clip-path="url(#clip-path-87)">
+                <g id="Grupo_145733" data-name="Grupo 145733" style="isolation: isolate">
+                  <g id="Grupo_145732" data-name="Grupo 145732">
+                    <g id="Grupo_145731" data-name="Grupo 145731" clip-path="url(#clip-path-87)">
+                      <text id="de_baja_interacción" data-name="de baja interacción" transform="translate(768 178)" fill="#fff" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">de baja inte</tspan><tspan y="0" letter-spacing="-0.014em">r</tspan><tspan y="0">acción</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145751" data-name="Grupo 145751" style="isolation: isolate">
+            <g id="Grupo_145750" data-name="Grupo 145750">
+              <g id="Grupo_145749" data-name="Grupo 145749" clip-path="url(#clip-path-89)">
+                <g id="Grupo_145739" data-name="Grupo 145739" style="isolation: isolate">
+                  <g id="Grupo_145738" data-name="Grupo 145738">
+                    <g id="Grupo_145737" data-name="Grupo 145737" clip-path="url(#clip-path-90)">
+                      <text id="es_más_difícil_y_" data-name="es más difícil y " transform="translate(340.736 503)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">es más difícil y </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145742" data-name="Grupo 145742" style="isolation: isolate">
+                  <g id="Grupo_145741" data-name="Grupo 145741">
+                    <g id="Grupo_145740" data-name="Grupo 145740" clip-path="url(#clip-path-91)">
+                      <text id="lleva_más_tiempo_" data-name="lleva  más tiempo " transform="translate(330.465 526)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ll</tspan><tspan y="0" letter-spacing="-0.006em">e</tspan><tspan y="0" letter-spacing="-0.007em">v</tspan><tspan y="0" xml:space="preserve">a  más tiempo </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145745" data-name="Grupo 145745" style="isolation: isolate">
+                  <g id="Grupo_145744" data-name="Grupo 145744">
+                    <g id="Grupo_145743" data-name="Grupo 145743" clip-path="url(#clip-path-92)">
+                      <text id="montarlas_y_" data-name="montarlas  y " transform="translate(350.333 549)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">montarlas  y </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145748" data-name="Grupo 145748" style="isolation: isolate">
+                  <g id="Grupo_145747" data-name="Grupo 145747">
+                    <g id="Grupo_145746" data-name="Grupo 145746" clip-path="url(#clip-path-93)">
+                      <text id="supervisarlas" transform="translate(346.473 572)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">supe</tspan><tspan y="0" letter-spacing="0.008em">r</tspan><tspan y="0">visarlas</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145769" data-name="Grupo 145769" style="isolation: isolate">
+            <g id="Grupo_145768" data-name="Grupo 145768">
+              <g id="Grupo_145767" data-name="Grupo 145767" clip-path="url(#clip-path-94)">
+                <g id="Grupo_145754" data-name="Grupo 145754" style="isolation: isolate">
+                  <g id="Grupo_145753" data-name="Grupo 145753">
+                    <g id="Grupo_145752" data-name="Grupo 145752" clip-path="url(#clip-path-95)">
+                      <text id="algunos_" data-name="algunos " transform="translate(1032.438 499)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">algunos </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145757" data-name="Grupo 145757" style="isolation: isolate">
+                  <g id="Grupo_145756" data-name="Grupo 145756">
+                    <g id="Grupo_145755" data-name="Grupo 145755" clip-path="url(#clip-path-96)">
+                      <text id="protocolos_" data-name="protocolos " transform="translate(1019.854 522)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">p</tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">o</tspan><tspan y="0" letter-spacing="-0.009em">t</tspan><tspan y="0">ocolos </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145760" data-name="Grupo 145760" style="isolation: isolate">
+                  <g id="Grupo_145759" data-name="Grupo 145759">
+                    <g id="Grupo_145758" data-name="Grupo 145758" clip-path="url(#clip-path-97)">
+                      <text id="TCP_e_IP_" data-name="TCP e IP " transform="translate(1030.264 545)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" letter-spacing="-0.013em">T</tspan><tspan y="0">CP e IP </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145763" data-name="Grupo 145763" style="isolation: isolate">
+                  <g id="Grupo_145762" data-name="Grupo 145762">
+                    <g id="Grupo_145761" data-name="Grupo 145761" clip-path="url(#clip-path-98)">
+                      <text id="básicos_" data-name="básicos " transform="translate(1032.981 568)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">básicos </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145766" data-name="Grupo 145766" style="isolation: isolate">
+                  <g id="Grupo_145765" data-name="Grupo 145765">
+                    <g id="Grupo_145764" data-name="Grupo 145764" clip-path="url(#clip-path-99)">
+                      <text id="simulados" transform="translate(1023.208 591)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">simulados</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_145778" data-name="Grupo 145778" style="isolation: isolate">
+            <g id="Grupo_145777" data-name="Grupo 145777">
+              <g id="Grupo_145776" data-name="Grupo 145776" clip-path="url(#clip-path-100)">
+                <g id="Grupo_145772" data-name="Grupo 145772" style="isolation: isolate">
+                  <g id="Grupo_145771" data-name="Grupo 145771">
+                    <g id="Grupo_145770" data-name="Grupo 145770" clip-path="url(#clip-path-101)">
+                      <text id="servicios_" data-name="servicios " transform="translate(1155.137 504)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">se</tspan><tspan y="0" letter-spacing="0.008em">r</tspan><tspan y="0">vicios </tspan></text>
+                    </g>
+                  </g>
+                </g>
+                <g id="Grupo_145775" data-name="Grupo 145775" style="isolation: isolate">
+                  <g id="Grupo_145774" data-name="Grupo 145774">
+                    <g id="Grupo_145773" data-name="Grupo 145773" clip-path="url(#clip-path-102)">
+                      <text id="de_red" data-name="de red" transform="translate(1165.4 527)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">de </tspan><tspan y="0" letter-spacing="-0.009em">r</tspan><tspan y="0">ed</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line id="Línea_223" data-name="Línea 223" y2="36.1" transform="translate(620 50.014)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192720" data-name="Trazado 192720" d="M565,105.5H409.144v45.167" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192721" data-name="Trazado 192721" d="M675,105.5H830.855v45.167" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_224" data-name="Línea 224" y2="43.933" transform="translate(409.144 193.054)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192722" data-name="Trazado 192722" d="M155.9,233.022V211.766H619.779v27.508" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_225" data-name="Línea 225" y2="44.724" transform="translate(155.9 264.4)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_226" data-name="Línea 226" y2="44.724" transform="translate(409.145 264.4)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_227" data-name="Línea 227" y2="44.724" transform="translate(619.779 264.4)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_228" data-name="Línea 228" y2="44.724" transform="translate(830.858 264.4)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_229" data-name="Línea 229" y2="44.724" transform="translate(987.001 264.4)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_230" data-name="Línea 230" y2="44.724" transform="translate(987.001 372)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_231" data-name="Línea 231" y2="44.724" transform="translate(1166.001 372)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_232" data-name="Línea 232" y2="44.724" transform="translate(1165.253 264.4)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_233" data-name="Línea 233" y2="33.308" transform="translate(155.9 374)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_234" data-name="Línea 234" y2="33.308" transform="translate(409.145 374)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_235" data-name="Línea 235" y2="33.308" transform="translate(409.145 443.692)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_236" data-name="Línea 236" y2="33.308" transform="translate(610.501 374)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_237" data-name="Línea 237" y2="33.308" transform="translate(610.501 443.692)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_238" data-name="Línea 238" y2="33.308" transform="translate(610.501 540)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_239" data-name="Línea 239" y2="33.308" transform="translate(610.501 595)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_240" data-name="Línea 240" y2="33.308" transform="translate(610.501 690)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192723" data-name="Trazado 192723" d="M93.852,423H44.463V574.524" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192724" data-name="Trazado 192724" d="M69.157,592H85V494.624h20" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192725" data-name="Trazado 192725" d="M105,695H85V591.729" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_241" data-name="Línea 241" x1="20" transform="translate(85 637.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_242" data-name="Línea 242" x1="20" transform="translate(85 567)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192726" data-name="Trazado 192726" d="M589.782,738.391H525v37.277" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_192727" data-name="Trazado 192727" d="M634,738.391h64.782v37.277" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_243" data-name="Línea 243" y2="47.892" transform="translate(830.856 193.054)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <path id="Trazado_192728" data-name="Trazado 192728" d="M830.856,217h334.4v24.459" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_244" data-name="Línea 244" y2="24.129" transform="translate(987 217)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <path id="Trazado_192729" data-name="Trazado 192729" d="M965.341,429H945V633.67H925" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_245" data-name="Línea 245" x2="20" transform="translate(925 495)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <line id="Línea_246" data-name="Línea 246" x2="20" transform="translate(925 564)" fill="none" stroke="#500c75" stroke-width="1"/>
+      <path id="Trazado_192730" data-name="Trazado 192730" d="M1166,440.737l-.01,19.236h25.5l.01,17.188" fill="none" stroke="#500c75" stroke-width="1"/>
+      <path id="Trazado_192731" data-name="Trazado 192731" d="M1166,459.967H1062.311V477" fill="none" stroke="#500c75" stroke-width="1"/>
+    </g>
+    <g id="right-arrow" transform="translate(475 8807.098) rotate(-90)">
+      <path id="Trazado_193238" data-name="Trazado 193238" d="M89.189,105.741,54.612,140.322a3.514,3.514,0,0,1-4.97,0l-8.555-8.555a3.514,3.514,0,0,1,0-4.969l23.537-23.542-13.8-13.8-9.739-9.739a3.514,3.514,0,0,1,0-4.97L49.642,66.2a3.514,3.514,0,0,1,4.97,0L77.875,89.459l11.313,11.313A3.514,3.514,0,0,1,89.189,105.741Z" transform="translate(-23.666 -52.158)" fill="#00d8de"/>
+      <path id="Trazado_193239" data-name="Trazado 193239" d="M78.145,89.74,64.62,103.264l-5.169-5.169-8.623-8.634-9.739-9.739a3.514,3.514,0,0,1,0-4.97L49.643,66.2a3.514,3.514,0,0,1,4.97,0L72.975,84.57Z" transform="translate(-23.667 -52.16)" fill="#00a5ff"/>
+      <path id="Trazado_193240" data-name="Trazado 193240" d="M163.474,175.089,149.95,188.613l-3.28-3.285L160.194,171.8Z" transform="translate(-108.997 -137.51)" fill="#0087ff"/>
+      <path id="Trazado_193241" data-name="Trazado 193241" d="M269.788,105.741l-34.577,34.581a3.514,3.514,0,0,1-4.97,0l-8.555-8.555a3.514,3.514,0,0,1,0-4.969l23.537-23.542-13.8-13.8-9.739-9.739a3.514,3.514,0,0,1,0-4.97l8.555-8.555a3.514,3.514,0,0,1,4.97,0l23.264,23.264,11.313,11.313A3.514,3.514,0,0,1,269.788,105.741Z" transform="translate(-168.215 -52.158)" fill="#00a5ff"/>
+      <path id="Trazado_193242" data-name="Trazado 193242" d="M258.744,89.74l-13.524,13.524-5.169-5.169-8.623-8.634-9.739-9.739a3.514,3.514,0,0,1,0-4.97l8.554-8.554a3.514,3.514,0,0,1,4.97,0L253.574,84.57Z" transform="translate(-168.216 -52.16)" fill="#00d8de"/>
+      <g id="Grupo_145838" data-name="Grupo 145838" transform="translate(73.723 34.294)">
+        <path id="Trazado_193243" data-name="Trazado 193243" d="M344.073,175.089l-13.524,13.524-3.28-3.285L340.793,171.8Z" transform="translate(-327.269 -171.804)" fill="#05c1c1"/>
+        <path id="Trazado_193244" data-name="Trazado 193244" d="M488.007,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,488.007,488.583Z" transform="translate(-454.723 -425.35)" fill="#05c1c1"/>
+        <path id="Trazado_193245" data-name="Trazado 193245" d="M443.735,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,443.735,488.583Z" transform="translate(-419.289 -425.35)" fill="#05c1c1"/>
+        <path id="Trazado_193246" data-name="Trazado 193246" d="M399.463,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,399.463,488.583Z" transform="translate(-383.854 -425.35)" fill="#05c1c1"/>
+      </g>
+      <g id="Grupo_145839" data-name="Grupo 145839" transform="translate(10.49)">
+        <path id="Trazado_193247" data-name="Trazado 193247" d="M100.531,4.674a1.5,1.5,0,0,0,1.5-1.5V1.5a1.5,1.5,0,1,0-2.994,0v1.68A1.5,1.5,0,0,0,100.531,4.674Z" transform="translate(-81.359)" fill="#0087ff"/>
+        <path id="Trazado_193248" data-name="Trazado 193248" d="M56.259,4.674a1.5,1.5,0,0,0,1.5-1.5V1.5a1.5,1.5,0,1,0-2.994,0v1.68A1.5,1.5,0,0,0,56.259,4.674Z" transform="translate(-45.925)" fill="#0087ff"/>
+        <path id="Trazado_193249" data-name="Trazado 193249" d="M11.987,0a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0V1.5A1.5,1.5,0,0,0,11.987,0Z" transform="translate(-10.49)" fill="#0087ff"/>
+      </g>
+    </g>
+    <g id="right-arrow-2" data-name="right-arrow" transform="translate(1125 8688.104) rotate(90)">
+      <path id="Trazado_193238-2" data-name="Trazado 193238" d="M89.189,105.741,54.612,140.322a3.514,3.514,0,0,1-4.97,0l-8.555-8.555a3.514,3.514,0,0,1,0-4.969l23.537-23.542-13.8-13.8-9.739-9.739a3.514,3.514,0,0,1,0-4.97L49.642,66.2a3.514,3.514,0,0,1,4.97,0L77.875,89.459l11.313,11.313A3.514,3.514,0,0,1,89.189,105.741Z" transform="translate(-23.666 -52.158)" fill="#00d8de"/>
+      <path id="Trazado_193239-2" data-name="Trazado 193239" d="M78.145,89.74,64.62,103.264l-5.169-5.169-8.623-8.634-9.739-9.739a3.514,3.514,0,0,1,0-4.97L49.643,66.2a3.514,3.514,0,0,1,4.97,0L72.975,84.57Z" transform="translate(-23.667 -52.16)" fill="#00a5ff"/>
+      <path id="Trazado_193240-2" data-name="Trazado 193240" d="M163.474,175.089,149.95,188.613l-3.28-3.285L160.194,171.8Z" transform="translate(-108.997 -137.51)" fill="#0087ff"/>
+      <path id="Trazado_193241-2" data-name="Trazado 193241" d="M269.788,105.741l-34.577,34.581a3.514,3.514,0,0,1-4.97,0l-8.555-8.555a3.514,3.514,0,0,1,0-4.969l23.537-23.542-13.8-13.8-9.739-9.739a3.514,3.514,0,0,1,0-4.97l8.555-8.555a3.514,3.514,0,0,1,4.97,0l23.264,23.264,11.313,11.313A3.514,3.514,0,0,1,269.788,105.741Z" transform="translate(-168.215 -52.158)" fill="#00a5ff"/>
+      <path id="Trazado_193242-2" data-name="Trazado 193242" d="M258.744,89.74l-13.524,13.524-5.169-5.169-8.623-8.634-9.739-9.739a3.514,3.514,0,0,1,0-4.97l8.554-8.554a3.514,3.514,0,0,1,4.97,0L253.574,84.57Z" transform="translate(-168.216 -52.16)" fill="#00d8de"/>
+      <g id="Grupo_145838-2" data-name="Grupo 145838" transform="translate(73.723 34.294)">
+        <path id="Trazado_193243-2" data-name="Trazado 193243" d="M344.073,175.089l-13.524,13.524-3.28-3.285L340.793,171.8Z" transform="translate(-327.269 -171.804)" fill="#05c1c1"/>
+        <path id="Trazado_193244-2" data-name="Trazado 193244" d="M488.007,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,488.007,488.583Z" transform="translate(-454.723 -425.35)" fill="#05c1c1"/>
+        <path id="Trazado_193245-2" data-name="Trazado 193245" d="M443.735,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,443.735,488.583Z" transform="translate(-419.289 -425.35)" fill="#05c1c1"/>
+        <path id="Trazado_193246-2" data-name="Trazado 193246" d="M399.463,488.583a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0v-1.68A1.5,1.5,0,0,0,399.463,488.583Z" transform="translate(-383.854 -425.35)" fill="#05c1c1"/>
+      </g>
+      <g id="Grupo_145839-2" data-name="Grupo 145839" transform="translate(10.49)">
+        <path id="Trazado_193247-2" data-name="Trazado 193247" d="M100.531,4.674a1.5,1.5,0,0,0,1.5-1.5V1.5a1.5,1.5,0,1,0-2.994,0v1.68A1.5,1.5,0,0,0,100.531,4.674Z" transform="translate(-81.359)" fill="#0087ff"/>
+        <path id="Trazado_193248-2" data-name="Trazado 193248" d="M56.259,4.674a1.5,1.5,0,0,0,1.5-1.5V1.5a1.5,1.5,0,1,0-2.994,0v1.68A1.5,1.5,0,0,0,56.259,4.674Z" transform="translate(-45.925)" fill="#0087ff"/>
+        <path id="Trazado_193249-2" data-name="Trazado 193249" d="M11.987,0a1.5,1.5,0,0,0-1.5,1.5v1.68a1.5,1.5,0,0,0,2.994,0V1.5A1.5,1.5,0,0,0,11.987,0Z" transform="translate(-10.49)" fill="#0087ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

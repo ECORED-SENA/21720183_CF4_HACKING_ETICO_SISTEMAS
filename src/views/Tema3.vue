@@ -90,17 +90,181 @@
     
     p.mb-4 Aunque este proceso parece bastante simple, su implementación es una actividad que requiere recursos intensivos y un apoyo continuo y automatizado, así como un esfuerzo administrativo diario. Además, la escala de las prácticas de detección de intrusos puede necesitar cambiar, como amenazas, configuraciones del sistema o requisitos de seguridad.
 
-    p.mb-5 En todos los casos, hay cinco áreas que deben ser abordadas:
+    p.mb-4 En todos los casos, hay cinco áreas que deben ser abordadas:
     
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+          h5 Figura 20.
+          span Áreas.
+
+        SlyderF(columnas="col-12")          
+          img(src="@/assets/curso/tema3/img08.png")
+          img(src="@/assets/curso/tema3/img09.png")
+          img(src="@/assets/curso/tema3/img10.png")
+          img(src="@/assets/curso/tema3/img11.png")
+          img(src="@/assets/curso/tema3/img12.png")
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .cajon.color-acento-botones.p-4.mb-0          
+          p.mb-0 Mientras busca signos de intrusión, tenga en cuenta que la información de una fuente puede no parecer sospechosa por sí misma. Las inconsistencias entre varias fuentes pueden ser a veces el mejor indicio de actividades o intrusiones sospechosas.
+
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Firewall y Honeypot
 
+    p.mb-4 A continuación, se abordan estos dos términos importantes en la seguridad informática.
+
+    .row.justify-content-start.align-items-center.mb-4.mt-3
+      .col-lg-4
+        img.w-100(src="@/assets/curso/tema3/img13.svg")
+
+    p.mb-5 Un cortafuegos es un dispositivo de seguridad de red que monitoriza el tráfico de red entrante y saliente y decide si permite o bloquea un tráfico específico basándose en un conjunto definido de reglas de seguridad.
+
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4 
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema3/img14.png')})`}"
+            )
+            .bloque-texto-g__texto.py-5(style="width:67% !important; padding: 2.4rem 2.2rem 2.4rem 2.2rem !important;")              
+              p.mb-0 Los cortafuegos han sido la primera línea de defensa en la seguridad de la red durante más de 25 años. Establecen una barrera entre las redes internas aseguradas y controladas, que pueden ser confiables, y las redes externas no confiables, como la Internet. 
+
+          p.mb-5 Un cortafuegos puede ser de hardware, software, o ambos. Los tipos de cortafuegos pueden dividirse en varias categorías diferentes, según su estructura general y su método de funcionamiento. Aquí hay ocho tipos de cortafuegos: 
+    
+          .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+            h5 Figura 21.
+            span Tipos de cortafuegos.
+          figure.mb-0
+            img(src="@/assets/curso/tema3/img15.svg")
+
+    .fondo4-tema3.py-5.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          div.mb-4
+            img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img26.svg")  
+            h4.mb-0(style="display:inline") Tipos de firewall
+          
+          p.mb-4 Una vez que los primeros administradores de sistemas de Internet comenzaron a entender que eran atacados con frecuencia, el cortafuegos en la red resultaba inevitable, estaba destinado a haber algún tipo de proceso que mirara el tráfico de la red en busca de señales claras de atacantes, exactamente cómo iba a funcionar esto no estaba tan claro.
+    
+      .row.fondo5-tema3.justify-content-center.align-items-center.mb-4.mx-0        
+        .col-lg-7.ps-5
+          p.mb-0 Los dispositivos y servicios de cortafuegos pueden ofrecer protección más allá de la función estándar del cortafuegos, por ejemplo, proporcionando detección de intrusos, protección contra ataques de denegación de servicio y otros servicios de seguridad para proteger los servidores y otros dispositivos dentro de la red privada. Aunque algunos tipos de cortafuegos pueden funcionar como dispositivos de seguridad multifuncionales, no permita que tales ofertas distraigan de la cuestión clave: <b>¿Protege este cortafuegos la red privada de las amenazas externas mediante el examen de las unidades de datos del protocolo?</b>
+        .col-lg-3
+          figure
+            img(src='@/assets/curso/tema3/img19.png')   
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          p.mb-4  Un cortafuegos de aplicación es un tipo de cortafuegos que gobierna el tráfico hacia, desde o por una aplicación o servicio. Los cortafuegos de aplicaciones, o cortafuegos de capa de aplicación, utilizan una serie de políticas configuradas para determinar si se deben bloquear o permitir las comunicaciones hacia o desde una aplicación.
+          p Los cortafuegos tradicionales controlan el flujo de datos hacia y desde la CPU, examinando cada paquete a medida que pasa. Un cortafuegos de aplicación lo lleva más lejos, al controlar la ejecución de archivos o código por parte de aplicaciones específicas. De esta manera, incluso si un intruso entra en una red o un servidor, no puede ejecutar código malicioso.
+    
+      .row.justify-content-center.align-items-center
+        .col-lg-6.py-2(style="background-color: #79F5ED")
+          p.mb-0.text-center.my-1 Los cortafuegos de aplicaciones pueden ser activos o pasivos:
+
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+            h5 Figura 22.
+            span Cortafuegos de aplicaciones.
+          .tarjeta--container.row.pt-0
+            .col-md.p-5(style="background-color:#E3D2FD")
+              .row.justify-content-center.mb-4
+                .col-6.d-flex.justify-content-center
+                  figure(style="width:170px")
+                    img(src='@/assets/curso/tema3/img20.svg')
+                
+              h1.text-center Activos
+              p.px-5 Los firewalls de aplicaciones activos inspeccionan activamente todas las solicitudes entrantes, incluyendo el mensaje real que se está intercambiando, contra vulnerabilidades conocidas, como las inyecciones de SQL, la manipulación de parámetros y cookies y las secuencias de comandos de sitios cruzados. Sólo las solicitudes que se consideran "limpias" se pasan a la aplicación.
+
+            .col-md.tarjeta.p-5(style="background-color:#F7C4D3")
+              .row.justify-content-center.mb-4
+                .col-6.d-flex.justify-content-center
+                  figure(style="width:170px")
+                    img(src='@/assets/curso/tema3/img21.svg')
+                
+              h1.text-center Pasivos
+              p.px-5 Los cortafuegos pasivos de las aplicaciones actúan de forma similar a un sistema de detección de intrusos (IDS) en el sentido de que también inspeccionan todas las solicitudes entrantes contra vulnerabilidades conocidas, pero no rechazan o niegan activamente esas solicitudes si se descubre un posible ataque.
+
+    p.mb-4 Los cortafuegos de aplicaciones son generalmente actualizables de forma remota, lo que les permite prevenir vulnerabilidades recién descubiertas. Suelen estar más actualizados que el código específico centrado en la seguridad que se incluye en las aplicaciones, debido a los ciclos de desarrollo y prueba más largos que se requieren para incluir dicho código en las aplicaciones.
+    p.mb-5 Hoy en día, lo más común es ver cortafuegos de aplicaciones web (WAF) para filtrar, monitorear y bloquear el tráfico HTTP/S hacia y desde una aplicación web, específicamente.
+
+    .row.justify-content-start.align-items-center.mb-5.mt-3
+      .col-lg-4
+        img.w-100(src="@/assets/curso/tema3/img22.svg")
+
+    p.mb-4 Una definición de <b>honeypot</b> viene del mundo del espionaje, donde los espías al estilo Mata Hari, que usan una relación romántica como una forma de robar secretos, son descritos como una "trampa de miel" o "honeypot". A menudo, un espía enemigo es comprometido por una trampa de miel y luego es chantajeado para entregar todo lo que sabe.
+    
+    .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+      h5 Figura 23.
+      span Honeypot.
+    figure.mb-5
+      img(src="@/assets/curso/tema3/img23.svg")
+
+    .fondo4-tema3.py-5.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          div.mb-4
+            img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img26.svg")  
+            h4.mb-0(style="display:inline") Tipos de honeypot 
+          
+          p.mb-4 Se pueden utilizar diferentes tipos de <b>honeypot</b> para identificar diferentes tipos de amenazas, las distintas definiciones de honeypot se basan en el tipo de amenaza que se aborda, todas ellas tienen cabida en una estrategia de seguridad cibernética completa y eficaz.
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-10.ps-5.py-0
+          .row.justify-content-center.align-items-center.mb-0.py-4(style="border-top: 2px solid #8F52F5")
+            .col-1(style="position:relative")
+              img(style="position: relative; left:-65%; min-width: 45px" src="@/assets/curso/tema3/img25.svg")
+            .col-11.ps-0.pe-5
+              p.mb-0.me-3 Las trampas de correo electrónico o de correo basura colocan una dirección de correo electrónico falsa en un lugar oculto, donde sólo un recolector de direcciones automatizado podrá encontrarla. Dado que la dirección no se utiliza para ningún otro propósito que no sea la trampa de spam, es 100% seguro que cualquier correo que llegue a ella es spam. Todos los mensajes con el mismo contenido que los enviados a la trampa de spam pueden ser bloqueados automáticamente, y la IP de origen de los remitentes puede ser añadida a una lista negra.
+
+          .row.justify-content-center.align-items-center.mb-0.py-4(style="border-top: 2px solid #8F52F5")
+            .col-1(style="position:relative")
+              img(style="position: relative; left:-65%; min-width: 45px" src="@/assets/curso/tema3/img26.svg")
+            .col-11.ps-0.pe-5
+              p.mb-0.me-3 Base de datos señuelo para monitorear las vulnerabilidades del software y detectar ataques que exploten la arquitectura insegura del sistema o que utilicen la inyección SQL, la explotación de servicios SQL o el abuso de privilegios.
+
+          .row.justify-content-center.align-items-center.mb-0.py-4(style="border-top: 2px solid #8F52F5")
+            .col-1(style="position:relative")
+              img(style="position: relative; left:-65%; min-width: 45px" src="@/assets/curso/tema3/img27.svg")
+            .col-11.ps-0.pe-5
+              p.mb-0.me-3 Un honeypot de malware imita las aplicaciones de software y las API, para invitar a los ataques de malware. A continuación, se pueden analizar las características del malware para desarrollar software antimalware o para cerrar las vulnerabilidades de la API.
+
+          .row.justify-content-center.align-items-center.mb-0.py-4.mb-4(style="border-top: 2px solid #8F52F5; border-bottom: 2px solid #8F52F5")
+            .col-1(style="position:relative")
+              img(style="position: relative; left:-65%; min-width: 45px" src="@/assets/curso/tema3/img28.svg")
+            .col-11.ps-0.pe-5
+              p.mb-0.me-3 Un honeypot de araña tiene por objeto atrapar a las arañas web ("spiders"), creando páginas web y enlaces accesibles solo para las arañas. La detección de arañas puede ayudar a aprender a bloquear los bots maliciosos, así como las arañas de redes publicitarias.
+    
+      p.mb-4.text-center Al monitorear el tráfico que entra al sistema de honeypot, se puede:
+
+      .row.justify-content-center.align-items-center
+        .col-lg-8
+          div.p-0
+            h3.mb-0 SLIDER ESPECIAL
+
+    p.mb-5.text-center Revise, a continuación, otra definición de "honeypot": 
+
+    figure.mb-5
+      img(src="@/assets/curso/tema3/img29.svg")
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .cajon.color-acento-botones.p-4.mb-4
+          p.mb-0  Ambos tipos de honeypot tienen un lugar en la ciberseguridad de los honeypot. Utilizando una mezcla de ambos, se puede refinar la información básica sobre los tipos de amenazas que provienen de los honeypots de baja interacción, añadiendo información sobre las intenciones, comunicaciones y exploits del honeypot de alta interacción.
+
+        p.mb-0 Al utilizar los honeypots cibernéticos para crear un marco de inteligencia de amenazas, una empresa puede asegurarse de que está dirigiendo su gasto en ciberseguridad a los lugares adecuados y puede ver dónde tiene puntos débiles de seguridad.
+
+    
     Separador
 
     #t_3_4.titulo-segundo.color-acento-contenido
       h2 3.4 Evasión de IDS y firewalls
+
+    p.mb-5 Para luchar contra las intromisiones, hoy se dispone de diversos medios para detectarlos. Revise a continuación los posibles ataques.
   
 
 
