@@ -266,8 +266,71 @@
 
     p.mb-5 Para luchar contra las intromisiones, hoy se dispone de diversos medios para detectarlos. Revise a continuación los posibles ataques.
   
+    .fondo6-tema3.pt-1.pb-0.px-0.mb-5            
+      .row.justify-content-start.align-items-center.mb-4.mt-2
+        .col-lg-4
+          img(src="@/assets/curso/tema3/img31.svg")
 
+      p.mb-5 Un IDS puede aceptar un paquete que un terminal rechace. Un IDS que hace esto comete el error de creer que el terminal ha aceptado y procesado el paquete, cuando en realidad no lo ha hecho. Un atacante puede explotar esta condición enviando paquetes a un terminal que este rechazará, pero que el IDS creerá que son válidos. Al hacer esto, el atacante está “insertando” datos en el IDS --- ningún otro sistema en la red se preocupa por los paquetes malos.
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5
+          figure.m-0
+            img(src="@/assets/curso/tema3/img32.png")
+        .col-lg-7
+          p.mb-4 A esto se le llama un ataque de "inserción", y las condiciones que se prestan a los ataques de inserción son las vulnerabilidades más prevalentes en los sistemas de detección de intrusos que se han probado. Un atacante puede usar los ataques de inserción para derrotar el análisis de firmas, permitiéndole pasar los ataques a través de un IDS.
+          p.mb-4 Para entender por qué los ataques de inserción frustran el análisis de firmas, es importante entender cómo se emplea la técnica en los sistemas de identificación reales. En su mayor parte, el "análisis de firmas" utiliza algoritmos de coincidencia de patrones para detectar una cierta cadena dentro de un flujo de datos. Por ejemplo, un IDS que trata de detectar un ataque PHF buscará la cadena <b>“phf”</b> dentro de una petición HTTP “GET”, que es en sí misma una cadena más larga que podría parecerse a algo como <b>“GET /cgi-bin/phf</b>?”
+
+          div.p-4.px-5.mb-4(style="background-color: white") 
+            p.mb-0 El IDS puede detectar fácilmente la cadena "ff" en esa solicitud HTTP, usando una simple búsqueda de subcadena. Sin embargo, el problema se vuelve mucho más difícil de resolver cuando el atacante puede enviar la misma solicitud a un servidor web, pero obligar al IDS a ver una cadena diferente, como “GET /cgi-bin/pleasedontdetecttthisforme?”'. El atacante ha usado un ataque de inserción para añadir "Leasedontdetectt", "is" y "orme" al flujo original. El IDS ya no puede distinguir la cadena "ff" del flujo de datos que observa.
+        
+      .row.justify-content-start.align-items-center.mb-4.mt-2
+        .col-lg-4
+          img(src="@/assets/curso/tema3/img33.svg")
+
+      p.mb-5 Un sistema final puede aceptar un paquete que un IDS rechaza. Un IDS que rechaza por error tal paquete pierde su contenido por completo. Esta condición también puede ser explotada, esta vez, deslizando información crucial a través del IDS en paquetes que el IDS es demasiado estricto en su procesamiento. Estos paquetes están "evadiendo" el escrutinio del IDS.
+
+      figure.m-0
+        img(src="@/assets/curso/tema3/img34.svg")
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        figure.m-0
+          img(src="@/assets/curso/tema3/img35.svg")
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-botones.p-4.mb-4
+          p.mb-0  Se llama a estos ataques de "evasión", y son los más fáciles de explotar y los más devastadores para la precisión de un IDS. Sesiones enteras pueden ser llevadas a cabo en paquetes que evaden un IDS, y ataques descaradamente obvios, redactados en tales sesiones, ocurrirán justo bajo la nariz de incluso el más sofisticado motor de análisis.
+
+        p.mb-4 Los ataques de evasión se ajustan al patrón de la lámina de aluminio de una manera muy similar a los ataques de inserción. De nuevo, el atacante hace que el IDS vea un flujo de datos diferente al del sistema final... esta vez, sin embargo, el sistema final ve más que el IDS, y la información que el IDS pierde es crítica para la detección de un ataque.
+        p.mb-0 En el ataque de inserción que se menciona anteriormente, el atacante envía una petición HTTP, pero enturbia su contenido en el IDS con datos adicionales que hacen que la petición parezca inocua. En un ataque de evasión, el atacante envía porciones de la misma solicitud en paquetes que el IDS rechaza por error, permitiéndole eliminar partes del flujo de la vista del sistema de identificación. Por ejemplo, la petición original podría convertirse en “GET /gin/f”, lo que no tendría sentido para la mayoría de los sistemas de identificación.
+
+    .row.justify-content-start.align-items-center.mb-4.mt-2
+        .col-lg-4
+          img(src="@/assets/curso/tema3/img36.svg")
+
+    p.mb-4 El ataque de denegación de servicio permite a los intrusos acceder a los servicios de la red, impidiendo así que los usuarios legítimos accedan a los servicios. Para superar los déficits del ataque DoS, es esencial diseñar un sistema de detección de intrusos.
+
+    .row.justify-content-center.align-items-center.fondo7-tema3.py-5.mb-5.m-0
+      .col-lg-10
+        figure.mb-5
+          img(src="@/assets/curso/tema3/img37.svg")
+        p.mb-0 El sistema de detección de intrusos (IDS) es un software que funciona <b>como un mecanismo de seguridad de la red para proteger el sistema de la red informática de los ataques.</b> Con el creciente número de datos que se transmiten gradualmente de una red a otra, el IDS identifica eficazmente las intrusiones en conjuntos de datos muy grandes. La minería de datos es una herramienta eficiente aplicada para perfilar el sistema de detección de intrusos y evitar que los datos de la red masiva sean accedidos por los intrusos. Los valores atípicos son patrones en los datos que no coinciden con una noción bien definida de comportamiento normal. La detección de valores atípicos tiene como objetivo encontrar patrones en los datos que no se ajustan al comportamiento esperado. Se utiliza ampliamente para desarrollar la detección de intrusos en la ciberseguridad. Este documento presenta el estudio de la técnica de detección de valores atípicos y cómo se utiliza para desarrollar el sistema de detección de intrusos para superar el ataque DoS.
+
+    .row.justify-content-start.align-items-center.mb-4.mt-2
+      .col-lg-4
+        img(src="@/assets/curso/tema3/img39.svg")
+
+    p.mb-5 La ofuscación, una técnica de evasión cada vez más popular, consiste en ocultar un ataque con personajes especiales. Puede utilizar caracteres de control, como el espacio, el tabulador, el retroceso y la supresión. Además, la técnica puede representar caracteres en formato hexadecimal para eludir el IDS. 
+
+    .row.justify-content-center.align-items-center.py-5.mb-5
+      .col-lg-10
+        figure.mb-4
+          img(src="@/assets/curso/tema3/img40.svg")
+
+        .cajon.color-acento-botones.p-4.mb-4
+          p.mb-0  El uso de la representación Unicode, en la que cada caracter tiene un valor único, independientemente de la plataforma, el programa o el idioma, también es una forma efectiva de evadir el IDS. Por ejemplo, un atacante podría evadir un IDS usando el caracter Unicode c1 para representar una barra inclinada para una solicitud de página web.
 </template>
 
 <script>
