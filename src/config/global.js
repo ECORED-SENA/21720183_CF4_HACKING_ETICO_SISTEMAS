@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Ingeniería social y detección de intrusos en hacking ético',
+      'Ingeniería social y detección de intrusos en <em>hacking</em> ético',
     descripcionCurso:
       'La seguridad informática se ha convertido hoy en día en una preocupación para empresas y organizaciones en medio del mundo digital, es por ello que es importante conocer y aplicar diferentes herramientas digitales para ciberseguridad y conocer las vulnerabilidades y ataques a los cuales están expuestos los sistemas y redes y así protegerlos de cibercriminales.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
@@ -54,7 +54,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Pentesting',
+            titulo: '<em>Pentesting</em>',
             hash: 't_1_5',
           },
         ],
@@ -81,7 +81,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Botnets',
+            titulo: '<em>Botnets</em>',
             hash: 't_2_3',
           },
           {
@@ -108,140 +108,140 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tipos de ID',
+            titulo: 'Tipos de <em>IDS</em>',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Firewall y Honeypot',
+            titulo: '<em>Firewall</em> y <em>Honeypot</em>',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Evasión de IDS y firewalls',
+            titulo: 'Evasión de <em>IDS</em> y <em>firewalls</em>',
             hash: 't_3_4',
           },
         ],
       },
-      {
-        nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
-        numero: '10',
-        titulo: 'Componentes',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
-      },
+      // {
+      //   nombreRuta: 'tema10',
+      //   icono: 'far fa-file-alt',
+      //   numero: '10',
+      //   titulo: 'Componentes',
+      //   desarrolloContenidos: true,
+      //   subMenu: [
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.1',
+      //       titulo: 'Encabezados',
+      //       hash: 'encabezados',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.2',
+      //       titulo: 'Párrafos',
+      //       hash: 'parrafos',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.3',
+      //       titulo: 'Botones',
+      //       hash: 'botones',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.4',
+      //       titulo: 'Listas',
+      //       hash: 'listas',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.5',
+      //       titulo: 'Tablas',
+      //       hash: 'tablas',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.6',
+      //       titulo: 'Imagen',
+      //       hash: 'imagen',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.7',
+      //       titulo: 'Imagen Infográfica',
+      //       hash: 'imagen_infografica',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.8',
+      //       titulo: 'Video',
+      //       hash: 'video',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.9',
+      //       titulo: 'Bloques de texto destacado',
+      //       hash: 'texto_destacado',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.10',
+      //       titulo: 'Sliders',
+      //       hash: 'sliders',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.11',
+      //       titulo: 'Acordiones',
+      //       hash: 'acordiones',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.12',
+      //       titulo: 'Pestañas o Tabs',
+      //       hash: 'tabs',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.13',
+      //       titulo: 'Líneas de tiempo',
+      //       hash: 'lineas_tiempo',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.14',
+      //       titulo: 'Pasos',
+      //       hash: 'pasos',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.15',
+      //       titulo: 'Llamados a la acción',
+      //       hash: 'llamados_accion',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.16',
+      //       titulo: 'Tarjetas',
+      //       hash: 'tarjetas',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.17',
+      //       titulo: 'Tarjetas con número',
+      //       hash: 'tarjeta_numero',
+      //     },
+      //     {
+      //       icono: 'far fa-file-alt',
+      //       numero: '1.18',
+      //       titulo: 'Modal',
+      //       hash: 'modal',
+      //     },
+      //   ],
+      // },
     ],
     subMenu: [
       {
@@ -249,12 +249,12 @@ export default {
         titulo: 'Sintesis',
         nombreRuta: 'sintesis',
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -288,8 +288,8 @@ export default {
       link: 'https://blog.infranetworking.com/servidor-ftp/',
     },
     {
-      referencia: 'Borges, S. (2019b). Servidor web. Infranetworking.',
-      link: 'https://blog.infranetworking.com/servidor-web/',
+      referencia: 'Borges, S. (2019b). Servidor <em>web</em>. Infranetworking.',
+      link: 'https://blog.infranetworking.com/servidor-<em>web</em>/',
     },
     {
       referencia:
@@ -338,7 +338,7 @@ export default {
     },
     {
       referencia:
-        'Zuluaga, A. (2017). Hacking ético basado en la metodología abierta de testeo de seguridad – OSSTMM, aplicado a la rama judicial, seccional Armenia. Universidad Nacional Abierta y a Distancia.',
+        'Zuluaga, A. (2017). <em>Hacking</em> ético basado en la metodología abierta de testeo de seguridad – OSSTMM, aplicado a la rama judicial, seccional Armenia. Universidad Nacional Abierta y a Distancia.',
       link:
         'https://stadium.unad.edu.co/preview/UNAD.php?url=/bitstream/10596/17410/1/94288061.pdf',
     },
@@ -347,7 +347,7 @@ export default {
     {
       termino: 'Activo',
       significado:
-        'Componente o funcionalidad de un sistema, el cual puede ser atacado por parte de un ciberdelincuente, ya sea a nivel de software o de hardware.',
+        'Componente o funcionalidad de un sistema, el cual puede ser atacado por parte de un ciberdelincuente, ya sea a nivel de <em>software</em> o de <em>hardware</em>.',
     },
     {
       termino: 'Análisis de tráfico',
@@ -396,7 +396,7 @@ export default {
     {
       texto:
         'Jimenez, J. (2021), Tipos de ataques de ingeniería social y cómo evitarlos. Redes Zone.',
-      tipo: 'Página Web',
+      tipo: 'Página <em>Web</em>',
       link:
         'https://www.redeszone.net/tutoriales/seguridad/tipos-ataques-ingenieria-social-consejos/ ',
     },
@@ -431,7 +431,7 @@ export default {
       },
       {
         nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        cargo: 'Diseño <em>web</em>',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

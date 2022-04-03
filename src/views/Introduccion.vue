@@ -19,7 +19,7 @@
           .col-lg-4
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-8
-            p.mb-0 En el mundo digital de hoy, usted encuentra gran cantidad de información al alcance de su mano, la cual se ha convertido en uno de los activos más importantes para una persona u organización. Con el uso de las tecnologías de la información y la comunicación y su avance vertiginoso, aparecen agentes tanto internos como externos que pueden poner en riesgo los sistemas de información y los datos que se almacenan, al igual que la infraestructura tecnológica donde se encuentran. Es por ello que el hacking ético se ha convertido en una herramienta de gestión para poder salvaguardar los datos. Revise el siguiente recurso para contextualizar.
+            p.mb-0 En el mundo digital de hoy, usted encuentra gran cantidad de información al alcance de su mano, la cual se ha convertido en uno de los activos más importantes para una persona u organización. Con el uso de las tecnologías de la información y la comunicación y su avance vertiginoso, aparecen agentes tanto internos como externos que pueden poner en riesgo los sistemas de información y los datos que se almacenan, al igual que la infraestructura tecnológica donde se encuentran. Es por ello que el <em>hacking</em> ético se ha convertido en una herramienta de gestión para poder salvaguardar los datos. Revise el siguiente recurso para contextualizar.
           .col-lg-2
             figure.mb-0
               img(src="@/assets/curso/introduccion/img02.svg") 
@@ -41,7 +41,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .cajon.color-secundario.p-4
-          p.mb-0.px-3 Para la elaboración de este componente, se abordaron varios autores conocidos en ingeniería social y detección de intrusos en hacking ético, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de hacking ético en sistemas y redes.
+          p.mb-0.px-3 Para la elaboración de este componente, se abordaron varios autores conocidos en ingeniería social y detección de intrusos en <em>hacking</em> ético, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de <em>hacking</em> ético en sistemas y redes.
        
   
       

@@ -21,7 +21,7 @@
       #t_1_1.titulo-segundo.color-acento-contenido
         h2 1.1 Conceptos y generalidades
       
-      p.mb-5 La ingeniería social es el arte de manipular a la gente para que entregue información confidencial. Los tipos de información que estos criminales buscan pueden variar, pero cuando los individuos son el objetivo, los criminales normalmente intentan engañar para obtener las contraseñas o la información bancaria, o para que usted acceda a su ordenador para instalar secretamente software malicioso, lo que les dará acceso a sus contraseñas e información bancaria, además de darles control sobre su ordenador.
+      p.mb-5 La ingeniería social es el arte de manipular a la gente para que entregue información confidencial. Los tipos de información que estos criminales buscan pueden variar, pero cuando los individuos son el objetivo, los criminales normalmente intentan engañar para obtener las contraseñas o la información bancaria, o para que usted acceda a su ordenador para instalar secretamente <em>software</em> malicioso, lo que les dará acceso a sus contraseñas e información bancaria, además de darles control sobre su ordenador.
 
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -30,7 +30,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema1/img03.png')})`}"
             )
             .bloque-texto-g__texto.py-5(style="width:67% !important; padding: 2.4rem 2.2rem 2.4rem 2.2rem !important;")              
-              p.mb-0 Los delincuentes utilizan tácticas de ingeniería social porque normalmente es más fácil explotar su inclinación natural a la confianza que descubrir formas de piratear su software.  Por ejemplo, es mucho más fácil engañar a alguien para que le dé su contraseña que intentar piratear su contraseña (a menos que la contraseña sea realmente débil).
+              p.mb-0 Los delincuentes utilizan tácticas de ingeniería social porque normalmente es más fácil explotar su inclinación natural a la confianza que descubrir formas de piratear su <em>software</em>.  Por ejemplo, es mucho más fácil engañar a alguien para que le dé su contraseña que intentar piratear su contraseña (a menos que la contraseña sea realmente débil).
     
 
     .row.justify-content-center.align-items-center.mb-5
@@ -43,12 +43,12 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.mb-0 La seguridad consiste en saber en quién y en qué confiar. Es importante saber cuándo y cuándo no tomarle la palabra a una persona y cuándo la persona con la que se está comunicando es quien dice ser; lo mismo ocurre con las interacciones en línea y el uso de los sitios web: 
+        p.mb-0 La seguridad consiste en saber en quién y en qué confiar. Es importante saber cuándo y cuándo no tomarle la palabra a una persona y cuándo la persona con la que se está comunicando es quien dice ser; lo mismo ocurre con las interacciones en línea y el uso de los sitios <em>web</em>: 
     
     .fondo2-tema1.pt-5.pb-0.px-0
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-6
-          h3.mb-0.text-center(style="color: #500C75") <br>¿Cuándo se confía en que el sitio web que se está utilizando es legítimo o es seguro para proporcionar su información?
+          h3.mb-0.text-center(style="color: #500C75") <br>¿Cuándo se confía en que el sitio <em>web</em> que se está utilizando es legítimo o es seguro para proporcionar su información?
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
@@ -72,7 +72,7 @@
             .col-1(style="position:relative")
               img(style="position: relative; left:-65%; min-width: 45px" src="@/assets/curso/tema1/img08.svg")
             .col-11.ps-0.pe-5
-              p.mb-0.me-3 Sólo el 51% de los líderes empresariales ajustan su configuración en sitios como Facebook para restringir quién puede ver su perfil.
+              p.mb-0.me-3 Sólo el 51% de los líderes empresariales ajustan su configuración en sitios como <em>Facebook </em>para restringir quién puede ver su perfil.
 
           .row.justify-content-center.align-items-center.mb-0.py-4(style="border-top: 2px solid #AFAFAF")
             .col-1(style="position:relative")
@@ -116,7 +116,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          p.mb-0 La inteligencia de código abierto puede provenir de una amplia gama de fuentes de datos, que solo ayudan a un aspirante a ingeniero social; a través de algunas excavaciones en Internet, un ingeniero social puede encontrar mucha información que ayuda a su ataque.
+          p.mb-0 La inteligencia de código abierto puede provenir de una amplia gama de fuentes de datos, que solo ayudan a un aspirante a ingeniero social; a través de algunas excavaciones en <em>Internet</em>, un ingeniero social puede encontrar mucha información que ayuda a su ataque.
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-8
@@ -128,7 +128,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p.mb-0 Los ingenieros sociales manipulan los sentimientos humanos, como la curiosidad o el miedo, para llevar a cabo esquemas y atraer a las víctimas a sus trampas, por lo tanto, tenga cuidado cuando se sienta alarmado por un correo electrónico, atraído por una oferta mostrada en un sitio web, o cuando se encuentre con medios digitales extraviados mintiendo. Estar alerta puede ayudarle a protegerse contra la mayoría de los ataques de ingeniería social que tienen lugar en el ámbito digital.
+        p.mb-0 Los ingenieros sociales manipulan los sentimientos humanos, como la curiosidad o el miedo, para llevar a cabo esquemas y atraer a las víctimas a sus trampas, por lo tanto, tenga cuidado cuando se sienta alarmado por un correo electrónico, atraído por una oferta mostrada en un sitio <em>web</em>, o cuando se encuentre con medios digitales extraviados mintiendo. Estar alerta puede ayudarle a protegerse contra la mayoría de los ataques de ingeniería social que tienen lugar en el ámbito digital.
     
     .fondo5-tema1.pt-5.pb-0.px-0.mb-4            
       .row.justify-content-start.align-items-center.mb-4.mt-3
@@ -137,7 +137,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
-          p.mb-4 A diferencia de un virus, que depende de técnicas de hacking o código malicioso para entregar su carga, la ingeniería social depende de la psicología humana; bien utilizada, puede ser aprovechada para acceder a datos, sistemas e incluso edificios. Por ejemplo, en lugar de pasar meses trabajando en una nueva cepa de malware, los criminales centran su atención en engañar a los empleados para que divulguen su contraseña por teléfono, haciéndose pasar por un técnico de soporte informático; si hablan con la persona correcta y dicen las cosas correctas, podrían estar en la red en momentos.
+          p.mb-4 A diferencia de un virus, que depende de técnicas de <em>hacking</em> o código malicioso para entregar su carga, la ingeniería social depende de la psicología humana; bien utilizada, puede ser aprovechada para acceder a datos, sistemas e incluso edificios. Por ejemplo, en lugar de pasar meses trabajando en una nueva cepa de <em>malware</em>, los criminales centran su atención en engañar a los empleados para que divulguen su contraseña por teléfono, haciéndose pasar por un técnico de soporte informático; si hablan con la persona correcta y dicen las cosas correctas, podrían estar en la red en momentos.
           div.p-4.mb-4(style="background-color: white") 
             p.mb-0 La seguridad de su red es tan fuerte como su eslabón más débil, lo mismo se aplica a su personal, los criminales usan diferentes técnicas para encontrar el eslabón más débil, técnicas que se centran en nuestros miedos, nuestros gustos y disgustos y nuestras debilidades.
           p.mb-0 Con la investigación adecuada, un ingeniero social puede compilar un perfil inquietantemente exhaustivo de una empresa, sus empleados, sus operaciones y más. Algunos ejemplos muy breves e incompletos son los siguientes:
@@ -151,11 +151,11 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color-acento-botones.py-4.px-5.d-flex.align-items-center(titulo="Tecnología")
-            p.mb-0 La información sobre el tipo de tecnología que un negocio aprovecha es sorprendentemente común en línea; en los anuncios de empleo, por ejemplo, se suele identificar el hardware y el sistema operativo que utiliza una empresa para asegurarse de que el solicitante esté familiarizado con los sistemas con los que trabajaría, el problema es que esto también ayuda a un delincuente a identificar qué explotamientos serán efectivos contra una empresa; además, si una empresa no tiene cuidado, sus imágenes de medios sociales podrían proporcionar a un ciberdelincuente información sobre su hardware de redes.
+            p.mb-0 La información sobre el tipo de tecnología que un negocio aprovecha es sorprendentemente común en línea; en los anuncios de empleo, por ejemplo, se suele identificar el <em>hardware</em> y el sistema operativo que utiliza una empresa para asegurarse de que el solicitante esté familiarizado con los sistemas con los que trabajaría, el problema es que esto también ayuda a un delincuente a identificar qué explotamientos serán efectivos contra una empresa; además, si una empresa no tiene cuidado, sus imágenes de medios sociales podrían proporcionar a un ciberdelincuente información sobre su <em>hardware</em> de redes.
           .tarjeta.color-acento-botones.py-4.px-5.d-flex.align-items-center(titulo="Información de los empleados")
             p.mb-0 También es común que la gente comparta demasiado en los medios sociales, lo que puede llevar fácilmente a que también se comparta la información de la empresa, esto incluye, además del acceso a la información que muchos permiten que esté disponible públicamente a través de los medios sociales, imágenes del lugar de trabajo, esas imágenes suelen revelar el tipo de computadora utilizada por los empleados, así como el contenido de sus pantallas y toda la información que aparece en ellas. Además, muchas personas comentarán su horario de trabajo en los medios sociales, así como proporcionarán un relato detallado de su experiencia profesional, lo que dará a un ingeniero social más datos con los que trabajar.
           .tarjeta.color-acento-botones.py-4.px-5.d-flex.align-items-center(titulo="Vendedores y otras empresas")
-            p.mb-0 Vendedores y otras empresas: Los servicios externos que se prestan a una empresa pueden ayudar a un ingeniero social a acceder a esa empresa, especialmente si el proveedor de servicios los utiliza como prueba de valor en su sitio web. Los servicios de limpieza y los servicios de recogida de basura son especialmente valiosos, ya que los datos podrían ser robados después de salir del local de una empresa.
+            p.mb-0 Vendedores y otras empresas: Los servicios externos que se prestan a una empresa pueden ayudar a un ingeniero social a acceder a esa empresa, especialmente si el proveedor de servicios los utiliza como prueba de valor en su sitio <em>web</em>. Los servicios de limpieza y los servicios de recogida de basura son especialmente valiosos, ya que los datos podrían ser robados después de salir del local de una empresa.
     
       p.mb-5 En resumen, si bien es crucial proteger sus datos con cortafuegos, requisitos de autenticación y otras medidas digitales, es igualmente crucial asegurarse de que sus empleados sean conscientes de los peligros que puede entrañar la ingeniería social. Establecer procesos que ayuden a frustrar los intentos de ingeniería social es algo que toda empresa debería hacer, ya que ayudará a protegerlos de estos ataques.
 
@@ -191,20 +191,20 @@
               .TFcontainer
                 img.TFimage(src='@/assets/curso/tema1/img18.png')
                 .TFoverlay.p-5
-                  p.mb-3 ● Ponga sus filtros de spam en alto. Todos los programas de correo electrónico tienen filtros de spam, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de spam periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de spam, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de spam'.
-                  p.mb-0 ● Asegure sus dispositivos informáticos, instale software antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador web o por un tercero para alertarle de los riesgos.
+                  p.mb-3 ● Ponga sus filtros de <em>spam</em> en alto. Todos los programas de correo electrónico tienen filtros de <em>spam</em>, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de <em>spam</em> periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de <em>spam</em>, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de <em>spam</em>'.
+                  p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.
               //- .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
               //-   .tarjeta-slide__contenedor
               //-     .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img18.png')})`}")
               //-     .tarjeta-slide__contenido.p-4
-              //-       p.mb-3 ● Ponga sus filtros de spam en alto. Todos los programas de correo electrónico tienen filtros de spam, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de spam periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de spam, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de spam'.
-              //-       p.mb-0 ● Asegure sus dispositivos informáticos, instale software antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador web o por un tercero para alertarle de los riesgos.
+              //-       p.mb-3 ● Ponga sus filtros de <em>spam</em> en alto. Todos los programas de correo electrónico tienen filtros de <em>spam</em>, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de <em>spam</em> periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de <em>spam</em>, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de <em>spam</em>'.
+              //-       p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Tipos y fases de la ingeniería social
     
-    p.mb-5 La ciberdelincuencia no solo opera bajo códigos y herramientas sofisticadas, también hace uso de habilidades sociales del comportamiento humano para su actuar. En este módulo, se presentan diferentes fases que un ingeniero social usa para poder acceder a toda la información sensible que le puede servir para poder identificar vulnerabilidades dentro del hacking ético:
+    p.mb-5 La ciberdelincuencia no solo opera bajo códigos y herramientas sofisticadas, también hace uso de habilidades sociales del comportamiento humano para su actuar. En este módulo, se presentan diferentes fases que un ingeniero social usa para poder acceder a toda la información sensible que le puede servir para poder identificar vulnerabilidades dentro del <em>hacking</em> ético:
 
     .tab1.p-0
       TabsB.color-acento-botones
@@ -234,7 +234,7 @@
                   p.mb-0(style="display:inline") Ofrecer pruebas sociales presentando la SE a otros empleados de la compañía.
                 div
                   img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img26.svg")  
-                  p.mb-0(style="display:inline") Insertar una unidad flash USB con una carga útil maliciosa en un ordenador de la empresa.
+                  p.mb-0(style="display:inline") Insertar una unidad <em>flash</em> <em>USB</em> con una carga útil maliciosa en un ordenador de la empresa.
                 div
                   img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img26.svg")  
                   p.mb-0(style="display:inline") Abrir un archivo adjunto de un correo electrónico infectado.
@@ -281,7 +281,7 @@
               span Ataques basados en humanos.
           figure.mb-4
             img(src="@/assets/curso/tema1/img29.svg")
-          p.mb-0 La ingeniería social ocurre por el instinto humano de confianza. Los ciberdelincuentes han aprendido que un correo electrónico, un mensaje de voz o un mensaje de texto cuidadosamente redactado puede convencer a la gente de que transfiera dinero, proporcione información confidencial o descargue un archivo que instale malware en la red de la empresa.
+          p.mb-0 La ingeniería social ocurre por el instinto humano de confianza. Los ciberdelincuentes han aprendido que un correo electrónico, un mensaje de voz o un mensaje de texto cuidadosamente redactado puede convencer a la gente de que transfiera dinero, proporcione información confidencial o descargue un archivo que instale <em>malware</em> en la red de la empresa.
     
       .row.justify-content-center.align-items-center.mb-0.mb-0
         .col-lg-8.py-2(style="background-color: #FBDCE5")
@@ -321,36 +321,31 @@
                   img(src='@/assets/curso/tema1/img31.png')   
 
               div.px-2(numero="2" titulo="Avaricia")
-                p.mb-4 
-                p.mb-3 
+                p.mb-3 Imagine si sólo pudiera transferir 10 dólares a un inversionista y ver que esto se convierta en 10.000 dólares sin ningún esfuerzo por su parte. Los ciberdelincuentes utilizan las emociones humanas básicas de la confianza y la codicia para convencer a las víctimas de que realmente pueden obtener algo por nada; un correo electrónico de cebo cuidadosamente redactado les dice a las víctimas que proporcionen la información de su cuenta bancaria y los fondos serán transferidos el mismo día.
                 figure
                   img(src='@/assets/curso/tema1/img32.png')   
 
               div.px-2(numero="3" titulo="Urgencia")
-                p.mb-4 
-                p.mb-3 
+                p.mb-3 Al recibir un correo electrónico del servicio de atención al cliente de un sitio <em>web</em> de compras en línea que compra con frecuencia, le dicen que necesitan confirmar la información de su tarjeta de crédito para proteger su cuenta. El lenguaje del correo electrónico le insta a responder rápidamente, para asegurarse de que la información de su tarjeta de crédito no sea robada por delincuentes; sin pensarlo dos veces y porque usted confía en la tienda en línea, envía no sólo la información de su tarjeta de crédito sino también su dirección postal y número de teléfono; unos días después, recibe una llamada de la compañía de su tarjeta de crédito diciéndole que su tarjeta de crédito ha sido robada y utilizada para miles de dólares de compras fraudulentas.
                 figure
                   img(src='@/assets/curso/tema1/img33.png')   
 
-              div.px-2(numero="4" titulo="Ayuda")
-                p.mb-4 
-                p.mb-3 
+              div.px-2(numero="4" titulo="Ayuda")                
+                p.mb-3 Los humanos quieren confiar y ayudarse unos a otros. Después de investigar una empresa, los ciberdelincuentes apuntan a dos o tres empleados de la empresa con un correo electrónico que parece provenir del director de la persona a la que apuntan, el correo electrónico les pide que le envíen al gerente la contraseña de la base de datos de contabilidad, haciendo hincapié en que el gerente la necesita para asegurarse de que todo el mundo reciba el pago a tiempo, el tono del correo electrónico es urgente, engañando a las víctimas en la creencia de que están ayudando a su gerente actuando rápidamente.
                 figure
                   img(src='@/assets/curso/tema1/img34.png')   
-              div.px-2(numero="5" titulo="Curiosidad")
-                p.mb-4 
-                p.mb-3 
+              div.px-2(numero="5" titulo="Curiosidad")                
+                p.mb-3 Los ciberdelincuentes prestan atención a los eventos que captan mucha cobertura de noticias y luego se aprovechan de la curiosidad humana para engañar a las víctimas de la ingeniería social para que actúen. Por ejemplo, después del segundo accidente de avión del <em>Boeing MAX8</em>, los ciberdelincuentes enviaron correos electrónicos con archivos adjuntos que decían incluir datos filtrados sobre el accidente; en realidad, el archivo adjunto instaló una versión de la <em>RAT</em> del gusano en la computadora de la víctima.
                 figure
                   img(src='@/assets/curso/tema1/img35.png')   
-              div.px-2(numero="6" titulo="Dumpster diving (Buceo en el basurero)")
-                p.mb-4 
-                p.mb-3 
+              div.px-2(numero="6" titulo="<em>Dumpster diving</em> (Buceo en el basurero)")                
+                p.mb-3 "Bucear en los basureros" significa buscar en la basura información útil, la basura puede estar en un contenedor público o en un área restringida que requiera una entrada no autorizada. El “buceo en los basureros” depende de una debilidad humana y la falta de conocimientos sobre seguridad. Se pueden encontrar muchas cosas en los basureros (por ejemplo, <em>CD</em>, <em>DVD</em>, discos duros, directorios de empresas, etc.). 
                 figure
                   img(src='@/assets/curso/tema1/img36.png')   
-          p.mb-0 Probablemente el ejemplo más famoso de buceo en contenedores fue realizado por Jerry Schneider en el sur de California. Mientras estaba en la escuela secundaria, en 1968, Jerry encontró documentación relativa al sistema automatizado de pedido y entrega de equipos de Pacific Telephone que se utilizaba para pedir equipos. Jerry acumuló cientos de miles de dólares en equipos telefónicos y estableció Creative Systems Enterprises para venderlos; parte de ellos se vendió a Pacific Telephone. Jerry fue arrestado en 1972 y fundó una empresa de seguridad en 1973 que dejó en 1977.
+          p.mb-0 Probablemente el ejemplo más famoso de buceo en contenedores fue realizado por Jerry Schneider en el sur de California. Mientras estaba en la escuela secundaria, en 1968, Jerry encontró documentación relativa al sistema automatizado de pedido y entrega de equipos de <em>Pacific Telephone</em> que se utilizaba para pedir equipos. Jerry acumuló cientos de miles de dólares en equipos telefónicos y estableció <em>Creative Systems Enterprises</em> para venderlos; parte de ellos se vendió a <em>Pacific Telephone</em>. Jerry fue arrestado en 1972 y fundó una empresa de seguridad en 1973 que dejó en 1977.
 
     p.mb-3 <b>Ataques basados en computadores:</b>
-    p.mb-4 En los ataques más populares de ingeniería social por computadores, los ciberdelincuentes aprovechan mucho la red Internet para ejecutarlos y que las víctimas puedan caer en las trampas y engaños que estos ponen, ya que en el mundo digital de hoy es mucho más fácil acceder por estos medios. A continuación, se relacionan algunos de los ataques.
+    p.mb-4 En los ataques más populares de ingeniería social por computadores, los ciberdelincuentes aprovechan mucho la red <em>Internet</em> para ejecutarlos y que las víctimas puedan caer en las trampas y engaños que estos ponen, ya que en el mundo digital de hoy es mucho más fácil acceder por estos medios. A continuación, se relacionan algunos de los ataques.
     
     .row.fondo7-tema1.justify-content-center.align-items-center.mb-4
       .col-lg-4
@@ -359,23 +354,23 @@
       .col-lg-8
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Cartas engañosas:</b> Estos son correos electrónicos falsos, que envían advertencias sobre malware, virus y gusanos, que causan daños a los ordenadores.
+          p.mb-0(style="display:inline") <b>Cartas engañosas:</b> Estos son correos electrónicos falsos, que envían advertencias sobre <em>malware</em>, virus y gusanos, que causan daños a los ordenadores.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
           p.mb-0(style="display:inline") <b>Cartas en cadena:</b> Pidiendo a la gente que reenvíe correos electrónicos o mensajes por dinero.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Mensajes de spam:</b> Son correos electrónicos no deseados e irrelevantes, que intentan reunir información sobre los usuarios.
+          p.mb-0(style="display:inline") <b>Mensajes de <em>spam</em>:</b> Son correos electrónicos no deseados e irrelevantes, que intentan reunir información sobre los usuarios.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Mensajeros de chat instantáneo:</b> Recopilar información personal de un solo usuario chateando con ellos.
+          p.mb-0(style="display:inline") <b>Mensajeros de <em>chat</em> instantáneo:</b> Recopilar información personal de un solo usuario chateando con ellos.
         div.mb-0
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Phishing:</b> Creación de un sitio web falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio web original, y luego tratando de recopilar información confidencial. El phishing también puede ejecutarse a través de aplicaciones móviles falsas. Revise el Anexo_ Phishing, el cual profundiza sobre este aspecto.
+          p.mb-0(style="display:inline") <b><em>Phishing</em>:</b> Creación de un sitio <em>web</em> falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio <em>web</em> original, y luego tratando de recopilar información confidencial. El <em>phishing</em> también puede ejecutarse a través de aplicaciones móviles falsas. Revise el Anexo_ <em>Phishing</em>, el cual profundiza sobre este aspecto.
     
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como popups; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página web de un atacante, pidiéndoles que den su información personal o que descarguen software que podría tener virus adjuntos en el backend; revíselos a continuación.
+        p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como <em>popups</em>; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página <em>web</em> de un atacante, pidiéndoles que den su información personal o que descarguen <em>software</em> que podría tener virus adjuntos en el <em>backend</em>; revíselos a continuación.
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
           h5 Figura 6.
           span Otros métodos.
@@ -391,7 +386,7 @@
     p.mb-4 No importa cuán seguro sea un sistema, siempre hay una forma de entrar; los piratas informáticos e ingenieros sociales malintencionados se dirigen a la parte más débil de la infraestructura, la gente, que suele ser la más fácil de manipular y engañar. 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como popups; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página web de un atacante, pidiéndoles que den su información personal o que descarguen software que podría tener virus adjuntos en el backend; revíselos a continuación.
+        p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como <em>popups</em>; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página <em>web</em> de un atacante, pidiéndoles que den su información personal o que descarguen <em>software</em> que podría tener virus adjuntos en el <em>backend</em>; revíselos a continuación.
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
           h5 Figura 7.
           span El ingeniero social.
@@ -416,7 +411,7 @@
           figure.mb-5
             img(src="@/assets/curso/tema1/img43.svg")
           
-          p.mb-5 Estos trucos funcionan porque todos interactúan regularmente con personas que no conocen. Es la naturaleza humana confiar en las credenciales - una placa o un uniforme - pero pueden ser falsificadas. Se confía en los uniformes, aunque se sabe que cualquiera puede usarlos y cuando se visita un sitio web, por ejemplo, se usa la apariencia profesional de la página para juzgar si es realmente legítima o no, sin importar que cualquiera pueda cortar y pegar gráficos de la misma manera. Tenemos la tendencia a confiar automáticamente en alguien con autoridad.
+          p.mb-5 Estos trucos funcionan porque todos interactúan regularmente con personas que no conocen. Es la naturaleza humana confiar en las credenciales - una placa o un uniforme - pero pueden ser falsificadas. Se confía en los uniformes, aunque se sabe que cualquiera puede usarlos y cuando se visita un sitio <em>web</em>, por ejemplo, se usa la apariencia profesional de la página para juzgar si es realmente legítima o no, sin importar que cualquiera pueda cortar y pegar gráficos de la misma manera. Tenemos la tendencia a confiar automáticamente en alguien con autoridad.
 
           p.mb-5.text-center <b>Algunas funciones comunes de ingeniería social son:</b>
 
@@ -496,9 +491,9 @@
         figure
           img(src='@/assets/curso/tema1/img48.png')   
       .col-lg-7.py-4
-        p.mb-4 ●  Información privilegiada maliciosa: también conocida como Turncloak, alguien que maliciosa e intencionalmente abusa de las credenciales legítimas, típicamente para robar información para obtener incentivos financieros o personales. Por ejemplo, un individuo que guarda rencor a un antiguo empleador, o un empleado oportunista que vende información secreta a un competidor. Los turncloaks tienen una ventaja sobre otros atacantes, porque están familiarizados con las políticas y procedimientos de seguridad de una organización, así como con sus vulnerabilidades.
-        p.mb-4 ●  Descuidado desde dentro: un peón inocente que, sin saberlo, expone el sistema a amenazas externas. Este es el tipo más común de amenaza interna, resultante de errores, como dejar un dispositivo expuesto o ser víctima de una estafa. Por ejemplo, un empleado que no tiene intención de hacer daño puede hacer clic en un enlace inseguro, infectando el sistema con malware.
-        p.mb-0 ● Un topo: un impostor, que es técnicamente un extraño, pero que ha logrado obtener acceso interno a una red privilegiada. Se trata de alguien de fuera de la organización que se hace pasar por empleado o socio.
+        p.mb-4 ● <b>Información privilegiada maliciosa:</b> también conocida como <em>Turncloak</em>, alguien que maliciosa e intencionalmente abusa de las credenciales legítimas, típicamente para robar información para obtener incentivos financieros o personales. Por ejemplo, un individuo que guarda rencor a un antiguo empleador, o un empleado oportunista que vende información secreta a un competidor. Los <em>turncloaks </em>tienen una ventaja sobre otros atacantes, porque están familiarizados con las políticas y procedimientos de seguridad de una organización, así como con sus vulnerabilidades.
+        p.mb-4 ●<b> Descuidado desde dentro:</b> un peón inocente que, sin saberlo, expone el sistema a amenazas externas. Este es el tipo más común de amenaza interna, resultante de errores, como dejar un dispositivo expuesto o ser víctima de una estafa. Por ejemplo, un empleado que no tiene intención de hacer daño puede hacer clic en un enlace inseguro, infectando el sistema con <em>malware</em>.
+        p.mb-0 ● <b>Un topo:</b> un impostor, que es técnicamente un extraño, pero que ha logrado obtener acceso interno a una red privilegiada. Se trata de alguien de fuera de la organización que se hace pasar por empleado o socio.
        
     .row.justify-content-start.align-items-center.mb-4      
       .col-lg-4
@@ -510,14 +505,35 @@
       .col-lg-10  
         .tiempo1.mb-5
           LineaTiempoD.color-secundario
-            div.px-2(numero="1" titulo="Proteger los activos críticos")             
-            div.px-2(numero="2" titulo="Cumplir las políticas")
-            div.px-2(numero="3" titulo="Aumentar la visibilidad")
-              p.mb-4.pe-5 Despliegue soluciones para hacer un seguimiento de las acciones de los empleados y correlacionar la información de múltiples fuentes de datos              
+            div.px-2(numero="1" titulo="Proteger los activos críticos")     
+              p.mb-4.pe-5 Estos pueden ser físicos o lógicos, incluyendo sistemas, tecnología, instalaciones y personas. La propiedad intelectual, incluidos los datos de los clientes para los proveedores, el <em>software</em> propietario, los esquemas y los procesos de fabricación internos también son activos críticos. Es necesario formar una comprensión integral de sus activos críticos.
               figure.mb-4
-                img(src='@/assets/curso/tema1/img50.png')   
-              p.mb-0.pe-5 Por ejemplo, puede utilizar la tecnología de engaño para atraer a un infiltrado o impostor malintencionado y obtener visibilidad de sus acciones.
+                img(src='@/assets/curso/tema1/img60.png')   
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-7.py-2(style="background-color: white")
+                  p.mb-0.text-center Haga preguntas como:
+                  p.mb-0.text-center <b>¿Qué activos críticos poseemos?</b> 
+                  p.mb-0.text-center <b>¿Podemos priorizar nuestros activos?</b>  
+                  p.mb-0.text-center <b>¿Qué entendemos sobre el estado actual de cada activo?</b> 
+
+            div.px-2(numero="2" titulo="Cumplir las políticas")
+              p.mb-4.pe-5 Haga cumplir las políticas. Documente claramente las políticas de la organización para que pueda hacerlas cumplir y evitar malentendidos, todas las personas de la organización deben estar familiarizadas con los procedimientos de seguridad y deben comprender sus derechos en relación con la propiedad intelectual (P.I.), para no compartir el contenido privilegiado que han creado.
+              figure.mb-4
+                img(src='@/assets/curso/tema1/img61.png')   
+            div.px-2(numero="3" titulo="Aumentar la visibilidad")
+              p.mb-4.pe-5 Despliegue soluciones para hacer un seguimiento de las acciones de los empleados y correlacionar la información de múltiples fuentes de datos.
+              figure.mb-4
+                img(src='@/assets/curso/tema1/img62.png')   
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-8.py-3.px-4(style="background-color: white")
+                  p.mb-0.text-center Por ejemplo, puede utilizar la tecnología de engaño para atraer a un infiltrado o impostor malintencionado y obtener visibilidad de sus acciones.                  
             div.px-2(numero="4" titulo="Promover cambios culturales")
+              p.mb-4.pe-5 Para combatir la negligencia y hacer frente a los impulsores del comportamiento malicioso, debe educar a sus empleados en relación con los problemas de seguridad y trabajar para mejorar la satisfacción de los empleados.
+              figure.mb-4
+                img(src='@/assets/curso/tema1/img63.png')   
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-8.py-3.px-4(style="background-color: white")
+                  p.mb-0.text-center Garantizar la seguridad no sólo se trata de conocimientos, sino también de actitudes y creencias.
 
     .fondo9-tema1.pt-5.pb-0.px-0.mb-4          
       p.mt-3.mb-5 Las amenazas internas pueden ser más difíciles de identificar o prevenir que los ataques externos, y son invisibles para las soluciones de seguridad tradicionales, como los cortafuegos y los sistemas de detección de intrusos, que se centran en las amenazas externas. Si un atacante explota un inicio de sesión autorizado, los mecanismos de seguridad establecidos pueden no identificar el comportamiento anormal, además, los iniciados maliciosos pueden evitar más fácilmente la detección si están familiarizados con las medidas de seguridad de una organización. Se recomienda realizar lo siguiente:        
@@ -525,7 +541,7 @@
         .col-lg-10
           figure.mb-4
             img(src='@/assets/curso/tema1/img52.svg') 
-      p.mb-5 Existen herramientas como las aplicaciones de aprendizaje automático (ML) que ayudan a analizar el flujo de datos y a priorizar las alertas más relevantes. Se pueden utilizar herramientas digitales forenses y analíticas, como User and Event Behavior Analytics (UEBA), para detectar, analizar y alertar al equipo de seguridad sobre cualquier posible amenaza interna; el análisis del comportamiento de los usuarios puede establecer una línea de base para la actividad normal de acceso a los datos, mientras que la supervisión de la actividad de la base de datos puede ayudar a identificar las violaciones de las políticas. A continuación, se pueden revisar en la tabla las tácticas y estrategias según el área de riesgo.
+      p.mb-5 Existen herramientas como las aplicaciones de aprendizaje automático (ML) que ayudan a analizar el flujo de datos y a priorizar las alertas más relevantes. Se pueden utilizar herramientas digitales forenses y analíticas, como <em>User and Event Behavior Analytics</em> (UEBA), para detectar, analizar y alertar al equipo de seguridad sobre cualquier posible amenaza interna; el análisis del comportamiento de los usuarios puede establecer una línea de base para la actividad normal de acceso a los datos, mientras que la supervisión de la actividad de la base de datos puede ayudar a identificar las violaciones de las políticas. A continuación, se pueden revisar en la tabla las tácticas y estrategias según el área de riesgo.
     
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
@@ -549,12 +565,12 @@
                 td Implementar fuertes medidas de seguridad y formación de los empleados y funcionarios de seguridad.
               tr
                 td Oficina
-                td Shoulder surfing.
+                td <em>Shoulder surfing</em>.
                 td No escribir las contraseñas con nadie más presente (o si tiene que hacerlo, hágalo rápidamente).
               tr
                 td Teléfono (punto de ayuda)
                 td La suplantación de llamadas al servicio técnico.
-                td Asignar un PIN a todos los empleados de servicios de asistencia.
+                td Asignar un <em>PIN</em> a todos los empleados de servicios de asistencia.
               tr
                 td Oficina
                 td Paseando por los pasillos en busca de la oficina abierta.
@@ -566,9 +582,9 @@
               tr
                 td Sala de máquinas/ Armario telefónico
                 td Intentar acceder, retirar los equipos y o adjuntar un analizador de protocolos para tomar los datos confidenciales.
-                td Mantener closets telefónicos, salas de servidores, etc., bloqueados en todo momento y mantener el inventario actualizado de equipos.
+                td Mantener <em>closets</em> telefónicos, salas de servidores, etc., bloqueados en todo momento y mantener el inventario actualizado de equipos.
               tr
-                td Teléfono y PBX
+                td Teléfono y <em>PBX</em>
                 td Robar punto de acceso telefónico.
                 td Controlar las llamadas internacionales y de larga distancia, llamadas de seguimiento, o denegar transferencias.
 
@@ -589,9 +605,9 @@
     Separador
 
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5  Pentesting
+      h2 1.5  <em>Pentesting</em>
 
-    p.mb-5 Las pruebas de penetración de la ingeniería social se centran en las personas y los procesos y las vulnerabilidades asociadas a ellos, estas pruebas de penetración consisten típicamente en que un hacker ético lleva a cabo diferentes ataques de ingeniería social, como el phishing, las caídas de USB, o la suplantación de identidad que una persona podría enfrentar en el curso de su trabajo, el objetivo de esta prueba es identificar las debilidades de una persona, grupo de personas o proceso, e identificar las vulnerabilidades con un camino claro para remediarlas.
+    p.mb-5 Las pruebas de penetración de la ingeniería social se centran en las personas y los procesos y las vulnerabilidades asociadas a ellos, estas pruebas de penetración consisten típicamente en que un <em>hacker</em> ético lleva a cabo diferentes ataques de ingeniería social, como el <em>phishing</em>, las caídas de <em>USB</em>, o la suplantación de identidad que una persona podría enfrentar en el curso de su trabajo, el objetivo de esta prueba es identificar las debilidades de una persona, grupo de personas o proceso, e identificar las vulnerabilidades con un camino claro para remediarlas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.fondo10-tema1.p-0.pt-5        
@@ -622,8 +638,8 @@
               p.mb-3 El tipo de pruebas que debe recoger es:
               div.px-5.py-4(style="background-color: white")
                 p.mb-2 ●  <b>Llamadas telefónicas grabadas:</b> Estas llamadas telefónicas son importantes, ya que no hay otro método para documentar que este ataque ocurrió, así como para mostrar su resultado.
-                p.mb-2 ●  <b>Correos electrónicos de los ataques de phishing:</b> Estos correos electrónicos son importantes porque pueden mostrar hasta dónde un usuario permitió el ataque antes de atraparlo. En algunos casos, los usuarios no se dan cuenta hasta después de haber entregado información sensible.
-                p.mb-0 ●  <b>Documentación encontrada durante el dumpster diving:</b> Este tipo de documentación debe incluir escaneos de los documentos encontrados e incluso imágenes del lugar donde se encontraron los documentos, si es apropiado. Junto con las pruebas, el examinador debe incluir la hora de inicio y final de cada prueba, el nombre de la persona que realiza la prueba y el nombre del empleado o empleados que están siendo examinados.
+                p.mb-2 ●  <b>Correos electrónicos de los ataques de <em>phishing</em>:</b> Estos correos electrónicos son importantes porque pueden mostrar hasta dónde un usuario permitió el ataque antes de atraparlo. En algunos casos, los usuarios no se dan cuenta hasta después de haber entregado información sensible.
+                p.mb-0 ●  <b>Documentación encontrada durante el <em>dumpster diving</em>:</b> Este tipo de documentación debe incluir escaneos de los documentos encontrados e incluso imágenes del lugar donde se encontraron los documentos, si es apropiado. Junto con las pruebas, el examinador debe incluir la hora de inicio y final de cada prueba, el nombre de la persona que realiza la prueba y el nombre del empleado o empleados que están siendo examinados.
             
             .row.px-2.py-4(numero="4" titulo="Paso 4: <font style='font-weight: normal;'>Presentación de informes</font>")
               .col-lg-4
