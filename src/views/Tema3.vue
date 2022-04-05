@@ -66,7 +66,7 @@
               img(src="@/assets/curso/tema3/img06.svg")            
           .col-lg-7
             p.mb-3.text-white <em>Tripwire</em> es un sistema de detección de intrusos (<em>IDS</em>) que, de forma constante y automática, mantiene bajo control los archivos e informes críticos del sistema si han sido destruidos o modificados por un cracker (o por error). Permite al administrador del sistema saber inmediatamente qué se ha visto comprometido y arreglarlo. Se puede descargar del siguiente enlace:
-            a.boton--sm.color-acento-botones.me-3.py-2(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton--sm.color-acento-botones.me-3.py-2(href="https://www.tripwire.com/free-download" target="_blank" type="application/pdf")
               span.me-2 Enlace <em>web</em>  
               img(style="width:20px; height:20px" src="@/assets/curso/tema3/img07.svg")   
       
