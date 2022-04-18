@@ -22,7 +22,7 @@
       <stop offset="1" stop-color="silver"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_146852" data-name="Grupo 146852" transform="translate(-186 -6470.433)">
+  <g id="Grupo_146847" data-name="Grupo 146847" transform="translate(-186 -6470.433)">
     <g id="Grupo_145383" data-name="Grupo 145383" transform="translate(186 6470.433)">
       <rect id="Rectángulo_39334" data-name="Rectángulo 39334" width="489.4" height="145.949" transform="translate(15.469 14.846)" fill="#e4fdfc"/>
       <rect id="Rectángulo_39335" data-name="Rectángulo 39335" width="489.4" height="145.948" transform="translate(740.338 14.846)" fill="#e4fdfc"/>
@@ -459,13 +459,13 @@
       </g>
       <line id="Línea_211" data-name="Línea 211" x2="176" transform="translate(514.869 87.823)" fill="none" stroke="#500c75" stroke-width="2" stroke-dasharray="5 5"/>
       <path id="Trazado_190820" data-name="Trazado 190820" d="M891.795,316.251h148.074V169.657" fill="none" stroke="#500c75" stroke-width="2" stroke-dasharray="5 5"/>
-      <path id="Trazado_190821" data-name="Trazado 190821" d="M327.943,316.251H179.869V169.657" fill="none" stroke="#500c75" stroke-width="2" stroke-dasharray="5 5"/>
+      <path id="Trazado_190821" data-name="Trazado 190821" d="M347.943,316.251H179.869V183.657" fill="none" stroke="#500c75" stroke-width="2" stroke-dasharray="5 5"/>
       <path id="Trazado_190822" data-name="Trazado 190822" d="M689.932,80.708H694.3l10.571,7.113L695,94.934h-5.068l10.1-7.113Z" fill="#e01650" fill-rule="evenodd"/>
       <path id="Trazado_190823" data-name="Trazado 190823" d="M892.732,323.366h-4.366L877.8,316.253l9.869-7.113h5.068l-10.1,7.113Z" fill="#e01650" fill-rule="evenodd"/>
-      <path id="Trazado_190824" data-name="Trazado 190824" d="M327.006,323.366h4.366l10.571-7.113-9.869-7.113h-5.068l10.1,7.113Z" fill="#e01650" fill-rule="evenodd"/>
+      <path id="Trazado_190824" data-name="Trazado 190824" d="M327.006,323.366h4.366l10.571-7.113-9.869-7.113h-5.068l10.1,7.113Z" transform="translate(-136.384 511.6) rotate(-90)" fill="#e01650" fill-rule="evenodd"/>
       <path id="Trazado_190825" data-name="Trazado 190825" d="M685.008,81.266l10.237,6.558L685,94.382Z" fill="#500c75" fill-rule="evenodd"/>
       <path id="Trazado_190826" data-name="Trazado 190826" d="M897.656,322.808l-10.237-6.558,10.24-6.558Z" fill="#500c75" fill-rule="evenodd"/>
-      <path id="Trazado_190827" data-name="Trazado 190827" d="M322.082,322.808l10.24-6.558-10.24-6.558Z" fill="#500c75" fill-rule="evenodd"/>
+      <path id="Trazado_190827" data-name="Trazado 190827" d="M322.082,322.808l10.24-6.558-10.24-6.558Z" transform="translate(-136.384 511.6) rotate(-90)" fill="#500c75" fill-rule="evenodd"/>
     </g>
     <g id="Grupo_145404" data-name="Grupo 145404" transform="translate(389.705 6902.16)">
       <g id="Grupo_145385" data-name="Grupo 145385">

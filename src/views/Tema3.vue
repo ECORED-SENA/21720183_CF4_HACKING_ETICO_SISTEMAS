@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-8
           figure.m-0
-            img(src="@/assets/curso/tema1/img02.png")
+            img(src="@/assets/curso/tema3/img00.png")
       .row.justify-content-center.align-items-center.mb-5 
         .col-lg-10
           p.mb-0 Es importante tener en cuenta que, dentro de un sistema en una organización, los sistemas y la información deben ser protegidos y reconocidos, para poder evitar que los piratas informáticos puedan ingresar archivos de <em>malware</em> y realizar daños en la estructura de datos, y así robar o secuestrar información. Estas técnicas de detección y evasión de intrusos hoy cuentan con herramientas para detectar intrusiones y aplicar los correctivos necesarios y salvaguardar la integridad de toda la información.
@@ -42,19 +42,19 @@
         .col-lg-7
           div.mb-4
             img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-            p.mb-0(style="display:inline") <b>Sistemas de detección de intrusos en la red (<em>NIDS</em>):</b> Un sistema que analiza el tráfico entrante de la red; estos mecanismos consisten normalmente en una caja negra que se sitúa en la red en modo promiscuo, atento a los patrones indicativos de una intrusión
+            p.mb-0(style="display:inline") <b>Sistemas de detección de intrusos en la red (<em>NIDS</em>):</b> un sistema que analiza el tráfico entrante de la red; estos mecanismos consisten normalmente en una caja negra que se sitúa en la red en modo promiscuo, atento a los patrones indicativos de una intrusión
 
           div.mb-4
             img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-            p.mb-0(style="display:inline") <b>Sistemas de detección de intrusos basados en host (<em>HIDS</em>):</b> Un sistema que monitoriza los archivos importantes del sistema operativo, estos mecanismos suelen incluir la auditoría de eventos que ocurren en un host específico; estos no son tan comunes, debido a la sobrecarga en que incurren por tener que monitorear cada evento del sistema.
+            p.mb-0(style="display:inline") <b>Sistemas de detección de intrusos basados en host (<em>HIDS</em>):</b> un sistema que monitoriza los archivos importantes del sistema operativo, estos mecanismos suelen incluir la auditoría de eventos que ocurren en un host específico; estos no son tan comunes, debido a la sobrecarga en que incurren por tener que monitorear cada evento del sistema.
 
           div.mb-4
             img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-            p.mb-0(style="display:inline") <b>Supervisión de archivos de inicio de sesión:</b> Estos mecanismos suelen ser programas que analizan los archivos de registro después de un evento que ya ha ocurrido, como los intentos fallidos de conexión.
+            p.mb-0(style="display:inline") <b>Supervisión de archivos de inicio de sesión:</b> estos mecanismos suelen ser programas que analizan los archivos de registro después de un evento que ya ha ocurrido, como los intentos fallidos de conexión.
 
           div.mb-0
             img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-            p.mb-0(style="display:inline") <b>Comprobación de integridad de archivos:</b> Estos mecanismos de verificación son para los caballos de Troya, o archivos que de otra forma se han modificado, lo que indica que un intruso ya ha estado allí, por ejemplo, <em>TRIPWIRE</em>
+            p.mb-0(style="display:inline") <b>Comprobación de integridad de archivos:</b> estos mecanismos de verificación son para los caballos de Troya, o archivos que de otra forma se han modificado, lo que indica que un intruso ya ha estado allí, por ejemplo, <em>TRIPWIRE</em>
         .col-lg-5
           figure
             img(src="@/assets/curso/tema3/img04.png")
@@ -66,7 +66,7 @@
               img(src="@/assets/curso/tema3/img06.svg")            
           .col-lg-7
             p.mb-3.text-white <em>Tripwire</em> es un sistema de detección de intrusos (<em>IDS</em>) que, de forma constante y automática, mantiene bajo control los archivos e informes críticos del sistema si han sido destruidos o modificados por un cracker (o por error). Permite al administrador del sistema saber inmediatamente qué se ha visto comprometido y arreglarlo. Se puede descargar del siguiente enlace:
-            a.boton--sm.color-acento-botones.me-3.py-2(href="https://www.tripwire.com/free-download" target="_blank" type="application/pdf")
+            a.boton--sm.color-acento-botones.me-3.py-2(href="https://www.tripwire.com/free-downloads" target="_blank" type="application/pdf")
               span.me-2 Enlace <em>web</em>  
               img(style="width:20px; height:20px" src="@/assets/curso/tema3/img07.svg")   
       
@@ -204,6 +204,8 @@
     figure.mb-5
       img(src="@/assets/curso/tema3/img23.svg")
 
+    p.mb-5 En términos de seguridad informática, un "<i>honeypot</i>" cibernético funciona de manera similar, poniendo un cebo para los <i>hackers</i>, es un sistema informático sacrificado, que pretende atraer los ciberataques, como un señuelo. Imita un objetivo para los hackers y utiliza sus intentos de intrusión para obtener información sobre los ciberdelincuentes y la forma en que están operando o para distraerlos de otros objetivos.
+
     .fondo4-tema3.py-5.mb-0
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -249,11 +251,11 @@
                 img(src="@/assets/curso/tema1/img58.svg", v-on:click="anterior" @mouseover="mostrarIndicador = false")
                 .indicador--click(v-if="mostrarIndicador")
               .col-lg-10
-                p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") Evaluar<br>De dónde vienen los ciberdelincuentes.
-                p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") Evaluar<br>El nivel de amenaza.                
-                p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") Evaluar<br>Qué modus operandi están usando.
-                p.mb-0.text-center(v-if="espacial1==4", data-aos="slide-left") Evaluar<br>Qué datos o aplicaciones les interesan.
-                p.mb-0.text-center(v-if="espacial1==5", data-aos="slide-left") Evaluar<br>Lo bien que funcionan sus medidas de seguridad para detener los ciberataques.
+                p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") <b>Evaluar</b><br>De dónde vienen los ciberdelincuentes.
+                p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") <b>Evaluar</b><br>El nivel de amenaza.                
+                p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") <b>Evaluar</b><br>Qué modus operandi están usando.
+                p.mb-0.text-center(v-if="espacial1==4", data-aos="slide-left") <b>Evaluar</b><br>Qué datos o aplicaciones les interesan.
+                p.mb-0.text-center(v-if="espacial1==5", data-aos="slide-left") <b>Evaluar</b><br>Lo bien que funcionan sus medidas de seguridad para detener los ciberataques.
               .col-lg-1
                 img(src="@/assets/curso/tema1/img59.svg"  v-on:click="siguiente" @mouseover="mostrarIndicador = false")
 

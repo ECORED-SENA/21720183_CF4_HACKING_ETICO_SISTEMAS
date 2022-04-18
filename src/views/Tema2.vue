@@ -63,13 +63,13 @@
       .col-lg-8
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Ataques de desbordamiento de búfer:</b> El ataque <em>DoS</em> más común. El concepto es enviar más tráfico a una dirección de red de lo que los programadores han construido el sistema para manejar. Incluye los ataques que se enumeran a continuación, además de otros que están diseñados para explotar errores específicos de ciertas aplicaciones o redes
+          p.mb-0(style="display:inline") <b>Ataques de desbordamiento de búfer:</b> el ataque <em>DoS</em> más común. El concepto es enviar más tráfico a una dirección de red de lo que los programadores han construido el sistema para manejar. Incluye los ataques que se enumeran a continuación, además de otros que están diseñados para explotar errores específicos de ciertas aplicaciones o redes
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Inundación de <em>ICMP</em>:</b> Aprovecha los dispositivos de red mal configurados, enviando paquetes falsos que hacen ping a todos los ordenadores de la red objetivo, en lugar de solo a uno en concreto. La red se activa entonces para amplificar el tráfico. Este ataque también se conoce como el ataque pitufo o ping de la muerte.
+          p.mb-0(style="display:inline") <b>Inundación de <em>ICMP</em>:</b> aprovecha los dispositivos de red mal configurados, enviando paquetes falsos que hacen ping a todos los ordenadores de la red objetivo, en lugar de solo a uno en concreto. La red se activa entonces para amplificar el tráfico. Este ataque también se conoce como el ataque pitufo o ping de la muerte.
         div.mb-0
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b><em>SYN</em> <em>SYN</em>:</b> Envía una solicitud para conectarse a un servidor, pero nunca completa el apretón de manos. Continúa hasta que todos los puertos abiertos están saturados de solicitudes y ninguno está disponible para que los usuarios legítimos se conecten.        
+          p.mb-0(style="display:inline") <b><em>SYN</em> <em>SYN</em>:</b> envía una solicitud para conectarse a un servidor, pero nunca completa el apretón de manos. Continúa hasta que todos los puertos abiertos están saturados de solicitudes y ninguno está disponible para que los usuarios legítimos se conecten.        
 
     p.mb-5 Otros ataques <em>DoS</em> simplemente explotan las vulnerabilidades que causan que el sistema o servicio objetivo se caiga; en estos ataques, se envían entradas que aprovechan los errores del objetivo, que posteriormente se bloquean o desestabilizan gravemente el sistema, de modo que no se puede acceder a él o utilizarlo.
     
@@ -135,13 +135,13 @@
         .col-lg-4
           img(src="@/assets/curso/tema2/img13.svg")
 
-      p.mb-5 <em>SYN</em> <em>Flood</em> explota las debilidades de la secuencia de conexión <em>TCP</em>, conocida como un apretón de manos de tres vías, la máquina anfitriona recibe un mensaje sincronizado (<em>SYN</em>) para iniciar el <b>"handshake"</b>. El servidor reconoce el mensaje enviando un indicador de reconocimiento (<em>ACK</em>) al host inicial, que luego cierra la conexión; en una inundación <em>SYN</em>, sin embargo, se envían mensajes falsos y la conexión no se cierra, cerrando el servicio.
+      p.mb-5 <em>SYN</em> <em>Flood</em> explota las debilidades de la secuencia de conexión <em>TCP</em>, conocida como un apretón de manos de tres vías, la máquina anfitriona recibe un mensaje sincronizado (<em>SYN</em>) para iniciar el <b>"<i>handshake</i>"</b>. El servidor reconoce el mensaje enviando un indicador de reconocimiento (<em>ACK</em>) al host inicial, que luego cierra la conexión; en una inundación <em>SYN</em>, sin embargo, se envían mensajes falsos y la conexión no se cierra, cerrando el servicio.
 
       .row.justify-content-center.align-items-center.mb-5.mt-3
         .col-lg-10
           .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
             h5 Figura 12.
-            span Tipos de ataques.
+            span Inundación SYN.
           figure.mb-5
             img(src="@/assets/curso/tema2/img14.svg")
 
@@ -166,7 +166,7 @@
               .cajon.color-acento-botones.p-4.mb-0
                 .row.justify-content-center.align-items-center
                   .col-lg-10.px-3
-                    p.mb-0 Los diferentes tipos de ataques se clasifican en categorías basadas en la cantidad de tráfico y las vulnerabilidades a las que se dirigen, como se muestra en el siguiente gráfico.          
+                    p.mb-0 Después de completar esta secuencia de envío y recepción de paquetes, la conexión TCP se abre y puede enviar y recibir datos.
         .col-lg-2
               figure
                 img(src="@/assets/curso/tema2/img15.png")
@@ -250,7 +250,7 @@
 
       .titulo-sexto.color-acento-contenido.mb-0(style="font-size: 1em;")
         h5 Figura 17.
-        span Los ataques <em>Phlashing</em>.
+        span <em>Botnets</em>.
       figure.mb-4
           img(src="@/assets/curso/tema2/img23.svg")
     Separador.pt-2
@@ -277,15 +277,17 @@
           h5 Figura 18.
           span Detección de <em>DDoS</em>.
         
-        .row.justify-content-center.align-items-center
-          .col-lg-6
-            figure.mb-0(style="background-color:#E4FDFC")
-              img(src="@/assets/curso/tema2/img25.svg")
-              p.mb-0.text-center Realizar un análisis para averiguar si el tráfico es amigo 
-          .col-lg-6(style="background-color:#E4FDFC")
-            figure.mb-0(style="background-color:#E4FDFC")
-              img(src="@/assets/curso/tema2/img26.svg")
-              p.mb-0.text-center El primer paso para evitar o detener un ataque <em>DDoS</em> 
+        .row
+          .col-lg-6.d-flex
+            div.p-0(style="background-color:#E4FDFC")
+              figure.mb-0
+                img(src="@/assets/curso/tema2/img25.svg")
+              p.mb-2.mx-4 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
+          .col-lg-6.d-flex
+            div.p-0(style="background-color:#E4FDFC")
+              figure.mb-0(style="background-color:#E4FDFC")
+                img(src="@/assets/curso/tema2/img26.svg")
+              p.mb-2.mx-4 Realizar un análisis para averiguar si el tráfico es amigo o enemigo; este proceso puede realizarse manualmente o de forma automatizada. La detección de <i>DDoS</i> es la clave para detener o mitigar rápidamente los ataques
         
     .row.justify-content-center.mb-5
       .col-lg-2.d-flex(style="border-right: 3px solid #8F52F5")        
@@ -298,7 +300,7 @@
       .col-lg-2.d-flex(style="border-left: 3px solid #8F52F5")        
 
     .fondo6-tema2.pt-5.pb-0.px-0.mb-5            
-      p.mb-4.pt-5 <b>Detección de <em>DDoS</em>:</b> Mejorar la precisión usando <em>Big Data</em>.
+      p.mb-4.pt-5 <b>Detección de <em>DDoS</em>:</b> mejorar la precisión usando <em>Big Data</em>.
       p.mb-4 La primera generación de soluciones de detección de <em>DDoS</em> fuera de banda se basó en el diseño de <em>software</em> de un solo servidor, que en su mayoría se ejecutaba en dispositivos de servidor independientes montados en bastidor. 
 
       .fondo7-tema2.p-0.mb-4

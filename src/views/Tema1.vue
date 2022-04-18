@@ -155,12 +155,15 @@
           .tarjeta.color-acento-botones.py-4.px-5.d-flex.align-items-center(titulo="Información de los empleados")
             p.mb-0 También es común que la gente comparta demasiado en los medios sociales, lo que puede llevar fácilmente a que también se comparta la información de la empresa, esto incluye, además del acceso a la información que muchos permiten que esté disponible públicamente a través de los medios sociales, imágenes del lugar de trabajo, esas imágenes suelen revelar el tipo de computadora utilizada por los empleados, así como el contenido de sus pantallas y toda la información que aparece en ellas. Además, muchas personas comentarán su horario de trabajo en los medios sociales, así como proporcionarán un relato detallado de su experiencia profesional, lo que dará a un ingeniero social más datos con los que trabajar.
           .tarjeta.color-acento-botones.py-4.px-5.d-flex.align-items-center(titulo="Vendedores y otras empresas")
-            p.mb-0 Vendedores y otras empresas: Los servicios externos que se prestan a una empresa pueden ayudar a un ingeniero social a acceder a esa empresa, especialmente si el proveedor de servicios los utiliza como prueba de valor en su sitio <em>web</em>. Los servicios de limpieza y los servicios de recogida de basura son especialmente valiosos, ya que los datos podrían ser robados después de salir del local de una empresa.
+            p.mb-0 Los servicios externos que se prestan a una empresa pueden ayudar a un ingeniero social a acceder a esa empresa, especialmente si el proveedor de servicios los utiliza como prueba de valor en su sitio <em>web</em>. Los servicios de limpieza y los servicios de recogida de basura son especialmente valiosos, ya que los datos podrían ser robados después de salir del local de una empresa.
     
       p.mb-5 En resumen, si bien es crucial proteger sus datos con cortafuegos, requisitos de autenticación y otras medidas digitales, es igualmente crucial asegurarse de que sus empleados sean conscientes de los peligros que puede entrañar la ingeniería social. Establecer procesos que ayuden a frustrar los intentos de ingeniería social es algo que toda empresa debería hacer, ya que ayudará a protegerlos de estos ataques.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
+          .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
+            h5 Figura 3.
+            span Intentos de ingeniería social.          
           figure.m-0
             img(src="@/assets/curso/tema1/img16.svg")
 
@@ -179,26 +182,12 @@
                 .TFoverlay.p-5
                   p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
                   p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
-              //- .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-              //-   .indicador--hover(v-if="indicadorTarjetaSlide")
-              //-   .tarjeta-slide__contenedor
-              //-     .tarjeta-slide__contenido.p-4
-              //-       p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
-              //-       p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
-
-              //-     .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}")
             .col-6
               .TFcontainer
                 img.TFimage(src='@/assets/curso/tema1/img18.png')
                 .TFoverlay.p-5
                   p.mb-3 ● Ponga sus filtros de <em>spam</em> en alto. Todos los programas de correo electrónico tienen filtros de <em>spam</em>, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de <em>spam</em> periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de <em>spam</em>, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de <em>spam</em>'.
-                  p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.
-              //- .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-              //-   .tarjeta-slide__contenedor
-              //-     .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img18.png')})`}")
-              //-     .tarjeta-slide__contenido.p-4
-              //-       p.mb-3 ● Ponga sus filtros de <em>spam</em> en alto. Todos los programas de correo electrónico tienen filtros de <em>spam</em>, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de <em>spam</em> periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de <em>spam</em>, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de <em>spam</em>'.
-              //-       p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.
+                  p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.              
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -219,7 +208,12 @@
         .px-0.py-4(titulo="Fase 2" :icono="require('@/assets/curso/tema1/img20.svg')")
           .row.justify-content-center.py-4
             .col-lg-10
-              h4.titulo-cuarto ● Establecer la relación y la compenetración      
+              h4.titulo-cuarto ● Establecer la relación y la compenetración                    
+              p.mb-0 Esta fase establece una relación de trabajo con el objetivo, este es un punto crítico ya que la calidad de la relación construida por el atacante determina el nivel de cooperación y la medida en que el objetivo irá a ayudar al atacante a lograr el objetivo; puede ser tan breve como apurarse hacia la puerta con una gran sonrisa y contacto visual para que el objetivo mantenga la puerta abierta para que el atacante la atraviese; puede ser conectarse a nivel personal por teléfono o tan personal como mostrar fotos de la familia y compartir historias con la recepcionista en el vestíbulo; también puede ser tan extenso como construir una relación online con el objetivo, a través de un perfil falso en un sitio de citas o de redes sociales. La creación de una relación se trata más a fondo en el Marco.      
+        .px-0.py-4(titulo="Fase 3" :icono="require('@/assets/curso/tema1/img21.svg')")
+          .row.justify-content-center.py-4
+            .col-lg-6
+              h4.titulo-cuarto ● Explotación            
               p.mb-4 Esto es cuando el atacante utiliza tanto la información como las relaciones para infiltrarse activamente en el objetivo. En esta fase, el atacante se centra en mantener el impulso de cumplimiento que se construyó en la fase 2, sin levantar sospechas; la explotación puede tener lugar mediante la divulgación de información aparentemente sin importancia o el acceso concedido/transferido al atacante. 
               p.mb-3 Entre los ejemplos de explotación exitosa se incluyen:
               div.py-3.px-4(style="background-color: #E4FDFC")
@@ -241,12 +235,6 @@
                 div
                   img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img26.svg")  
                   p.mb-0(style="display:inline") Exponer secretos comerciales en una discusión con un supuesto “par”.
-      
-        .px-0.py-4(titulo="Fase 3" :icono="require('@/assets/curso/tema1/img21.svg')")
-          .row.justify-content-center.py-4
-            .col-lg-6
-              h4.titulo-cuarto ● Establecer la relación y la compenetración
-              p.mb-0 Esta fase establece una relación de trabajo con el objetivo, este es un punto crítico ya que la calidad de la relación construida por el atacante determina el nivel de cooperación y la medida en que el objetivo irá a ayudar al atacante a lograr el objetivo; puede ser tan breve como apurarse hacia la puerta con una gran sonrisa y contacto visual para que el objetivo mantenga la puerta abierta para que el atacante la atraviese; puede ser conectarse a nivel personal por teléfono o tan personal como mostrar fotos de la familia y compartir historias con la recepcionista en el vestíbulo; también puede ser tan extenso como construir una relación online con el objetivo, a través de un perfil falso en un sitio de citas o de redes sociales. La creación de una relación se trata más a fondo en el Marco.
             .col-lg-4      
               figure.m-0
                 img(src="@/assets/curso/tema1/img24.png")          
@@ -270,7 +258,7 @@
               img(src="@/assets/curso/tema1/img28.svg")
           p.mb-4 Básicamente los tipos de ingeniería social que se abordarán en este módulo de aprendizaje son 2, aquel basado en humanos y otro basado en computadores. 
           h4.mb-2 Ataques basados en humanos:
-          p.mb-4 Suplantación de identidad: Actuar como otra persona para tener acceso a la información.
+          p.mb-4 Suplantación de identidad: actuar como otra persona para tener acceso a la información.
           p.mb-0 Pueden actuar como un usuario y una solicitud de información legítimos, o se hacen pasar por una autoridad superior y pueden solicitar información sensible, o se hacen pasar por una persona de apoyo técnico e intentan reunir detalles sensibles y confidenciales.
         .col-lg-1
 
@@ -354,19 +342,19 @@
       .col-lg-8
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Cartas engañosas:</b> Estos son correos electrónicos falsos, que envían advertencias sobre <em>malware</em>, virus y gusanos, que causan daños a los ordenadores.
+          p.mb-0(style="display:inline") <b>Cartas engañosas:</b> estos son correos electrónicos falsos, que envían advertencias sobre <em>malware</em>, virus y gusanos, que causan daños a los ordenadores.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Cartas en cadena:</b> Pidiendo a la gente que reenvíe correos electrónicos o mensajes por dinero.
+          p.mb-0(style="display:inline") <b>Cartas en cadena:</b> pidiendo a la gente que reenvíe correos electrónicos o mensajes por dinero.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Mensajes de <em>spam</em>:</b> Son correos electrónicos no deseados e irrelevantes, que intentan reunir información sobre los usuarios.
+          p.mb-0(style="display:inline") <b>Mensajes de <em>spam</em>:</b> son correos electrónicos no deseados e irrelevantes, que intentan reunir información sobre los usuarios.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Mensajeros de <em>chat</em> instantáneo:</b> Recopilar información personal de un solo usuario chateando con ellos.
+          p.mb-0(style="display:inline") <b>Mensajeros de <em>chat</em> instantáneo:</b> recopilar información personal de un solo usuario chateando con ellos.
         div.mb-0
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b><em>Phishing</em>:</b> Creación de un sitio <em>web</em> falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio <em>web</em> original, y luego tratando de recopilar información confidencial. El <em>phishing</em> también puede ejecutarse a través de aplicaciones móviles falsas. Revise el Anexo_ <em>Phishing</em>, el cual profundiza sobre este aspecto.
+          p.mb-0(style="display:inline") <b><em>Phishing</em>:</b> creación de un sitio <em>web</em> falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio <em>web</em> original, y luego tratando de recopilar información confidencial. El <em>phishing</em> también puede ejecutarse a través de aplicaciones móviles falsas. Revise el Anexo_ <em>Phishing</em>, el cual profundiza sobre este aspecto.
     
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -590,10 +578,7 @@
 
     p.mb-4 La mayoría de casos de abuso de información privilegiada se pueden atribuir a los individuos que son introvertidos, incapaces de lidiar con el estrés o conflicto y frustrados con su trabajo, las políticas de la oficina y la falta de respeto entre otros; los empleados disgustados pueden pasar secretos de la empresa y la propiedad intelectual a los competidores por beneficios propios.
 
-    figure.mb-5 
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+  
     .row.justify-content-center.align-items-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
@@ -637,9 +622,9 @@
               p.mb-4 Durante este paso de la prueba del bolígrafo, el probador tomará todos los vectores de ataque listados en el paso anterior y ejecutará esas pruebas; la documentación es clave en este paso, ya que estas pruebas se convertirán más tarde en pruebas de apoyo para el informe.
               p.mb-3 El tipo de pruebas que debe recoger es:
               div.px-5.py-4(style="background-color: white")
-                p.mb-2 ●  <b>Llamadas telefónicas grabadas:</b> Estas llamadas telefónicas son importantes, ya que no hay otro método para documentar que este ataque ocurrió, así como para mostrar su resultado.
-                p.mb-2 ●  <b>Correos electrónicos de los ataques de <em>phishing</em>:</b> Estos correos electrónicos son importantes porque pueden mostrar hasta dónde un usuario permitió el ataque antes de atraparlo. En algunos casos, los usuarios no se dan cuenta hasta después de haber entregado información sensible.
-                p.mb-0 ●  <b>Documentación encontrada durante el <em>dumpster diving</em>:</b> Este tipo de documentación debe incluir escaneos de los documentos encontrados e incluso imágenes del lugar donde se encontraron los documentos, si es apropiado. Junto con las pruebas, el examinador debe incluir la hora de inicio y final de cada prueba, el nombre de la persona que realiza la prueba y el nombre del empleado o empleados que están siendo examinados.
+                p.mb-2 ●  <b>Llamadas telefónicas grabadas:</b> estas llamadas telefónicas son importantes, ya que no hay otro método para documentar que este ataque ocurrió, así como para mostrar su resultado.
+                p.mb-2 ●  <b>Correos electrónicos de los ataques de <em>phishing</em>:</b> estos correos electrónicos son importantes porque pueden mostrar hasta dónde un usuario permitió el ataque antes de atraparlo. En algunos casos, los usuarios no se dan cuenta hasta después de haber entregado información sensible.
+                p.mb-0 ●  <b>Documentación encontrada durante el <em>dumpster diving</em>:</b> este tipo de documentación debe incluir escaneos de los documentos encontrados e incluso imágenes del lugar donde se encontraron los documentos, si es apropiado. Junto con las pruebas, el examinador debe incluir la hora de inicio y final de cada prueba, el nombre de la persona que realiza la prueba y el nombre del empleado o empleados que están siendo examinados.
             
             .row.px-2.py-4(numero="4" titulo="Paso 4: <font style='font-weight: normal;'>Presentación de informes</font>")
               .col-lg-4
@@ -684,4 +669,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabs-a__tab
+  background-color: #DCCEE3
+</style>

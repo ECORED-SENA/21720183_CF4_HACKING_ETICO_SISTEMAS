@@ -33,15 +33,15 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-10        
             figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .video                
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/pvv9D2GNAVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
         
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .cajon.color-secundario.p-4
-          p.mb-0.px-3 Para la elaboración de este componente, se abordaron varios autores conocidos en ingeniería social y detección de intrusos en <em>hacking</em> ético, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de <em>hacking</em> ético en sistemas y redes.
+          p.mb-0.px-3 Para la elaboración de este componente, se abordaron varios autores conocidos en <b>ingeniería social y detección de intrusos en <em>hacking</em> ético</b>, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de <b><em>hacking</em> ético en sistemas y redes.</b>
        
   
       
