@@ -272,18 +272,18 @@
     
 
     .row.justify-content-center.align-items-center.mb-5 
-      .col-lg-10
+      .col-12.col-xxl-10
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
           h5 Figura 18.
           span Detección de <em>DDoS</em>.
         
-        .row.mb-5.tema5.tarjetas1
-          .col-lg-6.d-flex
+        .row.mb-5.tema5.tarjetas1.justify-content-center
+          .col-8.col-xxl-6.d-flex.mb-5.mb-xxl-5
             .TFcontainer.p-0(style="background-color:#E4FDFC")              
               img(src="@/assets/curso/tema2/img25.svg")
               .TFoverlay.p-3.pt-2
                 p.mb-2.mx-4 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
-          .col-lg-6.d-flex
+          .col-8.col-xxl-6.d-flex.mb-5.mb-xxl-5
             .TFcontainer.p-0(style="background-color:#E4FDFC")              
               img(src="@/assets/curso/tema2/img26.svg")
               .TFoverlay.p-3.pt-2
@@ -390,7 +390,7 @@ export default {
     width: 100%
     border-radius: 10px
     transition: .5s ease
-    height: 110%
+    height: 100%
 
   .TFimage
     display: block
@@ -413,10 +413,11 @@ export default {
     background-color: transparent
 
   .TFcontainer:hover
-    height: 170%
+    //height: 170%
     transition: .5s ease
     .TFoverlay
-      height: 40%
+      height: 65%
+      background-color: rgba(228,253,252, 0.8)
 
   @media screen and (max-width: 991px)
    .TFcontainer:hover .TFoverlay
