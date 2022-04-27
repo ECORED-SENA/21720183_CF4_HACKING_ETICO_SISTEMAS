@@ -325,10 +325,25 @@
 
     p.mb-4 El ataque de denegación de servicio permite a los intrusos acceder a los servicios de la red, impidiendo así que los usuarios legítimos accedan a los servicios. Para superar los déficits del ataque <em>DoS</em>, es esencial diseñar un sistema de detección de intrusos.
 
-    .row.justify-content-center.align-items-center.fondo7-tema3.py-5.mb-5.m-0
+    .row.justify-content-center.align-items-center.fondo7-tema3.py-5.mb-5.m-0.infografia
       .col-lg-10
-        figure.mb-5
-          img(src="@/assets/curso/tema3/img37.svg")
+
+        ImagenInfografica.color-primario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema3/img37.svg')              
+
+          .tarjeta.color-acento-botones.p-3(x="33.3%" y="82%" numero=" ")
+            p.mb-0 Hace que el dispositivo se bloquee.
+          .tarjeta.color-acento-botones.p-3(x="38.3%" y="51.5%" numero=" ")
+            p.mb-0 Causa personal para no ser capaz de investigar todas las alarmas.
+          .tarjeta.color-acento-botones.p-3(x="50.2%" y="37%" numero=" ")
+            p.mb-0 Consume la potencia de procesamiento del dispositivo y permite ataques a escondidas.
+          .tarjeta.color-acento-botones.p-3(x="61.9%" y="52%" numero=" ")
+            p.mb-0 Se llena el espacio en disco, lo que causa ataques al no estar conectado.
+          .tarjeta.color-acento-botones.p-3(x="66.7%" y="82%" numero=" ")
+            p.mb-0 Causa más alarmas de las que pueden ser manejadas por los sistemas de gestión (tales como bases de datos, sistemas de venta de entradas, etc.).
+                  
         p.mb-0 El sistema de detección de intrusos (<em>IDS</em>) es un <em>software</em> que funciona <b>como un mecanismo de seguridad de la red para proteger el sistema de la red informática de los ataques.</b> Con el creciente número de datos que se transmiten gradualmente de una red a otra, el <em>IDS</em> identifica eficazmente las intrusiones en conjuntos de datos muy grandes. La minería de datos es una herramienta eficiente aplicada para perfilar el sistema de detección de intrusos y evitar que los datos de la red masiva sean accedidos por los intrusos. Los valores atípicos son patrones en los datos que no coinciden con una noción bien definida de comportamiento normal. La detección de valores atípicos tiene como objetivo encontrar patrones en los datos que no se ajustan al comportamiento esperado. Se utiliza ampliamente para desarrollar la detección de intrusos en la ciberseguridad. Este documento presenta el estudio de la técnica de detección de valores atípicos y cómo se utiliza para desarrollar el sistema de detección de intrusos para superar el ataque <em>DoS</em>.
 
     .row.justify-content-start.align-items-center.mb-4.mt-2
@@ -378,4 +393,15 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.infografia
+  .tarjeta.color-acento-botones
+    background: rgba(233,220,253,1);
+    background: -moz-linear-gradient(top, rgba(233,220,253,1) 0%, rgba(228,253,252,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(233,220,253,1)), color-stop(100%, rgba(228,253,252,1)));
+    background: -webkit-linear-gradient(top, rgba(233,220,253,1) 0%, rgba(228,253,252,1) 100%);
+    background: -o-linear-gradient(top, rgba(233,220,253,1) 0%, rgba(228,253,252,1) 100%);
+    background: -ms-linear-gradient(top, rgba(233,220,253,1) 0%, rgba(228,253,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(233,220,253,1) 0%, rgba(228,253,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9dcfd', endColorstr='#e4fdfc', GradientType=0 );
+</style>

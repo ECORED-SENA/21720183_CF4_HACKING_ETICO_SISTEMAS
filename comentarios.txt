@@ -3,6 +3,6 @@ H11:	Ajustado
 H12:	Video aun no disponible en la tarjeta padre
 H15:	Ajustado
 H17:	Ajustado
-H19:Se debe ajustar la infografia con el efecto mouse over y los textos emergentes como lo indica el xd
-H20:pendiente la actividad didáctica tipo quiz opción multiple
-H21:ajustar y actualizar los créditos.
+H19:	Ajustado
+H20:	AD aún no disponible en el drive
+H21:	Se ajusta según los creditos actuales
