@@ -1,2 +1,8 @@
-- Falta video de seccion 2.1
-- No se e cuentra activdiad didactica en la carpeta de fuentes
+H8:	Ajustado
+H11:	Ajustado
+H12:	Video aun no disponible en la tarjeta padre
+H15:	Ajustado
+H17:	Ajustado
+H19:Se debe ajustar la infografia con el efecto mouse over y los textos emergentes como lo indica el xd
+H20:pendiente la actividad didáctica tipo quiz opción multiple
+H21:ajustar y actualizar los créditos.

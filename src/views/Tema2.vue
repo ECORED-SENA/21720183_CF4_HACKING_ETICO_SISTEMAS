@@ -63,13 +63,13 @@
       .col-lg-8
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b>Ataques de desbordamiento de búfer:</b> el ataque <em>DoS</em> más común. El concepto es enviar más tráfico a una dirección de red de lo que los programadores han construido el sistema para manejar. Incluye los ataques que se enumeran a continuación, además de otros que están diseñados para explotar errores específicos de ciertas aplicaciones o redes
+          p.mb-0(style="display:inline") <b>Ataques de desbordamiento de búfer:</b> el ataque <em>DoS</em> más común. El concepto es enviar más tráfico a una dirección de red de lo que los programadores han construido el sistema para manejar. Incluye los ataques que se enumeran a continuación, además de otros que están diseñados para explotar errores específicos de ciertas aplicaciones o redes.
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
           p.mb-0(style="display:inline") <b>Inundación de <em>ICMP</em>:</b> aprovecha los dispositivos de red mal configurados, enviando paquetes falsos que hacen ping a todos los ordenadores de la red objetivo, en lugar de solo a uno en concreto. La red se activa entonces para amplificar el tráfico. Este ataque también se conoce como el ataque pitufo o ping de la muerte.
         div.mb-0
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b><em>SYN</em> <em>SYN</em>:</b> envía una solicitud para conectarse a un servidor, pero nunca completa el apretón de manos. Continúa hasta que todos los puertos abiertos están saturados de solicitudes y ninguno está disponible para que los usuarios legítimos se conecten.        
+          p.mb-0(style="display:inline") <b><em>SYN</em> <em>flood</em>:</b> envía una solicitud para conectarse a un servidor, pero nunca completa el apretón de manos. Continúa hasta que todos los puertos abiertos están saturados de solicitudes y ninguno está disponible para que los usuarios legítimos se conecten.        
 
     p.mb-5 Otros ataques <em>DoS</em> simplemente explotan las vulnerabilidades que causan que el sistema o servicio objetivo se caiga; en estos ataques, se envían entradas que aprovechan los errores del objetivo, que posteriormente se bloquean o desestabilizan gravemente el sistema, de modo que no se puede acceder a él o utilizarlo.
     
@@ -277,18 +277,19 @@
           h5 Figura 18.
           span Detección de <em>DDoS</em>.
         
-        .row
+        .row.mb-5.tema5.tarjetas1
           .col-lg-6.d-flex
-            div.p-0(style="background-color:#E4FDFC")
-              figure.mb-0
-                img(src="@/assets/curso/tema2/img25.svg")
-              p.mb-2.mx-4 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
+            .TFcontainer.p-0(style="background-color:#E4FDFC")              
+              img(src="@/assets/curso/tema2/img25.svg")
+              .TFoverlay.p-3.pt-2
+                p.mb-2.mx-4 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
           .col-lg-6.d-flex
-            div.p-0(style="background-color:#E4FDFC")
-              figure.mb-0(style="background-color:#E4FDFC")
-                img(src="@/assets/curso/tema2/img26.svg")
-              p.mb-2.mx-4 Realizar un análisis para averiguar si el tráfico es amigo o enemigo; este proceso puede realizarse manualmente o de forma automatizada. La detección de <i>DDoS</i> es la clave para detener o mitigar rápidamente los ataques
-        
+            .TFcontainer.p-0(style="background-color:#E4FDFC")              
+              img(src="@/assets/curso/tema2/img26.svg")
+              .TFoverlay.p-3.pt-2
+                p.mb-2.mx-4 Realizar un análisis para averiguar si el tráfico es amigo o enemigo; este proceso puede realizarse manualmente o de forma automatizada. La detección de <i>DDoS</i> es la clave para detener o mitigar rápidamente los ataques
+                
+    br    
     .row.justify-content-center.mb-5
       .col-lg-2.d-flex(style="border-right: 3px solid #8F52F5")        
       .col-lg-8.d-flex.py-2
@@ -380,4 +381,44 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.tema5.tarjetas1
+
+  .TFcontainer
+    position: relative
+    width: 100%
+    border-radius: 10px
+    transition: .5s ease
+    height: 110%
+
+  .TFimage
+    display: block
+    //width: 100%
+    //height: 587px
+    object-fit: cover !important
+    border-radius: 6px 6px 0 0
+    border-radius: 10px
+
+  .TFoverlay
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    border-radius: 10px
+    overflow: hidden
+    width: 100%
+    height: 30px
+    transition: .5s ease
+    background-color: transparent
+
+  .TFcontainer:hover
+    height: 170%
+    transition: .5s ease
+    .TFoverlay
+      height: 40%
+
+  @media screen and (max-width: 991px)
+   .TFcontainer:hover .TFoverlay
+    height: 100%
+</style>

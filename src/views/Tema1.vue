@@ -374,7 +374,7 @@
     p.mb-4 No importa cuán seguro sea un sistema, siempre hay una forma de entrar; los piratas informáticos e ingenieros sociales malintencionados se dirigen a la parte más débil de la infraestructura, la gente, que suele ser la más fácil de manipular y engañar. 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como <em>popups</em>; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página <em>web</em> de un atacante, pidiéndoles que den su información personal o que descarguen <em>software</em> que podría tener virus adjuntos en el <em>backend</em>; revíselos a continuación.
+        p.mb-5 La suplantación de identidad es una de las diversas herramientas de ingeniería social que se utilizan para acceder a un sistema o red, con el fin de cometer fraude, espionaje industrial o robo de identidad. La suplantación de identidad se diferencia de otras formas de ingeniería social porque se produce en persona, en lugar de por teléfono o por correo electrónico.
         .titulo-sexto.color-acento-contenido(style="font-size: 1em;")
           h5 Figura 7.
           span El ingeniero social.
@@ -420,7 +420,7 @@
                 
             
 
-          p.mb-0 <b>Los imitadores hacen sus deberes:</b> La suplantación funciona mejor cuando el ingeniero social da una actuación convincente, completa con la jerga técnica adecuada u otra información privilegiada. Los imitadores hacen sus deberes, vienen armados con:
+          p.mb-0 <b>Los imitadores hacen sus deberes:</b> la suplantación funciona mejor cuando el ingeniero social da una actuación convincente, completa con la jerga técnica adecuada u otra información privilegiada. Los imitadores hacen sus deberes, vienen armados con:
 
     .row.justify-content-center.mb-4
       .col-lg-4
