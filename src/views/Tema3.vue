@@ -334,16 +334,16 @@
               img(src='@/assets/curso/tema3/img37.svg')              
 
           .tarjeta.color-acento-botones.p-3(x="33.3%" y="82%" numero=" ")
-            p.mb-0 Hace que el dispositivo se bloquee.
+            p.mb-0 Causa personal para no ser capaz de investigar todas las alarmas.            
           .tarjeta.color-acento-botones.p-3(x="38.3%" y="51.5%" numero=" ")
-            p.mb-0 Causa personal para no ser capaz de investigar todas las alarmas.
+            p.mb-0 Hace que el dispositivo se bloquee.      
           .tarjeta.color-acento-botones.p-3(x="50.2%" y="37%" numero=" ")
             p.mb-0 Consume la potencia de procesamiento del dispositivo y permite ataques a escondidas.
           .tarjeta.color-acento-botones.p-3(x="61.9%" y="52%" numero=" ")
             p.mb-0 Se llena el espacio en disco, lo que causa ataques al no estar conectado.
           .tarjeta.color-acento-botones.p-3(x="66.7%" y="82%" numero=" ")
             p.mb-0 Causa más alarmas de las que pueden ser manejadas por los sistemas de gestión (tales como bases de datos, sistemas de venta de entradas, etc.).
-                  
+            
         p.mb-0 El sistema de detección de intrusos (<em>IDS</em>) es un <em>software</em> que funciona <b>como un mecanismo de seguridad de la red para proteger el sistema de la red informática de los ataques.</b> Con el creciente número de datos que se transmiten gradualmente de una red a otra, el <em>IDS</em> identifica eficazmente las intrusiones en conjuntos de datos muy grandes. La minería de datos es una herramienta eficiente aplicada para perfilar el sistema de detección de intrusos y evitar que los datos de la red masiva sean accedidos por los intrusos. Los valores atípicos son patrones en los datos que no coinciden con una noción bien definida de comportamiento normal. La detección de valores atípicos tiene como objetivo encontrar patrones en los datos que no se ajustan al comportamiento esperado. Se utiliza ampliamente para desarrollar la detección de intrusos en la ciberseguridad. Este documento presenta el estudio de la técnica de detección de valores atípicos y cómo se utiliza para desarrollar el sistema de detección de intrusos para superar el ataque <em>DoS</em>.
 
     .row.justify-content-start.align-items-center.mb-4.mt-2
