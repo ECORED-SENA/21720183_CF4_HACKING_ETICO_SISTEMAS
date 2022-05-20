@@ -334,9 +334,9 @@
               img(src='@/assets/curso/tema3/img37.svg')              
 
           .tarjeta.color-acento-botones.p-3(x="33.3%" y="82%" numero=" ")
-            p.mb-0 Causa personal para no ser capaz de investigar todas las alarmas.            
+            p.mb-0 Hace que el dispositivo se bloquee.                  
           .tarjeta.color-acento-botones.p-3(x="38.3%" y="51.5%" numero=" ")
-            p.mb-0 Hace que el dispositivo se bloquee.      
+            p.mb-0 Causa mucha concurrencia para que no sea posible investigar todas las alarmas.
           .tarjeta.color-acento-botones.p-3(x="50.2%" y="37%" numero=" ")
             p.mb-0 Consume la potencia de procesamiento del dispositivo y permite ataques a escondidas.
           .tarjeta.color-acento-botones.p-3(x="61.9%" y="52%" numero=" ")
