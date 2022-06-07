@@ -289,13 +289,13 @@ export default {
     },
     {
       referencia: 'Borges, S. (2019b). Servidor <em>web</em>. Infranetworking.',
-      link: 'https://blog.infranetworking.com/servidor-<em>web</em>/',
+      link: 'https://blog.infranetworking.com/servidor-web/',
     },
     {
       referencia:
         'Caballero, A. (2015). Introducción a OSSTMM (Open Source Security Testing Methodology Manual). REYDES. ',
       link:
-        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual.',
+        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual',
     },
     {
       referencia:

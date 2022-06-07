@@ -246,7 +246,7 @@
       #t_2_3.titulo-segundo.color-acento-contenido
         h2 2.3  <em>Botnets</em>
 
-      p.mb-5 Los <em>botnets</em> se han convertido en una de las mayores amenazas para los sistemas de seguridad hoy en día. Su creciente popularidad entre los ciberdelincuentes se debe a su capacidad para infiltrarse en casi cualquier dispositivo conectado a <em>Internet</em>, desde reproductores de <em>DVR</em> hasta mainframes corporativos. Para mayor información, consulte el <b>Anexo_ Bots.</b>
+      p.mb-5 Los <em>botnets</em> se han convertido en una de las mayores amenazas para los sistemas de seguridad hoy en día. Su creciente popularidad entre los ciberdelincuentes se debe a su capacidad para infiltrarse en casi cualquier dispositivo conectado a <em>Internet</em>, desde reproductores de <em>DVR</em> hasta mainframes corporativos.
 
       .titulo-sexto.color-acento-contenido.mb-0(style="font-size: 1em;")
         h5 Figura 17.
@@ -278,16 +278,16 @@
           span Detección de <em>DDoS</em>.
         
         .row.mb-5.tema5.tarjetas1.justify-content-center
-          .col-8.col-xxl-6.d-flex.mb-5.mb-xxl-5
+          .col-8.col-xxl-6.col-12.d-flex.mb-5.mb-xxl-5
             .TFcontainer.p-0(style="background-color:#E4FDFC")              
               img(src="@/assets/curso/tema2/img25.svg")
               .TFoverlay.p-3.pt-2
-                p.mb-2.mx-4 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
-          .col-8.col-xxl-6.d-flex.mb-5.mb-xxl-5
+                p.mb-2.mx-2 El primer paso para evitar o detener un ataque <i>DDoS</i> es saber que se está produciendo un ataque; para detectar un ataque, hay que reunir suficiente información sobre el tráfico de la red
+          .col-8.col-xxl-6.col-12.d-flex.mb-5.mb-xxl-5
             .TFcontainer.p-0(style="background-color:#E4FDFC")              
               img(src="@/assets/curso/tema2/img26.svg")
               .TFoverlay.p-3.pt-2
-                p.mb-2.mx-4 Realizar un análisis para averiguar si el tráfico es amigo o enemigo; este proceso puede realizarse manualmente o de forma automatizada. La detección de <i>DDoS</i> es la clave para detener o mitigar rápidamente los ataques
+                p.mb-2.mx-2 Realizar un análisis para averiguar si el tráfico es amigo o enemigo; este proceso puede realizarse manualmente o de forma automatizada. La detección de <i>DDoS</i> es la clave para detener o mitigar rápidamente los ataques
                 
     br    
     .row.justify-content-center.mb-5
@@ -416,7 +416,7 @@ export default {
     //height: 170%
     transition: .5s ease
     .TFoverlay
-      height: 65%
+      height: 100%
       background-color: rgba(228,253,252, 0.8)
 
   @media screen and (max-width: 991px)

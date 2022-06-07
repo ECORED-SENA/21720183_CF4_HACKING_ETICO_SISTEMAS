@@ -174,18 +174,18 @@
 
     .tarjetas1.mb-0
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-xxl-10.col-12
           .row
-            .col-lg-6
-              .TFcontainer
+            .col-lg-6.col-12
+              .TFcontainer.mb-lg-0.mb-4
                 img.TFimage(src='@/assets/curso/tema1/img17.png')
-                .TFoverlay.p-5
+                .TFoverlay.p-4
                   p.mb-3 ● Borre cualquier solicitud de información financiera o contraseñas. Si le piden que responda a un mensaje con información personal, es una estafa.
                   p.mb-0 ● Rechace las solicitudes de ayuda o las ofertas de ayuda. Las empresas y organizaciones legítimas no se ponen en contacto con usted para ofrecerle ayuda si no solicitó específicamente la ayuda del remitente. Considere cualquier oferta de "ayuda", para restaurar los puntajes de crédito, refinanciar una casa, responder a su pregunta, etc., como una estafa; del mismo modo, si recibe una solicitud de ayuda de una organización benéfica u organización con la que no tiene relación, elimínela. Para dar, busque por su cuenta organizaciones caritativas de buena reputación para evitar caer en una estafa.
-            .col-6
+            .col-lg-6.col-12
               .TFcontainer
                 img.TFimage(src='@/assets/curso/tema1/img18.png')
-                .TFoverlay.p-5
+                .TFoverlay.p-4
                   p.mb-3 ● Ponga sus filtros de <em>spam</em> en alto. Todos los programas de correo electrónico tienen filtros de <em>spam</em>, para encontrar el suyo, mire las opciones de configuración y póngalas en alto. Recuerde revisar su carpeta de <em>spam</em> periódicamente para ver si el correo electrónico legítimo ha quedado atrapado allí accidentalmente; también puede buscar una guía paso a paso para configurar sus filtros de <em>spam</em>, buscando el nombre de su proveedor de correo electrónico más la frase 'filtros de <em>spam</em>'.
                   p.mb-0 ● Asegure sus dispositivos informáticos, instale <em>software</em> antivirus, cortafuegos y filtros de correo electrónico, y manténgalos actualizados. Configure su sistema operativo para que se actualice automáticamente, y si su smartphone no se actualiza automáticamente, actualícelo manualmente cada vez que reciba un aviso para hacerlo. Utilice una herramienta antiphishing ofrecida por su navegador <em>web</em> o por un tercero para alertarle de los riesgos.              
     Separador
@@ -314,7 +314,7 @@
                   img(src='@/assets/curso/tema1/img32.png')   
 
               div.px-2(numero="3" titulo="Urgencia")
-                p.mb-3 Al recibir un correo electrónico del servicio de atención al cliente de un sitio <em>web</em> de compras en línea que compra con frecuencia, le dicen que necesitan confirmar la información de su tarjeta de crédito para proteger su cuenta. El lenguaje del correo electrónico le insta a responder rápidamente, para asegurarse de que la información de su tarjeta de crédito no sea robada por delincuentes; sin pensarlo dos veces y porque usted confía en la tienda en línea, envía no sólo la información de su tarjeta de crédito sino también su dirección postal y número de teléfono; unos días después, recibe una llamada de la compañía de su tarjeta de crédito diciéndole que su tarjeta de crédito ha sido robada y utilizada para miles de dólares de compras fraudulentas.
+                p.mb-3 Al recibir un correo electrónico del servicio de atención al cliente de un sitio <em>web</em> de compras en línea que compra con frecuencia, le dicen que necesitan confirmar la información de su tarjeta de crédito para proteger su cuenta. El lenguaje del correo electrónico le insta a responder rápidamente, para asegurarse de que la información de su tarjeta de crédito no sea robada por delincuentes; sin pensarlo dos veces y porque usted confía en la tienda en línea, envía no sólo la información de su tarjeta de crédito sino también su dirección postal y número de teléfono; unos días después, recibe una llamada de la compañía de su tarjeta de crédito diciéndole que su tarjeta de crédito ha sido robada y utilizada para compras fraudulentas de miles de dólares.
                 figure
                   img(src='@/assets/curso/tema1/img33.png')   
 
@@ -354,7 +354,6 @@
           p.mb-0(style="display:inline") <b>Mensajeros de <em>chat</em> instantáneo:</b> recopilar información personal de un solo usuario chateando con ellos.
         div.mb-0
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-          p.mb-0(style="display:inline") <b><em>Phishing</em>:</b> creación de un sitio <em>web</em> falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio <em>web</em> original, y luego tratando de recopilar información confidencial. El <em>phishing</em> también puede ejecutarse a través de aplicaciones móviles falsas. Revise el Anexo_ <em>Phishing</em>, el cual profundiza sobre este aspecto.
     
     .row.justify-content-center.align-items-center
       .col-lg-10
