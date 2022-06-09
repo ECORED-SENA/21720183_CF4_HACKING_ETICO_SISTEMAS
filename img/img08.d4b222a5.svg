@@ -1,0 +1,15 @@
+<svg id="Grupo_146029" data-name="Grupo 146029" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.575" height="45.575" viewBox="0 0 45.575 45.575">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_5573" data-name="Elipse 5573" cx="22.788" cy="22.788" r="22.788" fill="#e01650"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_4059" data-name="Elipse 4059" cx="22.788" cy="22.788" r="22.788" fill="#e01650"/>
+  <g id="Grupo_145845" data-name="Grupo 145845" transform="translate(13.146 15.192)">
+    <path id="Trazado_193252" data-name="Trazado 193252" d="M15.385,0V4.721L7.692,16.152,0,5.481V0L7.692,10.924Z" transform="translate(5.326 15.385) rotate(-90)" fill="#79f5ed" fill-rule="evenodd"/>
+    <path id="Trazado_193253" data-name="Trazado 193253" d="M14.185,0,7.093,11.074,0,0Z" transform="translate(0 14.789) rotate(-90)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+  <g id="Enmascarar_grupo_142636" data-name="Enmascarar grupo 142636" clip-path="url(#clip-path)">
+    <path id="Trazado_193254" data-name="Trazado 193254" d="M-6979.061-8776.557H-6996" transform="translate(6993.467 8799.724)" fill="none" stroke="#fff" stroke-width="4"/>
+  </g>
+</svg>
