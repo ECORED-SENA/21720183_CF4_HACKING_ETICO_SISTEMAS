@@ -130,11 +130,13 @@
       .col-lg-10
         p.mb-0 Los ingenieros sociales manipulan los sentimientos humanos, como la curiosidad o el miedo, para llevar a cabo esquemas y atraer a las víctimas a sus trampas, por lo tanto, tenga cuidado cuando se sienta alarmado por un correo electrónico, atraído por una oferta mostrada en un sitio <em>web</em>, o cuando se encuentre con medios digitales extraviados mintiendo. Estar alerta puede ayudarle a protegerse contra la mayoría de los ataques de ingeniería social que tienen lugar en el ámbito digital.
     
-    .fondo5-tema1.pt-5.pb-0.px-0.mb-4            
-      .row.justify-content-start.align-items-center.mb-4.mt-3
-        .col-lg-4
-          img(src="@/assets/curso/tema1/img14.svg")
-
+    .fondo5-tema1.pt-5.pb-0.px-0.mb-4      
+      .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Impactos de la ingeniería social
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')      
+            
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           p.mb-4 A diferencia de un virus, que depende de técnicas de <em>hacking</em> o código malicioso para entregar su carga, la ingeniería social depende de la psicología humana; bien utilizada, puede ser aprovechada para acceder a datos, sistemas e incluso edificios. Por ejemplo, en lugar de pasar meses trabajando en una nueva cepa de <em>malware</em>, los criminales centran su atención en engañar a los empleados para que divulguen su contraseña por teléfono, haciéndose pasar por un técnico de soporte informático; si hablan con la persona correcta y dicen las cosas correctas, podrían estar en la red en momentos.
@@ -253,9 +255,12 @@
           figure.m-0
             img(src="@/assets/curso/tema1/img29.png")  
         .col-lg-7
-          .row.justify-content-start.align-items-center.mb-4.mt-3
-            .col-lg-7
-              img(src="@/assets/curso/tema1/img28.svg")
+          .row.align-items-center.ms-0.mb-4.mt-3
+            .col-auto.ImgSubtitulo
+              .h4.ms-5.mb-0.text-white.me-5 Tipos de ingeniería social
+            .col-auto
+              img.candado.mb-0(src='@/assets/curso/candado.png')
+
           p.mb-4 Básicamente los tipos de ingeniería social que se abordarán en este módulo de aprendizaje son 2, aquel basado en humanos y otro basado en computadores. 
           h4.mb-2 Ataques basados en humanos:
           p.mb-4 Suplantación de identidad: actuar como otra persona para tener acceso a la información.
@@ -335,7 +340,7 @@
     p.mb-3 <b>Ataques basados en computadores:</b>
     p.mb-4 En los ataques más populares de ingeniería social por computadores, los ciberdelincuentes aprovechan mucho la red <em>Internet</em> para ejecutarlos y que las víctimas puedan caer en las trampas y engaños que estos ponen, ya que en el mundo digital de hoy es mucho más fácil acceder por estos medios. A continuación, se relacionan algunos de los ataques.
     
-    .row.fondo7-tema1.justify-content-center.align-items-center.mb-4
+    .row.fondo7-tema1.justify-content-center.align-items-center.mb-4.py-3
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img37.png')   
@@ -352,9 +357,14 @@
         div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
           p.mb-0(style="display:inline") <b>Mensajeros de <em>chat</em> instantáneo:</b> recopilar información personal de un solo usuario chateando con ellos.
-        div.mb-0
+        div.mb-4
           img.me-1(style="width: 12px; height:11px; display:inline" src="@/assets/curso/tema1/img38.svg")  
-    
+          p.mb-0(style="display:inline") <b><i>Phishing</i>:</b> creación de un sitio web falso, clonado, que intenta reunir información sensible sobre los usuarios. Se puede hacer enviando un correo electrónico falso, como si viniera de un sitio <i>web</i> original, y luego tratando de recopilar información confidencial. El <i>phishing</i> también puede ejecutarse a través de aplicaciones móviles falsas. Revise el <b>Anexo_Phishing</b>, el cual profundiza sobre este aspecto.
+
+        div.d-flex.justify-content-center
+          a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_Phishing.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
     .row.justify-content-center.align-items-center
       .col-lg-10
         p.mb-5 Otros métodos utilizados son las ventanas emergentes o llamados comúnmente como <em>popups</em>; engañan a los usuarios para que hagan clic en un hipervínculo que los redirige a la página <em>web</em> de un atacante, pidiéndoles que den su información personal o que descarguen <em>software</em> que podría tener virus adjuntos en el <em>backend</em>; revíselos a continuación.
@@ -389,7 +399,11 @@
       .row.justify-content-start.align-items-center.mb-4
         .col-lg-1
         .col-lg-4
-          img(src="@/assets/curso/tema1/img42.svg")
+          .row.align-items-center.ms-0.mb-4
+            .col-auto.ImgSubtitulo
+              .h4.ms-5.mb-0.text-white.me-5 Papeles del imitador
+            .col-auto
+              img.candado.mb-0(src='@/assets/curso/candado.png')           
       
       p.mb-4.text-center Algunos de los papeles comunes que se pueden desempeñar en los ataques de suplantación de identidad son: 
 
@@ -482,9 +496,11 @@
         p.mb-4 ●<b> Descuidado desde dentro:</b> un peón inocente que, sin saberlo, expone el sistema a amenazas externas. Este es el tipo más común de amenaza interna, resultante de errores, como dejar un dispositivo expuesto o ser víctima de una estafa. Por ejemplo, un empleado que no tiene intención de hacer daño puede hacer clic en un enlace inseguro, infectando el sistema con <em>malware</em>.
         p.mb-0 ● <b>Un topo:</b> un impostor, que es técnicamente un extraño, pero que ha logrado obtener acceso interno a una red privilegiada. Se trata de alguien de fuera de la organización que se hace pasar por empleado o socio.
        
-    .row.justify-content-start.align-items-center.mb-4      
-      .col-lg-4
-        img(src="@/assets/curso/tema1/img49.svg")
+    .row.align-items-center.mb-4.ms-0
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Prevención de amenazas internas
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png') 
 
     p.mb-4 Puede tomar las siguientes medidas para ayudar a reducir el riesgo de amenazas internas:
     

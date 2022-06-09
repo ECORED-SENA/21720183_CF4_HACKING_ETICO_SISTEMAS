@@ -74,9 +74,11 @@
     p.mb-5 Otros ataques <em>DoS</em> simplemente explotan las vulnerabilidades que causan que el sistema o servicio objetivo se caiga; en estos ataques, se envían entradas que aprovechan los errores del objetivo, que posteriormente se bloquean o desestabilizan gravemente el sistema, de modo que no se puede acceder a él o utilizarlo.
     
     .fondo2-tema2.pt-5.pb-0.px-0.mb-5            
-      .row.justify-content-start.align-items-center.mb-4.mt-3
-        .col-lg-4
-          img(src="@/assets/curso/tema2/img07.svg")
+      .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Denegación de servicio distribuido
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png') 
 
       figure.mb-5
         .video        
@@ -131,9 +133,11 @@
       img(src="@/assets/curso/tema2/img11.svg")
 
     .fondo4-tema2.pt-5.pb-0.px-0.mb-5            
-      .row.justify-content-start.align-items-center.mb-4.mt-3
-        .col-lg-4
-          img(src="@/assets/curso/tema2/img13.svg")
+      .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Inundación SYN
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png') 
 
       p.mb-5 <em>SYN</em> <em>Flood</em> explota las debilidades de la secuencia de conexión <em>TCP</em>, conocida como un apretón de manos de tres vías, la máquina anfitriona recibe un mensaje sincronizado (<em>SYN</em>) para iniciar el <b>"<i>handshake</i>"</b>. El servidor reconoce el mensaje enviando un indicador de reconocimiento (<em>ACK</em>) al host inicial, que luego cierra la conexión; en una inundación <em>SYN</em>, sin embargo, se envían mensajes falsos y la conexión no se cierra, cerrando el servicio.
 
@@ -171,9 +175,11 @@
               figure
                 img(src="@/assets/curso/tema2/img15.png")
 
-      .row.justify-content-start.align-items-center.mb-4.mt-3
-        .col-lg-4
-          img(src="@/assets/curso/tema2/img16.svg")
+      .row.align-items-center.mb-4.ms-0
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 SYN <i>Flooding</i>
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
 
       p.mb-5 Un <em>SYN</em> <em>Flood</em> ocurre cuando la capa <em>TCP</em> está saturada, impidiendo que se complete el triple apretón de manos <em>TCP</em> entre el cliente y el servidor en cada puerto. Cada conexión que utiliza el protocolo <em>TCP</em> requiere el triple apretón de manos, que es un conjunto de mensajes intercambiados entre el cliente y el servidor, como se muestra a continuación.
     
@@ -190,9 +196,11 @@
         .cajon.color-acento-botones.p-4.px-5.mb-0          
             p.mb-0 Un ataque de inundación de <em>TCP</em> <em>SYN</em> se produce cuando el atacante inunda el sistema con solicitudes de <em>SYN</em> para abrumar al objetivo y hacerlo incapaz de responder a nuevas solicitudes de conexión real. Lleva todos los puertos de comunicaciones del servidor objetivo a un estado semiabierto.
     
-    .row.justify-content-start.align-items-center.mb-5.mt-3
-      .col-lg-4
-        img(src="@/assets/curso/tema2/img18.svg")
+    .row.align-items-center.mb-4.ms-0
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 ICMP <i>Flood Attack</i>
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
 
     p.mb-5 Un ataque por inundación con el Protocolo de Mensajes de Control de <em>Internet</em> (<em>ICMP</em>), también conocido como ataque por inundación <em>Ping</em>, es un ataque común de denegación de servicio (<em>DoS</em>) en el que un atacante intenta abrumar un dispositivo objetivo con peticiones de eco (<em>pings</em>) <em>ICMP</em>. Normalmente, los mensajes de solicitud de eco y respuesta de <em>ICMP</em> se utilizan para hacer ping a un dispositivo de red, con el fin de diagnosticar la salud y la conectividad del dispositivo y la conexión entre el remitente y el dispositivo. Al inundar el objetivo con paquetes de solicitud, la red se ve obligada a responder con un número igual de paquetes de respuesta. Esto hace que el objetivo se vuelva inaccesible para el tráfico normal.
     
@@ -206,9 +214,11 @@
 
     p.mb-5 Otros tipos de ataques de petición <em>ICMP</em> pueden implicar herramientas o códigos personalizados, como <em>hping</em> y <em>scapy</em>. El tráfico de ataque que emana de múltiples dispositivos se considera un ataque de denegación de servicio distribuido (<em>DDoS</em>). En este tipo de ataque, tanto los canales de entrada como de salida de la red son abrumadores, consumen un ancho de banda considerable y dan lugar a una denegación de servicio.
 
-    .row.justify-content-start.align-items-center.mb-5.mt-3
-      .col-lg-4
-        img(src="@/assets/curso/tema2/img20.svg")
+    .row.align-items-center.mb-5.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Ataques de <i>peer to peer</i>
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
     
     p.mb-5 Los ataques entre pares explotan el tejido de la tecnología de pares para realizar los ataques. Estos ataques se distinguen de otros tipos de ataques por lo siguiente: 
     
@@ -246,7 +256,12 @@
       #t_2_3.titulo-segundo.color-acento-contenido
         h2 2.3  <em>Botnets</em>
 
-      p.mb-5 Los <em>botnets</em> se han convertido en una de las mayores amenazas para los sistemas de seguridad hoy en día. Su creciente popularidad entre los ciberdelincuentes se debe a su capacidad para infiltrarse en casi cualquier dispositivo conectado a <em>Internet</em>, desde reproductores de <em>DVR</em> hasta mainframes corporativos.
+      p.mb-4 Los <em>botnets</em> se han convertido en una de las mayores amenazas para los sistemas de seguridad hoy en día. Su creciente popularidad entre los ciberdelincuentes se debe a su capacidad para infiltrarse en casi cualquier dispositivo conectado a <em>Internet</em>, desde reproductores de <em>DVR</em> hasta mainframes corporativos.  Para mayor información, consulte el <b>Anexo_Bots</b>.
+
+      div.d-flex.justify-content-center.mb-5
+          a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_Bots.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
 
       .titulo-sexto.color-acento-contenido.mb-0(style="font-size: 1em;")
         h5 Figura 17.

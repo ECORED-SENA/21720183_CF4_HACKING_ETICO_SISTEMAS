@@ -117,9 +117,11 @@
 
     p.mb-4 A continuación, se abordan estos dos términos importantes en la seguridad informática.
 
-    .row.justify-content-start.align-items-center.mb-4.mt-3
-      .col-lg-4
-        img.w-100(src="@/assets/curso/tema3/img13.svg")
+    .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 <i>Firewall</i>
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
 
     p.mb-5 Un cortafuegos es un dispositivo de seguridad de red que monitoriza el tráfico de red entrante y saliente y decide si permite o bloquea un tráfico específico basándose en un conjunto definido de reglas de seguridad.
 
@@ -192,9 +194,11 @@
     p.mb-4 Los cortafuegos de aplicaciones son generalmente actualizables de forma remota, lo que les permite prevenir vulnerabilidades recién descubiertas. Suelen estar más actualizados que el código específico centrado en la seguridad que se incluye en las aplicaciones, debido a los ciclos de desarrollo y prueba más largos que se requieren para incluir dicho código en las aplicaciones.
     p.mb-5 Hoy en día, lo más común es ver cortafuegos de aplicaciones <em>web</em> (<em>WAF</em>) para filtrar, monitorear y bloquear el tráfico <em><em>HTTP</em>/S</em> hacia y desde una aplicación <em>web</em>, específicamente.
 
-    .row.justify-content-start.align-items-center.mb-5.mt-3
-      .col-lg-4
-        img.w-100(src="@/assets/curso/tema3/img22.svg")
+    .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 <i>Honeypots</i>
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
 
     p.mb-4 Una definición de <b><em>honeypot</em></b> viene del mundo del espionaje, donde los espías al estilo <em>Mata Hari</em>, que usan una relación romántica como una forma de robar secretos, son descritos como una "trampa de miel" o "<em>honeypot</em>". A menudo, un espía enemigo es comprometido por una trampa de miel y luego es chantajeado para entregar todo lo que sabe.
     
@@ -279,10 +283,12 @@
 
     p.mb-5 Para luchar contra las intromisiones, hoy se dispone de diversos medios para detectarlos. Revise a continuación los posibles ataques.
   
-    .fondo6-tema3.pt-1.pb-0.px-0.mb-5            
-      .row.justify-content-start.align-items-center.mb-4.mt-2
-        .col-lg-4
-          img(src="@/assets/curso/tema3/img31.svg")
+    .fondo6-tema3.pt-5.pb-0.px-0.mb-5      
+      .row.align-items-center.ms-0.mb-4.mt-3
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Ataque por inserción
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
 
       p.mb-5 Un <em>IDS</em> puede aceptar un paquete que un terminal rechace. Un <em>IDS</em> que hace esto comete el error de creer que el terminal ha aceptado y procesado el paquete, cuando en realidad no lo ha hecho. Un atacante puede explotar esta condición enviando paquetes a un terminal que este rechazará, pero que el <em>IDS</em> creerá que son válidos. Al hacer esto, el atacante está “insertando” datos en el <em>IDS</em> --- ningún otro sistema en la red se preocupa por los paquetes malos.
 
@@ -297,9 +303,12 @@
           div.p-4.px-5.mb-4(style="background-color: white") 
             p.mb-0 El <em>IDS</em> puede detectar fácilmente la cadena "ff" en esa solicitud <em>HTTP</em>, usando una simple búsqueda de subcadena. Sin embargo, el problema se vuelve mucho más difícil de resolver cuando el atacante puede enviar la misma solicitud a un servidor <em>web</em>, pero obligar al <em>IDS</em> a ver una cadena diferente, como “GET /cgi-bin/pleasedontdetecttthisforme?”'. El atacante ha usado un ataque de inserción para añadir "Leasedontdetectt", "is" y "orme" al flujo original. El <em>IDS</em> ya no puede distinguir la cadena "ff" del flujo de datos que observa.
         
-      .row.justify-content-start.align-items-center.mb-4.mt-2
-        .col-lg-4
-          img(src="@/assets/curso/tema3/img33.svg")
+      .row.align-items-center.ms-0.mb-4
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Ataque por evasión
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png') 
+      
 
       p.mb-5 Un sistema final puede aceptar un paquete que un <em>IDS</em> rechaza. Un <em>IDS</em> que rechaza por error tal paquete pierde su contenido por completo. Esta condición también puede ser explotada, esta vez, deslizando información crucial a través del <em>IDS</em> en paquetes que el <em>IDS</em> es demasiado estricto en su procesamiento. Estos paquetes están "evadiendo" el escrutinio del <em>IDS</em>.
 
@@ -319,9 +328,11 @@
         p.mb-4 Los ataques de evasión se ajustan al patrón de la lámina de aluminio de una manera muy similar a los ataques de inserción. De nuevo, el atacante hace que el <em>IDS</em> vea un flujo de datos diferente al del sistema final... esta vez, sin embargo, el sistema final ve más que el <em>IDS</em>, y la información que el <em>IDS</em> pierde es crítica para la detección de un ataque.
         p.mb-0 En el ataque de inserción que se menciona anteriormente, el atacante envía una petición <em>HTTP</em>, pero enturbia su contenido en el <em>IDS</em> con datos adicionales que hacen que la petición parezca inocua. En un ataque de evasión, el atacante envía porciones de la misma solicitud en paquetes que el <em>IDS</em> rechaza por error, permitiéndole eliminar partes del flujo de la vista del sistema de identificación. Por ejemplo, la petición original podría convertirse en “GET /gin/f”, lo que no tendría sentido para la mayoría de los sistemas de identificación.
 
-    .row.justify-content-start.align-items-center.mb-4.mt-2
-        .col-lg-4
-          img(src="@/assets/curso/tema3/img36.svg")
+    .row.align-items-center.ms-0.mb-4.mt-2
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Ataque por denegación de servicios
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')  
 
     p.mb-4 El ataque de denegación de servicio permite a los intrusos acceder a los servicios de la red, impidiendo así que los usuarios legítimos accedan a los servicios. Para superar los déficits del ataque <em>DoS</em>, es esencial diseñar un sistema de detección de intrusos.
 
@@ -346,9 +357,12 @@
             
         p.mb-0 El sistema de detección de intrusos (<em>IDS</em>) es un <em>software</em> que funciona <b>como un mecanismo de seguridad de la red para proteger el sistema de la red informática de los ataques.</b> Con el creciente número de datos que se transmiten gradualmente de una red a otra, el <em>IDS</em> identifica eficazmente las intrusiones en conjuntos de datos muy grandes. La minería de datos es una herramienta eficiente aplicada para perfilar el sistema de detección de intrusos y evitar que los datos de la red masiva sean accedidos por los intrusos. Los valores atípicos son patrones en los datos que no coinciden con una noción bien definida de comportamiento normal. La detección de valores atípicos tiene como objetivo encontrar patrones en los datos que no se ajustan al comportamiento esperado. Se utiliza ampliamente para desarrollar la detección de intrusos en la ciberseguridad. Este documento presenta el estudio de la técnica de detección de valores atípicos y cómo se utiliza para desarrollar el sistema de detección de intrusos para superar el ataque <em>DoS</em>.
 
-    .row.justify-content-start.align-items-center.mb-4.mt-2
-      .col-lg-4
-        img(src="@/assets/curso/tema3/img39.svg")
+    .row.align-items-center.ms-0.mb-4.mt-2
+        .col-auto.ImgSubtitulo
+          .h4.ms-5.mb-0.text-white.me-5 Evasión por afuscación
+        .col-auto
+          img.candado.mb-0(src='@/assets/curso/candado.png')
+
 
     p.mb-5 La ofuscación, una técnica de evasión cada vez más popular, consiste en ocultar un ataque con personajes especiales. Puede utilizar caracteres de control, como el espacio, el tabulador, el retroceso y la supresión. Además, la técnica puede representar caracteres en formato hexadecimal para eludir el <em>IDS</em>. 
 
